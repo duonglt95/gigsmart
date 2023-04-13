@@ -1,0 +1,19 @@
+.advertise{
+    .wrapper{
+        max-width: 1440px;
+    }
+    &__text{
+        color: $grey;
+    }
+    &__box-text{
+        padding: 72px;
+        
+    }
+    &__sub-title{
+        @include sub-title;
+        font-size: 13px;
+    }
+    h3{
+        color: $blue-text2;
+    }
+}

@@ -1,0 +1,25 @@
+.intro{
+    color: $white;
+    .wrapper{
+        padding: 100px 0px;
+        padding-left: 72px;
+        max-width: 1440px;
+    }
+    .btn{
+        width: auto;
+    }
+    &--layout1{
+        background-color: #425A66;
+        h1{
+            font-size: 75px;
+        }
+        .wrapper{
+            background: url(/assets/images/home/banner.png);
+        }
+    }
+    &--layout2{
+        padding-right: 72px;
+        background: linear-gradient(170deg, rgba(0,20,36,1) 0%, rgba(0,20,36,1) 51%), linear-gradient(170deg, rgba(0,148,235,0.8071603641456583) 52%, rgba(0,148,235,0.8071603641456583) 100%);
+        background-position: bottom left, right;
+    }
+}

@@ -1,0 +1,59 @@
+.testimonials{
+    background-color: #F7F8F9;
+    .wrapper{
+        max-width: 1440px;
+    }
+    &__left{
+        padding-left: 72px;
+        padding-top: 70px;
+    }
+    &__sub-title{
+        @include sub-title;
+        font-size: 14px;
+    }
+    .swiper{
+        width: 720px;
+        height: 300px;
+        margin: 72px 0px;
+    }
+    &__box{
+        padding: 72px 50px;
+        background-color: $white;
+        border-radius: 14px;
+        
+    }
+    &__info{
+        display: inline-block;
+        img{
+            vertical-align: middle;
+            width: 36.15px;
+            height: auto;
+            margin-right: 10.5px;
+        }
+    }
+    &__info2{
+        vertical-align: middle;
+        display: inline-block;
+        h6{
+            color: $orange;
+            margin-bottom: 0px;
+        }
+        p{
+            @include sub-title;
+            margin-bottom: 0px;
+            font-size: 15px;
+        }
+    }
+    span{
+        color: $orange;
+        position: relative;
+        &:before{
+            content: url(/assets/images/home/underline.png);
+            position: absolute;
+            bottom: -20px;
+        }
+    }
+    .btn{
+        margin-top: 20px;
+    }
+}

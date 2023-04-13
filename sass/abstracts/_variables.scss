@@ -1,0 +1,35 @@
+// Sass Variables
+$primary: #E15200;
+$orange:  #E15200;
+$grey: #595959;
+$blue: #003B5C;
+$blue-text: #003A5C;
+$blue-text2: #001F37;
+$soft-blue: #425A66;
+// $body-color: #FFFFFF;
+$btn-active-box-shadow : none;
+$btn-focus-box-shadow : none;
+$btn-box-shadow:unset;
+$btn-focus-width:0;
+
+
+// Grid breakpoints
+//
+// Define the minimum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+
+// scss-docs-start grid-breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1440px
+);
+$font-size-base: 1.125rem;
+$h1-font-size: $font-size-base * 2.77777777778;
+$h2-font-size: $font-size-base * 2.5;
+$h3-font-size: $font-size-base * 2.22222222222;
+$h4-font-size: $font-size-base * 1.66666666667;
+$h5-font-size: $font-size-base * 1;
+$h6-font-size: $font-size-base;

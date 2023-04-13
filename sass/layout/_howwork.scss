@@ -1,0 +1,21 @@
+.how-work{
+    background-color: rgba(225, 82, 0, .75);
+    color: $white;
+    padding: 50px 0px;
+    .wrapper{
+        max-width: 1076px;
+    }
+    h2{
+        margin-bottom: 50px;
+    }
+    h5{
+        font-size: 18px;
+        
+    }
+    p{
+        font-size: 14px;
+    }
+    .col{
+        max-width: 292px;
+    }
+}

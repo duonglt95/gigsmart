@@ -1,0 +1,30 @@
+.business{
+    .wrapper{
+        max-width: 1440px;
+    }
+    &__box-left{
+
+    }
+    &__box-right{
+        padding: 72px 0px 72px 72px;
+    }
+    &__btn{
+        margin-bottom: 50px;
+    }
+    .btn--line-blue{
+        color: $blue-text2;
+        border-color: $blue-text2;
+    }
+    .d-none{
+        opacity: 0;
+    }
+    .d-block{
+        
+        -webkit-animation: fadeIn 1s;
+        animation: fadeIn 1s;
+    }
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
