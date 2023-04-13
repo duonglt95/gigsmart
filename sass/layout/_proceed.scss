@@ -1,0 +1,30 @@
+.proceed{
+    padding: 72px 0px;
+    &__sub-title{
+        @include sub-title;
+        font-size: 14px;
+    }
+    h2{
+        margin-bottom: 15px;
+    }
+    background-color: #001424;
+    color: white;
+    .wrapper{
+        max-width: 1072.5px;
+    }
+    h6{
+        font-size: 19px;
+    }
+    &__box{
+        &--title{
+            display: inline-block;
+        }
+        h6{
+            margin-bottom: 0px;
+        }
+        img, h6{
+            display: inline-block;
+            vertical-align: middle;
+        }
+    }
+}
