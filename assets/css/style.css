@@ -7849,6 +7849,8 @@ textarea.form-control-lg {
       font-size: 75px; }
     .intro--layout1 .wrapper {
       background: url(/assets/images/home/banner.png); }
+    .intro--layout1 .col {
+      max-width: 512.5px; }
   .intro--layout2 {
     padding-right: 72px;
     background: linear-gradient(170deg, #001424 0%, #001424 51%), linear-gradient(170deg, rgba(0, 148, 235, 0.8071603641) 52%, rgba(0, 148, 235, 0.8071603641) 100%);
