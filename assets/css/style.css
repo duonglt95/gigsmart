@@ -7825,28 +7825,58 @@ textarea.form-control-lg {
 .active:focus {
   background-color: rgba(44, 86, 150, 0.08); }
 
-.nav__list1 .nav-link {
-  border: unset;
-  border-right: 1px solid #EAEAEA; }
-.nav__list2 .nav-link {
-  border: unset;
-  border-left: 1px solid #EAEAEA; }
-  .nav__list2 .nav-link:last-child {
-    border-left: 0px; }
-
 .wrapper {
   margin-right: auto;
   margin-left: auto; }
 
 header .nav__list1 a {
   font-size: 15px; }
+header .nav__list1 .nav-link {
+  border: unset;
+  border-right: 1px solid #EAEAEA; }
+header .nav__list1--line a {
+  height: 100%; }
+header .nav__list2 .nav-link {
+  border: unset;
+  border-left: 1px solid #EAEAEA; }
+  header .nav__list2 .nav-link:last-child {
+    border-left: 0px; }
+header .nav__list2--line a {
+  height: 100%; }
+header .nav__mobile {
+  display: none; }
 
 @media screen and (max-width: 1199px) {
   header .nav__list1 {
     flex-wrap: wrap; }
-    header .nav__list1 .nav-link:first-child {
+    header .nav__list1--line {
       width: 100%;
-      border-right: 0px; } }
+      border-right: 0px;
+      border-bottom: 1px solid #EAEAEA; }
+      header .nav__list1--line a {
+        border-right: unset !important; }
+    header .nav__list1 img {
+      height: 37px; }
+  header .nav__list2 {
+    flex-wrap: wrap; }
+    header .nav__list2 .nav-link:first-child {
+      order: 2; }
+    header .nav__list2 .nav-link:last-child {
+      order: 3; }
+    header .nav__list2--line {
+      order: 1;
+      width: 100%;
+      text-align: right;
+      border-bottom: 1px solid #EAEAEA; }
+      header .nav__list2--line .nav-link {
+        height: 100%;
+        display: inline-block;
+        border-left: 1px solid #EAEAEA !important; } }
+@media screen and (max-width: 767px) {
+  header .nav__desktop {
+    display: none; }
+  header .nav__mobile {
+    display: block; } }
 .intro {
   color: #fff; }
   .intro .wrapper {
@@ -7855,21 +7885,56 @@ header .nav__list1 a {
     max-width: 1440px; }
   .intro .btn {
     width: auto; }
-  .intro--layout1 {
+  .intro__layout1 {
     background-color: #425A66; }
-    .intro--layout1 h1, .intro--layout1 .h1 {
+    .intro__layout1 h1, .intro__layout1 .h1 {
       font-size: 75px; }
-    .intro--layout1 .wrapper {
+    .intro__layout1 .wrapper {
       background: url(/assets/images/home/banner.png); }
-    .intro--layout1 .col {
-      max-width: 512.5px; }
-  .intro--layout2 {
+    .intro__layout1 .col {
+      max-width: 513.5px; }
+  .intro__layout2 {
     padding-right: 72px;
     background: linear-gradient(170deg, #001424 0%, #001424 51%), linear-gradient(170deg, rgba(0, 148, 235, 0.8071603641) 52%, rgba(0, 148, 235, 0.8071603641) 100%);
     background-position: bottom left, right; }
-    .intro--layout2 img {
+    .intro__layout2 img {
       width: 100%; }
+    .intro__layout2--count {
+      margin-top: 49px; }
+      .intro__layout2--count h2, .intro__layout2--count .h2 {
+        display: inline-block; }
+      .intro__layout2--count img {
+        width: auto; }
+    .intro__layout2 .count {
+      position: relative; }
+    .intro__layout2--num1 {
+      font-size: 50px !important; }
+      .intro__layout2--num1:after {
+        content: url(/assets/images/home/pin_icon.png);
+        position: absolute;
+        right: -25px;
+        top: -2px; }
+    .intro__layout2--num2 {
+      font-size: 44px; }
+    .intro__layout2--num3 {
+      font-size: 44px; }
 
+@media screen and (max-width: 1199px) {
+  .intro .wrapper {
+    padding-left: 50px;
+    max-width: 1199; }
+  .intro__layout1 .col {
+    max-width: 580.5px; } }
+@media screen and (max-width: 767px) {
+  .intro .wrapper {
+    padding: 50px 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 767px; }
+  .intro__layout1 h1, .intro__layout1 .h1 {
+    font-size: 40px; }
+  .intro__layout1 .col {
+    max-width: 580.5px; } }
 .how-work {
   background-color: rgba(225, 82, 0, 0.75);
   color: #fff;
@@ -7986,6 +8051,8 @@ header .nav__list1 a {
   color: #595959; }
 .advertise__box-text {
   padding: 72px; }
+.advertise__box-img img {
+  width: 100%; }
 .advertise__sub-title {
   color: #96A9B8;
   font-size: 13px; }

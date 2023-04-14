@@ -13,30 +13,34 @@
 <body>
   <header>
     <div class="row justify-content-center align-items-center g-0">
-      <nav class="nav ">
+      <nav class="nav nav__mobile">
+        <img src="assets/images/home/logo.png" alt="">
+      </nav>
+      <nav class="nav nav__desktop">
         <div class="col d-flex nav__list1">
-
-          <a class="nav-link active" href="#" aria-current="page"><img src="/assets/images/home/logo.png" alt=""></a>
+          <div class="nav__list1--line">
+            <a class="nav-link active" href="#" aria-current="page"><img src="/assets/images/home/logo.png" alt=""></a>
+          </div>
           <a class="nav-link btn btn--fill-white" href="#" role="button">Hire Workers</a>
           <a class="nav-link btn btn--fill-white" href="#" role="button">Find Work</a>
           <a class="nav-link btn btn--fill-white" href="#" role="button">Resources</a>
         </div>
         <div class="col d-flex justify-content-end nav__list2">
-
           <a class="nav-link btn btn--fill-white btn--color-orange" href="#" role="button">CONTACT SALES</a>
-          <a class="btn--flex nav-link btn btn--fill-white btn--color-orange" href="#" role="button">LOGIN <img
-              src="/assets/images/home/login_arrow.png" alt=""></a>
+          <div class="nav__list2--line">
+            <a class="btn--flex nav-link btn btn--fill-white btn--color-orange" href="#" role="button">LOGIN <img
+                src="/assets/images/home/login_arrow.png" alt=""></a>
+          </div>
           <a class="nav-link btn btn-signup btn--fill-orange" href="#" role="button">SIGN UP FOR FREE</a>
-
         </div>
       </nav>
     </div>
   </header>
 
   <main>
-    <div class="intro intro--layout1">
+    <div class="intro intro__layout1">
       <div class="wrapper">
-        <div class="row align-items-center g-0 row-cols-2">
+        <div class="row align-items-center g-0">
           <div class="col">
             <h5>
               THIS IS GIGSMART
@@ -51,7 +55,7 @@
         </div>
       </div>
     </div>
-    <div class="intro intro--layout2">
+    <div class="intro intro__layout2">
       <div class="wrapper">
         <div class="row row-cols-2 align-items-center g-0">
           <div class="col">
@@ -64,6 +68,22 @@
               connecting your business with workers on demand.</p>
             <a class="btn btn--fill-orange" href="#" role="button">CONTACT SALES</a>
             <a class="btn btn--fill-white" href="#" role="button">SIGN UP FOR FREE</a>
+            <div class="row g-0 intro__layout2--count">
+              <div class="col">
+                <h2 class="count intro__layout2--num1">50</h2>
+                <p>STATES COMPLETED
+                  GIGSMART SHIFTS</p>
+              </div>
+              <div class="col">
+                <h2 class="intro__layout2--num2"><span class="count">40</span>%</h2>
+                <p>OF SHIFTS ARE POSTED, WORKED,
+                  AND PAID THE SAME DAY</p>
+              </div>
+              <div class="col">
+                <h2 class="intro__layout2--num3"><span class="count">1000</span>+</h2>
+                <p>SATISFIED CUSTOMERS</p>
+              </div>
+            </div>
           </div>
           <div class="col">
             <img src="/assets/images/home/laptop.png" alt="">
@@ -246,7 +266,7 @@
     </div>
     <div class="advertise">
       <div class="wrapper">
-        <div class="row justify-content-center align-items-center gx-0 gy-0">
+        <div class="row row-cols-2 justify-content-center align-items-center g-0">
           <div class="col advertise__box-text">
             <p class="advertise__sub-title">ONLY PAY FOR SUCCESS</p>
             <h3>Full Control of Your Hiring
@@ -291,7 +311,7 @@
         </div>
       </div>
     </div>
-    <div class="testimonials">
+    <div class="testimonials d-none">
       <div class="wrapper">
         <div class="row justify-content-center align-items-start gx-0 gy-0">
           <div class="col testimonials__left">
@@ -501,29 +521,21 @@
     </footer>
   </main>
 
-
-
-  <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
-    </script>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
-    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
-    </script> -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
     crossorigin="anonymous"></script>
 </body>
 <script>
+  // nav script
   $(".nav .nav-link").on("click", function () {
     $(".nav").find(".active").removeClass("active");
 
-    if (!$(this).hasClass('btn-signup')) {
+    if (!$(this).hasClass('btn-signup') && !$(this).parents('.nav__list1--line').length) {
       $(this).addClass("active");
     }
 
   });
-
+  // slider script
   const swiper = new Swiper('.swiper', {
     // Optional parameters
     direction: 'horizontal',
@@ -540,7 +552,7 @@
     paginationClickable: true,
 
   });
-
+  // Tab content script
   $(".business .btn").on("click", function () {
     var idtab = $(this).attr('id');
     $(this).removeClass("btn--line-blue");
@@ -564,6 +576,42 @@
       $("#btntab1").addClass("btn--line-blue");
     }
   });
+
+  // Check when scroll visible
+  function checkVisible( elm, eval ) {
+    eval = eval || "visible";
+    var vpH = $(window).height(), // Viewport Height
+        st = $(window).scrollTop(), // Scroll Top
+        y = $(elm).offset().top,
+        elementHeight = $(elm).height();
+    
+    if (eval == "visible") return ((y < (vpH + st)) && (y > (st - elementHeight)));
+    if (eval == "above") return ((y < (vpH + st)));
+}
+  // count up script
+  $(window).scroll(function() {
+    if (checkVisible($('.count'))) {
+      $(window).off('scroll');
+      $(".count").each(function () {
+        $(this).prop("Counter", 0).animate(
+          {
+            Counter: $(this).text(),
+          },
+          {
+            duration: 4000,
+            easing: "swing",
+            step: function (now) {
+              now = Number(Math.ceil(now)).toLocaleString('en');
+                                    $(this).text(now);
+            },
+          }
+        );
+      });   
+    } else {
+        // do nothing
+    }
+});
+  
 </script>
 
 </html>

@@ -112,18 +112,3 @@
         background-color: rgba(44, 86, 150, 0.08);
     }
 }
-.nav{
-    &__list1{
-        .nav-link{
-            @include border-right;
-        }
-    }
-    &__list2{
-        .nav-link{
-            @include border-left;
-            &:last-child{
-                border-left: 0px;
-            }
-        }
-    }
-}
