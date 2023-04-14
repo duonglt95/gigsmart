@@ -1,1 +1,37 @@
 // Header
+header{
+    .nav{
+        &__list1{
+            a{
+                font-size: 15px;
+            }
+        }
+    }
+}
+// Responsive desktop 1
+@media screen and (max-width: 1439px) {
+
+}
+// Responsive tablet 2
+@media screen and (max-width: 1199px) {
+    header{
+        .nav{
+            &__list1{
+                flex-wrap: wrap;
+                .nav-link:first-child{
+                    width: 100%;
+                    border-right: 0px;
+                }
+            }
+        }
+    }
+}
+// Responsive tablet 1
+@media screen and (max-width: 992px) {
+
+}
+// Responsive mobile
+@media screen and (max-width: 767px) {
+
+}
+

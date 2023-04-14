@@ -7822,6 +7822,9 @@ textarea.form-control-lg {
   .btn--flex img {
     margin-left: 13px; }
 
+.active:focus {
+  background-color: rgba(44, 86, 150, 0.08); }
+
 .nav__list1 .nav-link {
   border: unset;
   border-right: 1px solid #EAEAEA; }
@@ -7835,6 +7838,15 @@ textarea.form-control-lg {
   margin-right: auto;
   margin-left: auto; }
 
+header .nav__list1 a {
+  font-size: 15px; }
+
+@media screen and (max-width: 1199px) {
+  header .nav__list1 {
+    flex-wrap: wrap; }
+    header .nav__list1 .nav-link:first-child {
+      width: 100%;
+      border-right: 0px; } }
 .intro {
   color: #fff; }
   .intro .wrapper {
@@ -7855,6 +7867,8 @@ textarea.form-control-lg {
     padding-right: 72px;
     background: linear-gradient(170deg, #001424 0%, #001424 51%), linear-gradient(170deg, rgba(0, 148, 235, 0.8071603641) 52%, rgba(0, 148, 235, 0.8071603641) 100%);
     background-position: bottom left, right; }
+    .intro--layout2 img {
+      width: 100%; }
 
 .how-work {
   background-color: rgba(225, 82, 0, 0.75);
@@ -7873,10 +7887,45 @@ textarea.form-control-lg {
 
 .business .wrapper {
   max-width: 1440px; }
+.business__sub-title {
+  color: #96A9B8;
+  font-size: 14px; }
+.business__box-left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+.business__imgs {
+  height: 100%; }
 .business__box-right {
   padding: 72px 0px 72px 72px; }
+.business__tab1 li {
+  font-size: 16px;
+  position: relative; }
+  .business__tab1 li:before {
+    content: url(/assets/images/home/tick.png);
+    position: absolute;
+    left: -23.5px;
+    top: 3px; }
+.business__tab2 li {
+  font-size: 18px;
+  display: block; }
+  .business__tab2 li img, .business__tab2 li p {
+    display: inline-block;
+    vertical-align: middle; }
+  .business__tab2 li img {
+    margin-right: 15px; }
+  .business__tab2 li p {
+    font-size: 18px;
+    color: #001F37; }
 .business__btn {
   margin-bottom: 50px; }
+.business p {
+  font-size: 16px; }
+.business p {
+  color: #595959; }
+.business li, .business h2, .business .h2 {
+  color: #001F37;
+  list-style-type: none; }
 .business .btn--line-blue {
   color: #001F37;
   border-color: #001F37; }
@@ -7978,10 +8027,10 @@ textarea.form-control-lg {
       color: #96A9B8;
       margin-bottom: 0px;
       font-size: 15px; }
-  .testimonials span {
+  .testimonials .underline {
     color: #E15200;
     position: relative; }
-    .testimonials span:before {
+    .testimonials .underline:before {
       content: url(/assets/images/home/underline.png);
       position: absolute;
       bottom: -20px; }
@@ -7989,7 +8038,8 @@ textarea.form-control-lg {
     margin-top: 20px; }
 
 .brands {
-  padding: 100px 0px; }
+  padding: 100px 0px;
+  overflow: hidden; }
   .brands .row {
     --bs-gutter-x: 50px; }
   .brands .wrapper {
@@ -8029,7 +8079,8 @@ textarea.form-control-lg {
   .proceed h6, .proceed .h6 {
     font-size: 19px; }
   .proceed__box--title {
-    display: inline-block; }
+    display: inline-block;
+    margin-bottom: 10px; }
   .proceed__box h6, .proceed__box .h6 {
     margin-bottom: 0px; }
   .proceed__box img, .proceed__box h6, .proceed__box .h6 {
@@ -8044,5 +8095,47 @@ textarea.form-control-lg {
     text-align: center; }
   .help-center h6, .help-center .h6 {
     font-size: 19px; }
+
+.footer {
+  background-color: #001F37;
+  color: #fff;
+  padding: 50px 0px; }
+  .footer .wrapper {
+    max-width: 1440px;
+    padding: 0px 72px; }
+  .footer__sub-title {
+    color: #96A9B8; }
+  .footer__imgs {
+    display: inline-block;
+    margin-bottom: 20px; }
+    .footer__imgs a {
+      display: inline-block;
+      vertical-align: middle; }
+  .footer ul {
+    padding: 0px;
+    margin: 0px;
+    columns: 2;
+    column-gap: 0px;
+    list-style-position: inside; }
+    .footer ul a {
+      display: block; }
+  .footer h6, .footer .h6 {
+    text-transform: uppercase; }
+  .footer a {
+    text-decoration: none;
+    color: #ADB7BE; }
+    .footer a:hover {
+      color: #fff; }
+  .footer li {
+    text-transform: uppercase;
+    list-style-type: none; }
+  .footer h6, .footer .h6, .footer a {
+    font-size: 14px; }
+  .footer__bottom--right {
+    padding-right: 50px;
+    text-align: right;
+    text-transform: uppercase; }
+  .footer__bottom a:first-child {
+    margin-right: 21px; }
 
 /*# sourceMappingURL=style.css.map */

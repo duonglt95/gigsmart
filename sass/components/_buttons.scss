@@ -107,6 +107,11 @@
         margin-left: 13px;
     }
 }
+.active{
+    &:focus{
+        background-color: rgba(44, 86, 150, 0.08);
+    }
+}
 .nav{
     &__list1{
         .nav-link{

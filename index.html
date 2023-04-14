@@ -12,7 +12,7 @@
 
 <body>
   <header>
-    <div class="row justify-content-center align-items-center g-2">
+    <div class="row justify-content-center align-items-center g-0">
       <nav class="nav ">
         <div class="col d-flex nav__list1">
 
@@ -53,7 +53,7 @@
     </div>
     <div class="intro intro--layout2">
       <div class="wrapper">
-        <div class="row align-items-center g-2">
+        <div class="row row-cols-2 align-items-center g-0">
           <div class="col">
             <h2>
               The Smarter Way to Source
@@ -116,7 +116,7 @@
               <button id="btntab2" class="btn btn--line-blue" href="#" role="button">WORKERS</button>
             </div>
             <div class="business__tab1 tab1-content">
-              <h6>
+              <h6 class="business__sub-title">
                 NO COMMITMENT NECESSARY
               </h6>
               <h2>Hire On-Demand, Anytime</h2>
@@ -144,7 +144,7 @@
               <a name="" id="" class="btn btn__more" href="#" role="button">LEARN MORE</a>
             </div>
             <div class="business__tab2 tab2-content d-none">
-              <h6>
+              <h6 class="business__sub-title">
                 WORK ON YOUR TERMS
               </h6>
               <h2>Find Work Near You, Today</h2>
@@ -154,9 +154,18 @@
                 work by creating a Get Gigs account today.</p>
               <div class="d-flex">
                 <ul>
-                  <li>Choose Your Schedule</li>
-                  <li>Work Today</li>
-                  <li>Get Paid Instantly</li>
+                  <li>
+                    <img src="assets/images/home/calendar_icon.png" alt="">
+                    <p>Choose Your Schedule</p>
+                  </li>
+                  <li>
+                    <img src="assets/images/home/clock_icon.png" alt="">
+                    <p>Work Today</p>
+                  </li>
+                  <li>
+                    <img src="assets/images/home/cash_icon.png" alt="">
+                    <p>Get Paid Instantly</p>
+                  </li>
                 </ul>
               </div>
               <a name="" id="" class="btn btn__more" href="#" role="button">LEARN MORE</a>
@@ -288,7 +297,7 @@
           <div class="col testimonials__left">
             <p class="testimonials__sub-title">GIGSMART PROVIDES</p>
             <h2>Peace of mind with <br>
-              <span>reliable access</span> to talent
+              <span class="underline">reliable access</span> to talent
             </h2>
             <a class="btn btn__more" href="#" role="button">VIEW CASE STUDIES</a>
           </div>
@@ -407,7 +416,7 @@
       <div class="wrapper">
         <p class="proceed__sub-title text-center">READY TO PROCEED?</p>
         <h2 class="text-center">How would you like to get started?</h2>
-        <div class="row justify-content-center align-items-start">
+        <div class="row justify-content-center align-items-start g-0">
           <div class="col proceed__box">
             <div class="proceed__box--title">
               <img src="assets/images/home/get_worker_icon.png" alt="">
@@ -436,6 +445,60 @@
         <a class="btn btn--line-blue" href="#" role="button">LEARN MORE</a>
       </div>
     </div>
+    <footer class="footer">
+      <div class="wrapper">
+        <div class="row row-cols-4 g-0 justify-content-between">
+          <div class="col col-lg-2">
+            <img src="assets/images/home/logo_footer.png" alt="">
+          </div>
+          <div class="col col-lg-3">
+            <h6>GIGsMART</h6>
+            <ul>
+              <li><a href="#">Hire Workers</a></li>
+              <li><a href="#">Find Work</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Share Gigsmart</a></li>
+            </ul>
+          </div>
+          <div class="col col-lg-3">
+            <h6>Resources</h6>
+            <ul>
+              <li><a href="#">Help Center</a></li>
+              <li><a href="#">Support</a></li>
+              <li><a href="#">User Guides</a></li>
+              <li><a href="#">Videos</a></li>
+              <li><a href="#">Case Studies</a></li>
+              <li><a href="#">Blogs</a></li>
+            </ul>
+          </div>
+          <div class="col col-lg-3">
+            <h6>DOWNLOAD THE APP</h6>
+            <h6 class="footer__sub-title">HIRE WORKERS</h6>
+            <div class="footer__imgs">
+              <img src="assets/images/home/get_worker_icon.png" height="36px" alt="">
+              <a href="#"><img src="assets/images/home/getongg.png" alt=""></a>
+              <a href="#"><img src="assets/images/home/getonappstore.png" alt=""></a>
+            </div>
+            <h6 class="footer__sub-title">FIND WORK</h6>
+            <div class="footer__imgs">
+              <img src="assets/images/home/get_gig_icon.png" height="36px" alt="">
+              <a href="#"><img src="assets/images/home/getongg.png" alt=""></a>
+              <a href="#"><img src="assets/images/home/getonappstore.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom row row-cols-2 justify-content-between">
+          <div class="col footer__bottom--left">
+            <h6 class="footer__sub-title">©2023 GigSmart. All rights reserved. </h6>
+          </div>
+          <div class="col footer__bottom--right">
+            <a href="#">Terms of service</a>
+            <a href="#">Privacy policy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
   </main>
 
 
@@ -468,7 +531,7 @@
 
     // If we need pagination
     pagination: {
-      el: '.mypagin',
+      el: '.swiper-pagination',
       clickable: true,
       renderBullet: (index, className) => {
         return '<span class="' + className + '">' + "</span>";
