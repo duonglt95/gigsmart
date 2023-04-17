@@ -1,4 +1,96 @@
 // typography
+.a-14{
+    a{
+      font-size: 14px;
+    }
+}
+.a-15{
+    a{
+      font-size: 15px;
+    }
+}
+.h1-75{
+    h1{
+      font-size: 75px;
+    }
+}
+.h2-44{
+    h2{
+        font-size: 44px;
+    }
+}
+.h6-13{
+    h6{
+        font-size: 13px;
+    }
+}
+.h6-14{
+    h6{
+        font-size: 14px;
+    }
+}
+.h6-19{
+    h6{
+        font-size: 19px;
+    }
+}
+.sub-heading{
+    color: #96A9B8;
+}
+.pg-10{
+    p{
+        font-size: 10px;
+    }
+}
+.pg-14{
+    p{
+        font-size: 14px;
+    }
+}
+.pg-15{
+    p{
+        font-size: 15px;
+    }
+}
+.pg-16{
+    p{
+        font-size: 16px;
+    }
+}
+.pg-20{
+    p{
+        font-size: 20px;
+    }
+}
+.li-16{
+    li{
+        font-size: 16px
+    }
+}
+.li-18{
+    li{
+        font-size: 18px
+    }
+}
 @mixin sub-title{
     color: #96A9B8;
 }
+// Responsive mobile
+@media screen and (max-width: 767px) {
+    .h1-75{
+        h1{
+          font-size: 40px;
+        }
+    }
+    h1, .h1{
+        font-size: $font-size-mb-35;
+    }
+    .h2-44{
+        h2{
+            font-size: $font-size-mb-35;
+        }
+    }
+    h2, .h2, h3, .h3{
+      font-size: $font-size-mb-30;
+    }
+  }

@@ -39,9 +39,7 @@
             margin-bottom: 0px;
         }
         p{
-            @include sub-title;
             margin-bottom: 0px;
-            font-size: 15px;
         }
     }
     .underline{
@@ -56,4 +54,21 @@
     .btn{
         margin-top: 20px;
     }
+}
+
+// Responsive desktop 1
+@media screen and (max-width: 1439px) {
+
+}
+// Responsive tablet 2
+@media screen and (max-width: 1199px) {
+
+}
+// Responsive tablet 1
+@media screen and (max-width: 991px) {
+
+}
+// Responsive mobile
+@media screen and (max-width: 767px) {
+
 }

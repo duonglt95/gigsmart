@@ -1,4 +1,5 @@
 
+@import "../sass/abstracts/functions";
 @import "../sass/abstracts/variables";
 
 
@@ -8,6 +9,8 @@
 
 @import "../bootstrap/scss/utilities";
 @import "../sass/components/buttons";
+
+@import "../sass/base/typography";
 @import "../sass/themes/theme";
 @import "../sass/layout/header";
 @import "../sass/layout/intro";

@@ -1,8 +1,7 @@
 .intro{
     color: $white;
     .wrapper{
-        padding: 100px 0px;
-        padding-left: 72px;
+        padding: 100px 72px;
         max-width: 1440px;
     }
     .btn{
@@ -10,27 +9,33 @@
     }
     &__layout1{
         background-color: #425A66;
-        h1{
-            font-size: 75px;
-        }
         .wrapper{
             background: url(/assets/images/home/banner.png);
+            background-position: center top;
         }
         .col{
             max-width: 513.5px;
         }
     }
     &__layout2{
-        padding-right: 72px;
         background: linear-gradient(170deg, rgba(0,20,36,1) 0%, rgba(0,20,36,1) 51%), linear-gradient(170deg, rgba(0,148,235,0.8071603641456583) 52%, rgba(0,148,235,0.8071603641456583) 100%);
         background-position: bottom left, right;
         img{
             width: 100%;
         }
+        &--btn{
+            display: flex;
+            justify-content: flex-start;
+            .btn:first-child{
+                margin-right: 20px;
+            }
+        }
         &--count{
             margin-top: 49px;
-            h2{
-                display: inline-block;
+            text-align: center;
+            justify-content: space-around;
+            h1, h2{
+                display: inline;
             }
             img{
                 width: auto;
@@ -40,19 +45,17 @@
             position: relative;
         }
         &--num1{
+            margin-left: -25px;
             &:after{
                 content: url(/assets/images/home/pin_icon.png);
                 position: absolute;
                 right: -25px;
                 top: -2px;
             }
-            font-size: 50px !important;
         }
         &--num2{
-            font-size: 44px;
         }
         &--num3{
-            font-size: 44px;
         }
     }
 }
@@ -65,50 +68,69 @@
     .intro{
         .wrapper{
             padding-left: 50px;
+            padding-right: 50px;
             max-width: 1199;
         }
         &__layout1{
-            h1{
-            }
-            .wrapper{
-            }
             .col{
-                max-width: 580.5px;
+                max-width: 512.5px;
             }
         }
         &__layout2{
-            img{
-                
+            &--right{
+                display: none;
+            }
+            &--count{
+                justify-content: center;
+                .col:nth-child(2){
+                    margin: 0px 20px;
+                }
             }
         }
     }
 }
 // Responsive tablet 1
-@media screen and (max-width: 992px) {
-
+@media screen and (max-width: 991px) {
+    .intro{
+        .wrapper{
+            max-width: 991px;
+        }
+        &__layout1{
+            .col{
+                // max-width: 534.5px;
+            }
+        }
+        &__layout2{
+        }
+    }
 }
 // Responsive mobile
 @media screen and (max-width: 767px) {
     .intro{
         .wrapper{
-            padding: 50px 0px;
-            padding-left: 15px;
-            padding-right: 15px;
+            padding: 50px 15px;
             max-width: 767px;
         }
         &__layout1{
-            h1{
-                font-size: 40px;
-            }
-            .wrapper{
-            }
             .col{
-                max-width: 580.5px;
+                max-width: 100%;
             }
         }
         &__layout2{
-            img{
-                
+            &--count{
+                justify-content: space-between;
+                .col:first-child{
+                    margin-right: 7.5px;
+                    width: calc(50% - 7.5px);
+                }
+                .col:nth-child(2){
+                    margin: 0px;
+                    margin-left: 7.5px;
+                    width: calc(50% - 7.5px);
+                }
+                .col:last-child{
+                    margin: 0 auto;
+                }
             }
         }
     }

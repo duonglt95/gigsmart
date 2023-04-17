@@ -12,10 +12,6 @@
     .btn{
         margin-top: 49.55px;
     }
-    &__sub-title{
-        @include sub-title();
-        font-size: 14px;
-    }
     &__card{
         text-decoration: none;
         display: block;

@@ -7,9 +7,6 @@
         max-width: 1440px;
         padding: 0px 72px;
     }
-    &__sub-title{
-        @include sub-title;
-    }
     &__imgs{
         display: inline-block;
         margin-bottom: 20px;
@@ -43,10 +40,8 @@
         list-style-type: none;
         // width: 45%;
     }
-    h6, a{
-        font-size: 14px;
-    }
     &__bottom{
+        justify-content: space-between;
         &--right{
             padding-right: 50px;
             text-align: right;

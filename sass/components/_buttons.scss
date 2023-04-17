@@ -17,11 +17,11 @@
     //     box-shadow: unset;
     // }
 }
-@mixin clear-active($color){
-    &.active{
-        color: $color;
-    }
-}
+// @mixin clear-active($color){
+//     &.active{
+//         color: $color;
+//     }
+// }
 @mixin hover-bg-none{
     &:hover{
         background-color: unset;
@@ -68,7 +68,7 @@
     &:focus {
         color: $blue-text;
         @include gradient-bg($white);
-        border-color: $white;
+        border-color: $blue;
     }
 }
 .btn__more{

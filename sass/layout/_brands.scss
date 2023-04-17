@@ -21,10 +21,6 @@
         text-align: center;
         margin: 0 auto;
     }
-    &__sub-title{
-        @include sub-title;
-        font-size: 14px;
-    }
     h2{
         margin-bottom: 72px;
         color: $blue-text2;
