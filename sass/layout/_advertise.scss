@@ -21,3 +21,58 @@
         color: $blue-text2;
     }
 }
+// Responsive desktop 1
+@media screen and (max-width: 1439px) {
+
+}
+// Responsive tablet 2
+@media screen and (max-width: 1199px) {
+    .advertise{
+        .wrapper{
+            max-width: 1199px;
+        }
+        &__box-text{
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+    }
+}
+// Responsive tablet 1
+@media screen and (max-width: 991px) {
+    .advertise{
+        .wrapper{
+            max-width: 991px;
+            .row{
+                flex-flow: column;
+            }
+        }
+        .row{
+            &:first-child{
+                .col:first-child{
+                    order: 2;
+                }
+            }
+            &:last-child{
+                .col:first-child{
+                    order: 2;
+                }
+            }
+        }
+        &__box-text{
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+    }
+}
+// Responsive mobile
+@media screen and (max-width: 767px) {
+    .advertise{
+        .wrapper{
+            max-width: 767px;
+        }
+        &__box-text{
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+}

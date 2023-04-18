@@ -3,3 +3,23 @@
     background-color: #001424;
     color: $white;
 }
+
+// Responsive desktop 1
+@media screen and (max-width: 1439px) {
+
+}
+// Responsive tablet 2
+@media screen and (max-width: 1199px) {
+
+}
+// Responsive tablet 1
+@media screen and (max-width: 991px) {
+
+}
+// Responsive mobile
+@media screen and (max-width: 767px) {
+    .looking-work{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

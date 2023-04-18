@@ -1,20 +1,14 @@
 .testimonials{
     background-color: #F7F8F9;
+    padding: 72px 72px 52px 72px;
     .wrapper{
         max-width: 1440px;
     }
-    &__left{
-        padding-left: 72px;
-        padding-top: 70px;
-    }
-    &__sub-title{
-        @include sub-title;
-        font-size: 14px;
-    }
+    
     .swiper{
-        width: 720px;
-        height: 300px;
-        margin: 72px 0px;
+        width: 618.4px;
+        // height: 300px;
+        padding-bottom: 50px;
     }
     &__box{
         padding: 72px 50px;
@@ -46,9 +40,17 @@
         color: $orange;
         position: relative;
         &:before{
-            content: url(/assets/images/home/underline.png);
+            background-image: url(/assets/images/home/underline.png);
+            background-size: 295px 15px;
+            background-repeat: no-repeat;
+            width: 295px;
+            height: 15px;
             position: absolute;
-            bottom: -20px;
+            content: "";
+            bottom: -11px;
+            // content: url(/assets/images/home/underline.png);
+            // position: absolute;
+            // bottom: -20px;
         }
     }
     .btn{
@@ -58,17 +60,81 @@
 
 // Responsive desktop 1
 @media screen and (max-width: 1439px) {
-
+    .testimonials{
+        .wrapper{
+            max-width: 1439px;
+        }
+        .swiper{
+            width: 528px;
+        }
+    }
 }
 // Responsive tablet 2
 @media screen and (max-width: 1199px) {
-
+    .testimonials{
+        padding-left: 50px;
+        padding-right: 50px;
+        .wrapper{
+            max-width: 1199px;
+        }
+        &__left{
+            margin-right: 25px;
+            text-align: center;
+        }
+        &__right{
+            margin-left: 25px;
+        }
+        .underline{
+            &:before{
+                bottom: 0px;
+            }
+        }
+    }
 }
 // Responsive tablet 1
 @media screen and (max-width: 991px) {
-
+    .testimonials{
+        .wrapper{
+            max-width: 991px;
+        }
+        .row{
+            flex-flow: column;
+        }
+        .swiper{
+            width: 100%;
+            // margin: 72px 0px;
+        }
+        &__left{
+            margin-right: 0px;
+        }
+        &__right{
+            margin-left: 0px;
+        }
+        .underline{
+            &:before{
+                background-size: 199px 10px;
+                width: 199px;
+                height: 10px;
+                bottom: -11px;
+            }
+        }
+    }
 }
 // Responsive mobile
 @media screen and (max-width: 767px) {
-
+    .testimonials{
+        padding: 50px 15px;
+        .wrapper{
+            max-width: 767px;
+        }
+        &__box{
+            padding: 15px;
+            
+        }
+        .underline{
+            &:before{
+                bottom: -6px;
+            }
+        }
+    }
 }

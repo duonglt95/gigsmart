@@ -6,6 +6,11 @@
         max-width: 1440px;
         text-align: center;
     }
+    .row{
+        max-width: 1295px;
+        margin: 0 auto;
+        justify-content: center;
+    }
     h2{
         margin-bottom: 52.5px;
     }
@@ -31,6 +36,70 @@
             img{
                 filter: brightness(0) invert(1);
             }
+        }
+    }
+}
+// Responsive desktop 1
+@media screen and (max-width: 1439px) {
+    .categories{
+        .wrapper{
+            max-width: 1440px;
+        }
+        .row{
+            max-width: 1295px;
+        }
+        .col:nth-last-child(2){
+            margin-left: 12.5%;
+        }
+        .col:last-child{
+            margin-right: 12.5%;
+        }
+    }
+}
+// Responsive tablet 2
+@media screen and (max-width: 1199px) {
+    .categories{
+        padding-left: 50px;
+        padding-right: 50px;
+        .wrapper{
+            max-width: 1199px;
+        }
+        .row{
+            max-width: 1199px;
+        }
+        .col:nth-last-child(2){
+            margin-left: 0px;
+        }
+        .col:last-child{
+            margin-right: 0px;
+        }
+    }
+}
+// Responsive tablet 1
+@media screen and (max-width: 991px) {
+
+}
+// Responsive mobile
+@media screen and (max-width: 767px) {
+    .categories{
+        padding-left: 7.5px;
+        padding-right: 7.5px;
+        h2{
+            margin-bottom: 42.5px;
+        }
+        .btn{
+            margin-top: 42.5px;
+        }
+        .wrapper{
+            max-width: 767px;
+        }
+        .col{
+            --bs-gutter-y: 0px;
+            --bs-gutter-x: 0px;
+            padding: 7.5px;
+        }
+        .row{
+            max-width: 100%;
         }
     }
 }

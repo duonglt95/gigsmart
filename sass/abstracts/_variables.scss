@@ -19,19 +19,20 @@ $btn-focus-width:0;
 // adapting to different screen sizes, for use in media queries.
 
 // scss-docs-start grid-breakpoints
-// $grid-breakpoints: (
-//   xs: 0,
-//   md: 768px,
-//   lg: 992px,
-//   xl: 1200px,
-//   xxl: 1440px
-// );
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1440px
+);
 $font-size-base: rem(18px);
 $h1-font-size: $font-size-base * 2.77777777778; //50px
 $h2-font-size: $font-size-base * 2.5; //45px
 $h3-font-size: $font-size-base * 2.22222222222; //40px
 $h4-font-size: $font-size-base * 1.66666666667;  //30px
-$h5-font-size: $font-size-base * 1; //18px
+$h5-font-size: $font-size-base * 1.11111111111; //20px
 $h6-font-size: $font-size-base;    //18px
 
 $font-size-mb-30:  $font-size-base * 1.66666666667; //30px

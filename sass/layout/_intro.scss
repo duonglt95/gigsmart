@@ -86,6 +86,11 @@
                     margin: 0px 20px;
                 }
             }
+            &--num1{
+                &:after{
+                    display: none;
+                }
+            }
         }
     }
 }
