@@ -1,17 +1,16 @@
 // Sass Variables
-$primary: #E15200;
-$orange:  #E15200;
+$primary: #e15200;
+$orange: #e15200;
 $grey: #595959;
-$blue: #003B5C;
-$blue-text: #003A5C;
-$blue-text2: #001F37;
-$soft-blue: #425A66;
+$blue: #003b5c;
+$blue-text: #003a5c;
+$blue-text2: #001f37;
+$soft-blue: #425a66;
 // $body-color: #FFFFFF;
-$btn-active-box-shadow : none;
-$btn-focus-box-shadow : none;
-$btn-box-shadow:unset;
-$btn-focus-width:0;
-
+$btn-active-box-shadow: none;
+$btn-focus-box-shadow: none;
+$btn-box-shadow: unset;
+$btn-focus-width: 0;
 
 // Grid breakpoints
 //
@@ -20,23 +19,23 @@ $btn-focus-width:0;
 
 // scss-docs-start grid-breakpoints
 $grid-breakpoints: (
-  xs: 0,
-  sm: 576px,
-  md: 768px,
-  lg: 992px,
-  xl: 1200px,
-  xxl: 1440px
+     xs: 0,
+     sm: 576px,
+     md: 768px,
+     lg: 992px,
+     xl: 1200px,
+     xxl: 1440px,
 );
 $font-size-base: rem(18px);
 $h1-font-size: $font-size-base * 2.77777777778; //50px
 $h2-font-size: $font-size-base * 2.5; //45px
 $h3-font-size: $font-size-base * 2.22222222222; //40px
-$h4-font-size: $font-size-base * 1.66666666667;  //30px
+$h4-font-size: $font-size-base * 1.66666666667; //30px
 $h5-font-size: $font-size-base * 1.11111111111; //20px
-$h6-font-size: $font-size-base;    //18px
+$h6-font-size: $font-size-base; //18px
 
-$font-size-mb-30:  $font-size-base * 1.66666666667; //30px
-$font-size-mb-35: $font-size-base * 1.94444444444;  //35
+$font-size-mb-30: $font-size-base * 1.66666666667; //30px
+$font-size-mb-35: $font-size-base * 1.94444444444; //35
 // $font-size-base: 1.125rem;
 // $h1-font-size: $font-size-base * 2.77777777778;
 // $h2-font-size: $font-size-base * 2.5;
@@ -45,4 +44,3 @@ $font-size-mb-35: $font-size-base * 1.94444444444;  //35
 // $h5-font-size: $font-size-base * 1;
 // $h6-font-size: $font-size-base;
 $enable-rfs: false;
-

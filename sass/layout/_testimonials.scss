@@ -1,140 +1,159 @@
-.testimonials{
-    background-color: #F7F8F9;
-    padding: 72px 72px 52px 72px;
-    .wrapper{
-        max-width: 1440px;
-    }
-    
-    .swiper{
-        width: 618.4px;
-        // height: 300px;
-        padding-bottom: 50px;
-    }
-    &__box{
-        padding: 72px 50px;
-        background-color: $white;
-        border-radius: 14px;
-        
-    }
-    &__info{
-        display: inline-block;
-        img{
-            vertical-align: middle;
-            width: 36.15px;
-            height: auto;
-            margin-right: 10.5px;
-        }
-    }
-    &__info2{
-        vertical-align: middle;
-        display: inline-block;
-        h6{
-            color: $orange;
-            margin-bottom: 0px;
-        }
-        p{
-            margin-bottom: 0px;
-        }
-    }
-    .underline{
-        color: $orange;
-        position: relative;
-        &:before{
-            background-image: url(/assets/images/home/underline.png);
-            background-size: 295px 15px;
-            background-repeat: no-repeat;
-            width: 295px;
-            height: 15px;
-            position: absolute;
-            content: "";
-            bottom: -11px;
-            // content: url(/assets/images/home/underline.png);
-            // position: absolute;
-            // bottom: -20px;
-        }
-    }
-    .btn{
-        margin-top: 20px;
-    }
+.testimonials {
+     background-color: #f7f8f9;
+     padding: 72px 72px 52px 72px;
+     .wrapper {
+          max-width: 1440px;
+     }
+     .row {
+          justify-content: space-between;
+          flex-wrap: nowrap;
+     }
+     .swiper {
+          width: 618.4px;
+          max-width: 100%;
+          padding-bottom: 50px;
+     }
+     &-left {
+          flex: 0 0 46%;
+     }
+     &-right {
+          flex: 0 0 47%;
+     }
+     &-box {
+          padding: 72px 50px;
+          background-color: $white;
+          border-radius: 14px;
+     }
+     &-info {
+          display: inline-block;
+          img {
+               vertical-align: middle;
+               width: 36.15px;
+               height: auto;
+               margin-right: 10.5px;
+          }
+     }
+     &-info2 {
+          vertical-align: middle;
+          display: inline-block;
+          h6 {
+               color: $orange;
+               margin-bottom: 0px;
+          }
+          p {
+               margin-bottom: 0px;
+          }
+     }
+     .underline {
+          color: $orange;
+          position: relative;
+          white-space: nowrap;
+          &:before {
+               background-image: url(/assets/images/home/underline.png);
+               background-size: 295px 15px;
+               background-repeat: no-repeat;
+               width: 295px;
+               height: 15px;
+               position: absolute;
+               content: '';
+               bottom: -11px;
+               // content: url(/assets/images/home/underline.png);
+               // position: absolute;
+               // bottom: -20px;
+          }
+     }
+     .btn {
+          margin-top: 20px;
+     }
 }
 
 // Responsive desktop 1
 @media screen and (max-width: 1439px) {
-    .testimonials{
-        .wrapper{
-            max-width: 1439px;
-        }
-        .swiper{
-            width: 528px;
-        }
-    }
+     .testimonials {
+          .wrapper {
+               max-width: 1439px;
+          }
+          .swiper {
+               width: 528px;
+          }
+     }
 }
 // Responsive tablet 2
 @media screen and (max-width: 1199px) {
-    .testimonials{
-        padding-left: 50px;
-        padding-right: 50px;
-        .wrapper{
-            max-width: 1199px;
-        }
-        &__left{
-            margin-right: 25px;
-            text-align: center;
-        }
-        &__right{
-            margin-left: 25px;
-        }
-        .underline{
-            &:before{
-                bottom: 0px;
-            }
-        }
-    }
+     .testimonials {
+          padding-left: 50px;
+          padding-right: 50px;
+          .wrapper {
+               max-width: 1199px;
+          }
+          &-left {
+               flex: 0 0 40%;
+               margin-right: 25px;
+               text-align: center;
+          }
+          &-right {
+               flex: 0 0 40%;
+               margin-left: 25px;
+          }
+          .underline {
+               &:before {
+                    bottom: 0px;
+               }
+          }
+     }
 }
 // Responsive tablet 1
 @media screen and (max-width: 991px) {
-    .testimonials{
-        .wrapper{
-            max-width: 991px;
-        }
-        .row{
-            flex-flow: column;
-        }
-        .swiper{
-            width: 100%;
-            // margin: 72px 0px;
-        }
-        &__left{
-            margin-right: 0px;
-        }
-        &__right{
-            margin-left: 0px;
-        }
-        .underline{
-            &:before{
-                background-size: 199px 10px;
-                width: 199px;
-                height: 10px;
-                bottom: -11px;
-            }
-        }
-    }
+     .testimonials {
+          .wrapper {
+               max-width: 991px;
+          }
+          .row {
+               flex-flow: column;
+          }
+          .swiper {
+               width: 100%;
+               // margin: 72px 0px;
+          }
+          &-left {
+               margin-right: 0px;
+               max-width: 80%;
+               margin: 0 auto;
+          }
+          &-right {
+               margin-left: 0px;
+          }
+          .underline {
+               &:before {
+                    background-size: 300px 10px;
+                    width: 300px;
+                    height: 10px;
+                    bottom: -11px;
+               }
+          }
+     }
 }
 // Responsive mobile
 @media screen and (max-width: 767px) {
-    .testimonials{
-        padding: 50px 15px;
-        .wrapper{
-            max-width: 767px;
-        }
-        &__box{
-            padding: 15px;
-            
-        }
-        .underline{
-            &:before{
-                bottom: -6px;
-            }
-        }
-    }
+     .testimonials {
+          padding: 50px 15px;
+          .wrapper {
+               max-width: 767px;
+          }
+          &-left {
+               max-width: 100%;
+          }
+          &-box {
+               padding: 15px;
+          }
+          .underline {
+               &:before {
+                    bottom: -10px;
+                    background-size: 205px 13px;
+                    width: 205px;
+                    height: 13px;
+                    left: -5px;
+               }
+          }
+     }
 }

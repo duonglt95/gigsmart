@@ -1,47 +1,92 @@
-.brands{
-    padding: 100px 0px;
-    overflow: hidden;
-    .row{
-        --bs-gutter-x: 50px;
-    }
-    .wrapper{
-        max-width: 1440px;
-        text-align: center;
-        position: relative;
-        &:after{
-            content: url(/assets/images/home/bg_brands.png);
-            position: absolute;
-            right: -25px;
-            top: -120px;
-            opacity: .1;
-        }
-    }
-    &__container{
-        max-width: 950px;
-        text-align: center;
-        margin: 0 auto;
-    }
-    h2{
-        margin-bottom: 72px;
-        color: $blue-text2;
-    }
-    img{
-        width: 100%;
-    }
+.brands {
+     padding: 100px 72px;
+     overflow: hidden;
+     .row {
+          align-items: flex-start;
+          justify-content: center;
+          --bs-gutter-x: 50px;
+     }
+     .wrapper {
+          max-width: 1440px;
+          text-align: center;
+          position: relative;
+          &:after {
+               content: url(/assets/images/home/bg_brands.png);
+               position: absolute;
+               right: 15%;
+               transform: translateX(50%);
+               top: -120px;
+               opacity: 0.1;
+          }
+     }
+     &-container {
+          max-width: 950px;
+          text-align: center;
+          margin: 0 auto;
+     }
+     h2 {
+          margin-bottom: 72px;
+          color: $blue-text2;
+     }
+     img {
+          width: 100%;
+     }
 }
 // Responsive desktop 1
 @media screen and (max-width: 1439px) {
-
 }
 // Responsive tablet 2
 @media screen and (max-width: 1199px) {
-
+     .brands {
+          padding: 100px 50px;
+          .row {
+               --bs-gutter-x: 20px;
+          }
+          .wrapper {
+               max-width: 1199px;
+               padding: 0px 50px;
+          }
+          &-container {
+               max-width: 100%;
+          }
+     }
 }
 // Responsive tablet 1
 @media screen and (max-width: 991px) {
-
+     .brands {
+          .row {
+               .col:first-child {
+                    margin-left: 16.6666666666%;
+               }
+               .col:nth-child(2) {
+                    margin-right: 16.6666666666%;
+               }
+          }
+          .wrapper {
+               max-width: 991px;
+          }
+     }
 }
 // Responsive mobile
 @media screen and (max-width: 767px) {
+     .brands {
+          padding: 50px 15px;
 
+          .row {
+               --bs-gutter-x: 15px;
+          }
+          .wrapper {
+               max-width: 767px;
+               &:after {
+                    // right: -25px;
+                    // top: -120px;
+               }
+          }
+          &-container {
+               max-width: 100%;
+          }
+          h2 {
+               margin-bottom: 50px;
+          }
+     }
 }

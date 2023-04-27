@@ -1,105 +1,101 @@
 // Header
-header{
-    .nav{
-        &__list1{
-            .nav-link{
-                @include border-right;
-            }
-            &--line{
-                a{
-                    height: 100%;
-                }
-            }
-        }
-        &__list2{
-            .nav-link{
-                @include border-left;
-                &:last-child{
-                    border-left: 0px;
-                }
-            }
-            &--line{
-                a{
-                    height: 100%;
-                }
-            }
-        }
-        &__mobile{
-            display: none;
-        }
-    }
+header {
+     .nav {
+          &-list1 {
+               .nav-link {
+                    @include border-right;
+               }
+               &-line {
+                    a {
+                         height: 100%;
+                    }
+               }
+          }
+          &-list2 {
+               .nav-link {
+                    @include border-left;
+                    &:last-child {
+                         border-left: 0px;
+                    }
+               }
+               &-line {
+                    a {
+                         height: 100%;
+                    }
+               }
+          }
+          &-mobile {
+               display: none;
+          }
+     }
 }
 
 // Responsive desktop 1
 @media screen and (max-width: 1439px) {
-
 }
 // Responsive tablet 2
 @media screen and (max-width: 1199px) {
-    header{
-        .nav{
-            &__list1{
-                flex-wrap: wrap;
-                &--line{
-                    width: 100%;
-                    border-right: 0px;
-                    border-bottom: 1px solid #EAEAEA;
-                    a{
-                        border-right: unset !important;
+     header {
+          .nav {
+               &-list1 {
+                    flex-wrap: wrap;
+                    &-line {
+                         width: 100%;
+                         border-right: 0px;
+                         border-bottom: 1px solid #eaeaea;
+                         a {
+                              border-right: unset !important;
+                         }
                     }
-                }
-                img{
-                    height: 37px;
-                }
-            }
-            &__list2{
-                flex-wrap: wrap;
-                .nav-link:first-child{
-                    order: 2;
-                }
-                .nav-link:last-child{
-                    order: 3;
-                }
-                &--line{
-                    order: 1;
-                    width: 100%;
-                    text-align: right;
-                    border-bottom: 1px solid #EAEAEA;
-                    .nav-link{
-                        height: 100%;
-                        display: inline-block;
-                        border-left: 1px solid #EAEAEA !important;
+                    img {
+                         height: 37px;
                     }
-                }
-            }
-            
-        }
-    }
+               }
+               &-list2 {
+                    flex-wrap: wrap;
+                    .nav-link:first-child {
+                         order: 2;
+                    }
+                    .nav-link:last-child {
+                         order: 3;
+                    }
+                    &-line {
+                         order: 1;
+                         width: 100%;
+                         text-align: right;
+                         border-bottom: 1px solid #eaeaea;
+                         .nav-link {
+                              height: 100%;
+                              display: inline-block;
+                              border-left: 1px solid #eaeaea !important;
+                         }
+                    }
+               }
+          }
+     }
 }
 // Responsive tablet 1
 @media screen and (max-width: 991px) {
-
 }
 // Responsive mobile
 @media screen and (max-width: 767px) {
-    header{
-        .nav{
-            &__desktop{
-                display: none;
-            }
-            &__mobile{
-                padding-top: 21px;
-                padding-bottom: 21px;
-                padding-left: 30px;
-                padding-right: 20px;
-                display: flex;
-                justify-content: space-between;
-                i{
-                    font-size: 32px;
-                    color: $blue;
-                }
-            }
-        }
-    }
+     header {
+          .nav {
+               &-desktop {
+                    display: none;
+               }
+               &-mobile {
+                    padding-top: 21px;
+                    padding-bottom: 21px;
+                    padding-left: 30px;
+                    padding-right: 20px;
+                    display: flex;
+                    justify-content: space-between;
+                    i {
+                         font-size: 32px;
+                         color: $blue;
+                    }
+               }
+          }
+     }
 }
-

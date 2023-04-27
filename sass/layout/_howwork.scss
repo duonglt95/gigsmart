@@ -1,72 +1,70 @@
-.how-work{
-    background-color: rgba(225, 82, 0, .75);
-    color: $white;
-    padding: 50px 0px;
-    .wrapper{
-        max-width: 1076px;
-    }
-    .row{
-        justify-content: space-between;
-        align-items: flex-start;
-    }
-    h2{
-        margin-bottom: 50px;
-    }
-    .col{
-        max-width: 292px;
-    }
-    .col:nth-child(2){
-        margin: 0px 100px;
-    }
+.how-work {
+     background-color: rgba(225, 82, 0, 0.75);
+     color: $white;
+     padding: 50px 0px;
+     .wrapper {
+          max-width: 1076px;
+     }
+     .row {
+          justify-content: space-between;
+          align-items: flex-start;
+     }
+     h2 {
+          margin-bottom: 50px;
+     }
+     .col {
+          max-width: 292px;
+     }
+     .col:nth-child(2) {
+          margin: 0px 100px;
+     }
 }
-
 
 // Responsive desktop 1
 @media screen and (max-width: 1439px) {
-    .how-work{
-        .wrapper{
-            max-width: 1076px;
-            padding: 0px 72px;
-        }
-    }
+     .how-work {
+          .wrapper {
+               max-width: 1076px;
+               padding: 0px 72px;
+          }
+     }
 }
 // Responsive tablet 2
 @media screen and (max-width: 1199px) {
-    
-    .how-work{
-        .col:nth-child(2){
-            margin: 0px 20px;
-        }
-    }
+     .how-work {
+          .col:nth-child(2) {
+               margin: 0px 20px;
+          }
+     }
 }
 // Responsive tablet 1
 @media screen and (max-width: 991px) {
-    .how-work{
-        .wrapper{
-            max-width: 991px;
-            padding: 0px 50px;
-        }
-    }
+     .how-work {
+          .wrapper {
+               max-width: 991px;
+               padding: 0px 50px;
+          }
+     }
 }
 // Responsive mobile
 @media screen and (max-width: 767px) {
-    .how-work{
-        .wrapper{
-            max-width: 767px;
-            padding: 0px 15px;
-        }
-        .col:nth-child(2){
-            margin: 0px 0px;
-        }
-        .row{
-            flex-wrap: wrap;
-        }
-        .col{
-            flex: 1 0 100%;
-            max-width: 100%;
-        }
-        h2{
-            // font-size: 30px;
-        }
-    }
+     .how-work {
+          .wrapper {
+               max-width: 767px;
+               padding: 0px 15px;
+          }
+          .col:nth-child(2) {
+               margin: 0px 0px;
+          }
+          .row {
+               flex-wrap: wrap;
+          }
+          .col {
+               flex: 1 0 100%;
+               max-width: 100%;
+          }
+          h2 {
+               // font-size: 30px;
+          }
+     }
 }

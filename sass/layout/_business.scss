@@ -1,109 +1,115 @@
-.business{
-    .wrapper{
-        max-width: 1440px;
-    }
-    &__box-left{
-        img{
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-    }
-    &__imgs{
-        height: 100%;
-    }
-    &__box-right{
-        padding: 72px 0px 72px 72px;
-    }
-    &__tab1{
-        li{
-            position: relative;
-            &:before{
-                content: url(/assets/images/home/tick.png);
-                position: absolute;
-                left: -23.5px;
-                top: 3px;
-            }
-        }
-    }
-    &__tab2{
-        li{
-            display: block;
-            img, p{
-                display: inline-block;
-                vertical-align: middle;
-            }
-            img{
-                margin-right: 15px;
-            }
-            p{
-                color: $blue-text2;
-            }
-        }
-    }
-    &__btn{
-        margin-bottom: 50px;
-    }
-    p{
-        color: $grey;
-    }
-    li, h2{
-        color: $blue-text2;
-        list-style-type: none;
-    }
-    .btn--line-blue{
-        color: $blue-text2;
-        border-color: $blue-text2;
-    }
-    .d-none{
-        opacity: 0;
-    }
-    .d-block{
-        -webkit-animation: fadeIn 1s;
-        animation: fadeIn 1s;
-    }
+.business {
+     .wrapper {
+          max-width: 1440px;
+     }
+     &-box-left {
+          img {
+               width: 100%;
+               height: 100%;
+               object-fit: cover;
+          }
+     }
+     &-imgs {
+          height: 100%;
+     }
+     &-box-right {
+          padding: 72px 0px 72px 72px;
+     }
+     &-tab1 {
+          li {
+               position: relative;
+               &:before {
+                    content: url(/assets/images/home/tick.png);
+                    position: absolute;
+                    left: -23.5px;
+                    top: 3px;
+               }
+          }
+     }
+     &-tab2 {
+          li {
+               display: block;
+               img,
+               p {
+                    display: inline-block;
+                    vertical-align: middle;
+               }
+               img {
+                    margin-right: 15px;
+               }
+               p {
+                    color: $blue-text2;
+               }
+          }
+     }
+     &-btn {
+          margin-bottom: 50px;
+     }
+     p {
+          color: $grey;
+     }
+     li,
+     h2 {
+          color: $blue-text2;
+          list-style-type: none;
+     }
+     .btn-line-blue {
+          color: $blue-text2;
+          border-color: $blue-text2;
+     }
+     .d-none {
+          opacity: 0;
+     }
+     .d-block {
+          -webkit-animation: fadeIn 1s;
+          animation: fadeIn 1s;
+     }
 }
 @keyframes fadeIn {
-    from { opacity: 0; }
-      to { opacity: 1; }
+     from {
+          opacity: 0;
+     }
+     to {
+          opacity: 1;
+     }
 }
 // Responsive desktop 1
 @media screen and (max-width: 1439px) {
-    .business{
-        .wrapper{
-            max-width: 1439px;
-        }
-        &__box-right{
-            padding-right: 72px;
-        }
-    }
+     .business {
+          .wrapper {
+               max-width: 1439px;
+          }
+          &-box-right {
+               padding-right: 72px;
+          }
+     }
 }
 // Responsive tablet 2
 @media screen and (max-width: 1199px) {
-    .business{
-        .wrapper{
-            max-width: 1199px;
-        }
-        &__box-right{
-            padding-left: 50px;
-            padding-right: 50px;
-        }
-    }
+     .business {
+          .wrapper {
+               max-width: 1199px;
+          }
+          &-box-right {
+               padding-left: 50px;
+               padding-right: 50px;
+          }
+     }
 }
 // Responsive tablet 1
 @media screen and (max-width: 991px) {
-    .business{
-        .wrapper{
-            max-width: 991px;
-        }
-        &__box-left{
-            display: none;
-        }
-    }
+     .business {
+          .wrapper {
+               max-width: 991px;
+          }
+          &-box-left {
+               display: none;
+          }
+     }
 }
 // Responsive mobile
 @media screen and (max-width: 767px) {
-    .business{
-        display: none;
-    }
+     .business {
+          display: none;
+     }
 }
