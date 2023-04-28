@@ -1,4 +1,19 @@
 // typography
+.c-orange {
+     color: $orange;
+}
+.c-blue2 {
+     color: $blue-text2;
+}
+.c-white {
+     color: $white;
+}
+.hide-after {
+     &::after {
+          display: none;
+          content: '' !important;
+     }
+}
 .a-14 {
      a {
           font-size: 14px;

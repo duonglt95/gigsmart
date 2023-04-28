@@ -1,5 +1,4 @@
 .brands {
-     padding: 100px 72px;
      overflow: hidden;
      .row {
           align-items: flex-start;
@@ -7,7 +6,6 @@
           --bs-gutter-x: 50px;
      }
      .wrapper {
-          max-width: 1440px;
           text-align: center;
           position: relative;
           &:after {
@@ -38,12 +36,10 @@
 // Responsive tablet 2
 @media screen and (max-width: 1199px) {
      .brands {
-          padding: 100px 50px;
           .row {
                --bs-gutter-x: 20px;
           }
           .wrapper {
-               max-width: 1199px;
                padding: 0px 50px;
           }
           &-container {
@@ -62,21 +58,16 @@
                     margin-right: 16.6666666666%;
                }
           }
-          .wrapper {
-               max-width: 991px;
-          }
      }
 }
 // Responsive mobile
 @media screen and (max-width: 767px) {
      .brands {
-          padding: 50px 15px;
-
           .row {
                --bs-gutter-x: 15px;
           }
           .wrapper {
-               max-width: 767px;
+               padding: 0px;
                &:after {
                     // right: -25px;
                     // top: -120px;

@@ -1,8 +1,6 @@
 .help-center {
-     padding: 50px 72px;
      color: $blue-text2;
      .wrapper {
-          max-width: 100%;
           text-align: center;
      }
 }
@@ -11,16 +9,10 @@
 }
 // Responsive tablet 2
 @media screen and (max-width: 1199px) {
-     .help-center {
-          padding: 50px;
-     }
 }
 // Responsive tablet 1
 @media screen and (max-width: 991px) {
 }
 // Responsive mobile
 @media screen and (max-width: 767px) {
-     .help-center {
-          padding: 50px 15px;
-     }
 }

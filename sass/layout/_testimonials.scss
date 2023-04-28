@@ -1,6 +1,6 @@
 .testimonials {
      background-color: #f7f8f9;
-     padding: 72px 72px 52px 72px;
+     padding-bottom: 52px;
      .wrapper {
           max-width: 1440px;
      }
@@ -81,8 +81,6 @@
 // Responsive tablet 2
 @media screen and (max-width: 1199px) {
      .testimonials {
-          padding-left: 50px;
-          padding-right: 50px;
           .wrapper {
                max-width: 1199px;
           }
@@ -136,7 +134,6 @@
 // Responsive mobile
 @media screen and (max-width: 767px) {
      .testimonials {
-          padding: 50px 15px;
           .wrapper {
                max-width: 767px;
           }

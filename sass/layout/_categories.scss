@@ -1,9 +1,7 @@
 .categories {
-     padding: 72px;
      background-color: #f7f8f9;
      color: #001f37;
      .wrapper {
-          max-width: 1440px;
           text-align: center;
      }
      .row {
@@ -42,9 +40,6 @@
 // Responsive desktop 1
 @media screen and (max-width: 1439px) {
      .categories {
-          .wrapper {
-               max-width: 1440px;
-          }
           .row {
                max-width: 1295px;
           }
@@ -59,11 +54,6 @@
 // Responsive tablet 2
 @media screen and (max-width: 1199px) {
      .categories {
-          padding-left: 50px;
-          padding-right: 50px;
-          .wrapper {
-               max-width: 1199px;
-          }
           .row {
                max-width: 1199px;
           }
@@ -88,9 +78,6 @@
           }
           .btn {
                margin-top: 42.5px;
-          }
-          .wrapper {
-               max-width: 767px;
           }
           .col {
                --bs-gutter-y: 0px;

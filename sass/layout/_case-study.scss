@@ -1,0 +1,70 @@
+.case-study {
+     .wrapper {
+          background-repeat: no-repeat;
+     }
+     &-box {
+          h2 {
+               color: $blue-text2;
+          }
+          .btn {
+               margin-top: 33px;
+          }
+     }
+     .swiper {
+          background-color: rgba(255, 255, 255, 0.8);
+          &-pagination {
+               text-align: left;
+               padding-left: 80px;
+          }
+          &-button-prev,
+          &-button-next {
+               &:after {
+                    width: auto;
+                    height: auto;
+                    line-height: 1px;
+                    background-size: 7.84px 17.08px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                    width: 7.84px;
+                    height: 17.08px;
+                    content: '';
+               }
+          }
+          &-button-prev {
+               &:after {
+                    background-image: url(/assets/images/hireworkers/arrow_prev.svg);
+               }
+          }
+          &-button-next {
+               &:after {
+                    background-image: url(/assets/images/hireworkers/arrow_next.svg);
+               }
+          }
+     }
+}
+// Responsive desktop 1
+@media screen and (max-width: 1439px) {
+}
+// Responsive tablet 2
+@media screen and (max-width: 1199px) {
+}
+// Responsive tablet 1
+@media screen and (max-width: 991px) {
+}
+// Responsive mobile
+@media screen and (max-width: 767px) {
+     .case-study {
+          .swiper {
+               &-button-prev,
+               &-button-next {
+                    width: 10px;
+                    &:after {
+                    }
+               }
+          }
+          &-box {
+               padding-left: 30px;
+               padding-right: 30px;
+          }
+     }
+}

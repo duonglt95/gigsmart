@@ -2,6 +2,156 @@
 .wrapper {
      margin-right: auto;
      margin-left: auto;
+     max-width: 1440px;
 }
-@media screen and (min-width: 1440px) {
+.p-100-200 {
+     padding: 100px 200px;
+}
+.p-100-72 {
+     padding: 100px 72px;
+}
+.p-72 {
+     padding: 72px;
+}
+.p-72-200 {
+     padding: 72px 200px;
+}
+.p-tb-100 {
+     padding-top: 100px;
+     padding-bottom: 100px;
+}
+.p-lr-72px {
+     padding-left: 72px;
+     padding-right: 72px;
+}
+
+.p-tb-72 {
+     padding-top: 72px;
+     padding-bottom: 72px;
+}
+.p-50-200 {
+     padding: 50px 200px;
+}
+.p-50-72 {
+     padding: 50px 72px;
+}
+.p-tb-50 {
+     padding-top: 50px;
+     padding-bottom: 50px;
+}
+.p-b-50 {
+     padding-bottom: 50px;
+}
+.p-lr-50 {
+     padding-left: 50px;
+     padding-right: 50px;
+}
+.m-t-72 {
+     margin-top: 72px;
+}
+.m-b-50 {
+     margin-bottom: 50px;
+}
+.m-b-29 {
+     margin-bottom: 29px;
+}
+// Responsive desktop 1
+@media screen and (max-width: 1439px) {
+     .wrapper {
+          max-width: 1439px;
+     }
+     .p-100-200 {
+          padding: 100px 72px;
+     }
+     .p-72-200 {
+          padding: 72px 100px;
+     }
+     .p-lr-xl-72 {
+          padding-left: 72px;
+          padding-right: 72px;
+     }
+     .p-50-200 {
+          padding: 50px 100px;
+     }
+}
+// Responsive tablet 2
+@media screen and (max-width: 1199px) {
+     .wrapper {
+          max-width: 1199px;
+     }
+     .p-100-200 {
+          padding: 100px 50px;
+     }
+     .p-100-72 {
+          padding: 100px 50px;
+     }
+     .p-72-200 {
+          padding: 72px 50px;
+     }
+     .p-72 {
+          padding-left: 50px;
+          padding-right: 50px;
+     }
+     .p-50-200 {
+          padding: 50px;
+     }
+     .p-50-72 {
+          padding: 50px;
+     }
+     .p-lr-lg-50 {
+          padding-left: 50px;
+          padding-right: 50px;
+     }
+}
+@media screen and (max-width: 991px) {
+     .wrapper {
+          max-width: 991px;
+     }
+     .p-lr-xl-72 {
+          padding-left: 50px;
+          padding-right: 50px;
+     }
+}
+// Responsive mobile
+@media screen and (max-width: 767px) {
+     .wrapper {
+          max-width: 767px;
+     }
+     .p-100-200 {
+          padding: 50px 15px;
+     }
+     .p-lr-xl-72 {
+          padding-left: 15px;
+          padding-right: 15px;
+     }
+     .p-72 {
+          padding: 50px 15px;
+     }
+     .p-tb-72 {
+          padding-top: 50px;
+          padding-bottom: 50px;
+     }
+     .p-100-72 {
+          padding: 50px 15px;
+     }
+     .p-72-200 {
+          padding: 50px 15px;
+     }
+     .p-50-200 {
+          padding: 50px 15px;
+     }
+     .p-lr-lg-50 {
+          padding-left: 15px;
+          padding-right: 15px;
+     }
+     .p-50-72 {
+          padding: 50px 15px;
+     }
+     .m-t-72 {
+          margin-top: 50px;
+     }
+     .p-lr-mb-15 {
+          padding-left: 15px;
+          padding-right: 15px;
+     }
 }

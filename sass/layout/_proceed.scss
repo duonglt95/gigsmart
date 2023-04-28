@@ -1,5 +1,4 @@
 .proceed {
-     padding: 72px 72px;
      &-sub-title {
           @include sub-title;
           font-size: 14px;
@@ -45,7 +44,6 @@
 // Responsive tablet 2
 @media screen and (max-width: 1199px) {
      .proceed {
-          padding: 72px 50px;
           .wrapper {
                max-width: 1199px;
           }
@@ -91,11 +89,21 @@
                margin-left: 0px;
           }
      }
+     .hw-proceed {
+          .proceed-box {
+               &-content {
+                    display: block;
+                    p {
+                         margin-right: 0px;
+                         width: 100%;
+                    }
+               }
+          }
+     }
 }
 // Responsive mobile
 @media screen and (max-width: 767px) {
      .proceed {
-          padding: 50px 15px;
           .wrapper {
                max-width: 767px;
           }

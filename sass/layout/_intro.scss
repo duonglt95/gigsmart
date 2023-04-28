@@ -1,9 +1,5 @@
 .intro {
      color: $white;
-     .wrapper {
-          padding: 100px 72px;
-          max-width: 1440px;
-     }
      .btn {
           width: auto;
      }
@@ -67,11 +63,6 @@
 // Responsive tablet 2
 @media screen and (max-width: 1199px) {
      .intro {
-          .wrapper {
-               padding-left: 50px;
-               padding-right: 50px;
-               max-width: 1199;
-          }
           &-layout1 {
                .col {
                     max-width: 512.5px;
@@ -98,9 +89,6 @@
 // Responsive tablet 1
 @media screen and (max-width: 991px) {
      .intro {
-          .wrapper {
-               max-width: 991px;
-          }
           &-layout1 {
                .col {
                     // max-width: 534.5px;
@@ -113,10 +101,6 @@
 // Responsive mobile
 @media screen and (max-width: 767px) {
      .intro {
-          .wrapper {
-               padding: 50px 15px;
-               max-width: 767px;
-          }
           &-layout1 {
                .col {
                     max-width: 100%;

@@ -1,6 +1,5 @@
 .advertise {
      .wrapper {
-          max-width: 1440px;
           .row {
                justify-content: center;
                align-items: stretch;
@@ -11,7 +10,6 @@
      }
      &-box-text {
           flex: 0 0 50%;
-          padding: 72px;
      }
      &-box-img {
           display: flex;
@@ -31,9 +29,6 @@
 // Responsive tablet 2
 @media screen and (max-width: 1199px) {
      .advertise {
-          .wrapper {
-               max-width: 1199px;
-          }
           .row {
                .col:first-child {
                     order: 2;
@@ -41,8 +36,6 @@
           }
           &-box-text {
                flex: 0 0 60%;
-               padding-left: 50px;
-               padding-right: 50px;
           }
           &-box-img {
                flex: 0 0 40%;
@@ -53,10 +46,9 @@
 @media screen and (max-width: 991px) {
      .advertise {
           .wrapper {
-               max-width: 991px;
                .row {
                     flex-flow: column;
-                    .advertise-box-text {
+                    .advertise-box-img {
                          order: -1;
                     }
                }
@@ -71,20 +63,9 @@
           }
           &-box-text {
                flex: 1;
-               padding-left: 50px;
-               padding-right: 50px;
           }
      }
 }
 // Responsive mobile
 @media screen and (max-width: 767px) {
-     .advertise {
-          .wrapper {
-               max-width: 767px;
-          }
-          &-box-text {
-               padding-left: 15px;
-               padding-right: 15px;
-          }
-     }
 }

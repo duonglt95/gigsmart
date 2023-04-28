@@ -1,7 +1,12 @@
 .looking-work {
-     padding: 50px 0px;
      background-color: #001424;
      color: $white;
+     p {
+          width: 744px;
+          max-width: 100%;
+          margin-left: auto;
+          margin-right: auto;
+     }
 }
 
 // Responsive desktop 1
@@ -9,14 +14,15 @@
 }
 // Responsive tablet 2
 @media screen and (max-width: 1199px) {
+     .looking-work {
+          p {
+               width: 100%;
+          }
+     }
 }
 // Responsive tablet 1
 @media screen and (max-width: 991px) {
 }
 // Responsive mobile
 @media screen and (max-width: 767px) {
-     .looking-work {
-          padding-left: 15px;
-          padding-right: 15px;
-     }
 }
