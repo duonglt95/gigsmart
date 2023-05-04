@@ -14,27 +14,39 @@
      <body>
           <header>
                <div class="row justify-content-center align-items-center g-0">
-                    <nav class="nav nav-mobile">
+                    <nav id="btn-mobile" class="nav nav-mobile">
                          <img src="assets/images/home/logo.png" alt="" />
-                         <a href="#"><i class="fas fa-bars"></i></a>
+                         <i class="fas fa-bars"></i>
                     </nav>
                     <nav class="nav nav-desktop">
-                         <div class="col d-flex nav-list1 a-15">
-                              <div class="nav-list1-line">
-                                   <a class="nav-link active" href="#" aria-current="page"><img src="assets/images/home/logo.png" alt="" /></a>
+                         <div class="col d-flex nav-left a-15">
+                              <div class="nav-left--line">
+                                   <a class="nav-link active" href="/" aria-current="page"><img src="assets/images/home/logo.png" alt="" /></a>
                               </div>
-                              <a class="nav-link btn btn-fill-white" href="#" role="button">Hire Workers</a>
-                              <a class="nav-link btn btn-fill-white" href="#" role="button">Find Work</a>
-                              <a class="nav-link btn btn-fill-white" href="#" role="button">Resources</a>
+                              <a class="nav-link btn btn-fill--white" href="hireworker.html" role="button">Hire Workers</a>
+                              <a class="nav-link btn btn-fill--white" href="#" role="button">Find Work</a>
+                              <a class="nav-link btn btn-fill--white" href="#" role="button">Resources</a>
                          </div>
-                         <div class="col d-flex justify-content-end nav-list2">
-                              <a class="nav-link btn btn-fill-white btn-color-orange" href="#" role="button">CONTACT SALES</a>
-                              <div class="nav-list2-line">
-                                   <a class="btn-flex nav-link btn btn-fill-white btn-color-orange" href="#" role="button"
-                                        >LOGIN <img src="assets/images/home/login_arrow.png" alt=""
-                                   /></a>
+                         <div class="col d-flex justify-content-end nav-right">
+                              <a class="nav-link btn btn-fill--white btn-color--orange" href="#" role="button">CONTACT SALES</a>
+                              <div class="nav-right--line">
+                                   <a class="btn-flex nav-link btn btn-fill--white btn-color--orange" href="#" role="button"
+                                        >LOGIN
+                                        <svg
+                                             id="arrow-right-to-bracket-solid"
+                                             xmlns="http://www.w3.org/2000/svg"
+                                             width="16"
+                                             height="14"
+                                             viewBox="0 0 16 14"
+                                        >
+                                             <path
+                                                  id="Shape"
+                                                  d="M15,14H10V12h4V2H10V0h6V14ZM4.585,11l.706-.706L7.584,8H0V6H7.584L5.29,3.706,4.585,3,6,1.584l.709.71,4,4L11.416,7l-.709.706v0l-4,4L6,12.416Z"
+                                             />
+                                        </svg>
+                                   </a>
                               </div>
-                              <a class="nav-link btn btn-signup btn-fill-orange" href="#" role="button">SIGN UP FOR FREE</a>
+                              <a class="nav-link btn btn-signup btn-fill--orange" href="#" role="button">SIGN UP FOR FREE</a>
                          </div>
                     </nav>
                </div>
@@ -42,7 +54,7 @@
 
           <main>
                <div class="intro intro-layout1">
-                    <div class="wrapper p-100-72">
+                    <div class="wrapper p-100-72" style="background-image: url(assets/images/home/banner.png)">
                          <div class="row align-items-center g-0">
                               <div class="col h1-75">
                                    <h6>THIS IS GIGSMART</h6>
@@ -51,7 +63,7 @@
                                         get work done.
                                    </h1>
                                    <p>Take control of your staffing. Get qualified people on demand. Low Cost, No contracts, no minimums, no risk.</p>
-                                   <a class="btn btn-fill-orange" href="#" role="button">GET STARTED</a>
+                                   <a class="btn btn-fill--orange" href="#" role="button">GET STARTED</a>
                               </div>
                          </div>
                     </div>
@@ -66,26 +78,26 @@
                                         industries and qualifications, the GigSmart platform provides the fastest, low-cost solution to connecting
                                         your business with workers on demand.
                                    </p>
-                                   <div class="intro-layout2-btn">
-                                        <a class="btn btn-fill-orange" href="#" role="button">CONTACT SALES</a>
-                                        <a class="btn btn-fill-white" href="#" role="button">SIGN UP FOR FREE</a>
+                                   <div class="intro-layout2--btn">
+                                        <a class="btn btn-fill--orange" href="#" role="button">CONTACT SALES</a>
+                                        <a class="btn btn-fill--white" href="#" role="button">SIGN UP FOR FREE</a>
                                    </div>
-                                   <div class="row g-0 intro-layout2-count pg-10">
+                                   <div class="row g-0 intro-layout2--count pg-10">
                                         <div class="col col-5 col-md-2">
-                                             <h1 class="count intro-layout2-num1">50</h1>
+                                             <h1 class="count intro-layout2--num1">50</h1>
                                              <p>STATES COMPLETED GIGSMART SHIFTS</p>
                                         </div>
                                         <div class="col col-5 col-md-2 col-xl-3 h2-44">
-                                             <h2 class="intro-layout2-num2"><span class="count">40</span>%</h2>
+                                             <h2 class="intro-layout2--num2"><span class="count">40</span>%</h2>
                                              <p>OF SHIFTS ARE POSTED, WORKED, AND PAID THE SAME DAY</p>
                                         </div>
                                         <div class="col col-6 col-md-3 h2-44">
-                                             <h2 class="intro-layout2-num3"><span class="count">1000</span>+</h2>
+                                             <h2 class="intro-layout2--num3"><span class="count">1000</span>+</h2>
                                              <p>SATISFIED CUSTOMERS</p>
                                         </div>
                                    </div>
                               </div>
-                              <div class="col intro-layout2-right">
+                              <div class="col intro-layout2--right">
                                    <img src="assets/images/home/laptop.png" alt="" />
                               </div>
                          </div>
@@ -124,8 +136,8 @@
                               </div>
                               <div class="col business-box-right">
                                    <div class="business-btn d-flex">
-                                        <button id="btntab1" class="btn btn-fill-blue" href="#" role="button">BUSINESS</button>
-                                        <button id="btntab2" class="btn btn-line-blue" href="#" role="button">WORKERS</button>
+                                        <button id="btntab1" class="btn btn-fill--blue" href="#" role="button">BUSINESS</button>
+                                        <button id="btntab2" class="btn btn-line--blue" href="#" role="button">WORKERS</button>
                                    </div>
                                    <div class="business-tab1 tab1-content h6-14 pg-16">
                                         <h6 class="sub-heading">NO COMMITMENT NECESSARY</h6>
@@ -184,7 +196,7 @@
                     <div class="wrapper text-center pg-20">
                          <h2>Looking for work?</h2>
                          <p>Find available Shift Gigs and Jobs near you today.</p>
-                         <a class="btn btn-line-blue" href="#" role="button">FIND WORK</a>
+                         <a class="btn btn-fill--white" href="#" role="button">FIND WORK</a>
                     </div>
                </div>
                <div class="categories p-72">
@@ -445,7 +457,7 @@
                                              GigSmart Get Workers provides a fast, simple, and reliable way to hire workers on the fly at low costs
                                              with little to no lead times.
                                         </p>
-                                        <a class="btn btn-fill-orange" href="#" role="button">START HIRING</a>
+                                        <a class="btn btn-fill--orange" href="#" role="button">START HIRING</a>
                                    </div>
                               </div>
                               <div class="col proceed-box">
@@ -458,7 +470,7 @@
                                              Work on your terms. GigSmart gives you the freedom and control to find the right work opportunities best
                                              suited to you.
                                         </p>
-                                        <a class="btn btn-fill-white" href="#" role="button">FIND WORK</a>
+                                        <a class="btn btn-fill--white" href="#" role="button">FIND WORK</a>
                                    </div>
                               </div>
                          </div>
@@ -468,7 +480,7 @@
                     <div class="wrapper h6-19">
                          <h6>GIGSMART HELP CENTER</h6>
                          <p>Have questions? No worries, the GigSmart Help Center has the answers you need to succeed.</p>
-                         <a class="btn btn-line-blue" href="#" role="button">LEARN MORE</a>
+                         <a class="btn btn-line--blue" href="#" role="button">LEARN MORE</a>
                     </div>
                </div>
                <footer class="footer p-50-72">
@@ -533,17 +545,10 @@
                integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
                crossorigin="anonymous"
           ></script>
+          <script src="assets/js/custom.js"></script>
      </body>
      <script>
-          // nav script
-          $('.nav .nav-link').on('click', function () {
-               $('.nav').find('.active').removeClass('active');
-
-               if (!$(this).hasClass('btn-signup') && !$(this).parents('.nav-list1-line').length) {
-                    $(this).addClass('active');
-               }
-          });
-          // slider script
+          // slider
           const swiper = new Swiper('.swiper', {
                // Optional parameters
                direction: 'horizontal',
@@ -558,66 +563,6 @@
                     },
                },
                paginationClickable: true,
-          });
-          // Tab content script
-          $('.business .btn').on('click', function () {
-               var idtab = $(this).attr('id');
-               $(this).removeClass('btn-line-blue');
-               $(this).addClass('btn-fill-blue');
-               if (idtab == 'btntab1') {
-                    $('.tab1-content').removeClass('d-none');
-                    $('.tab1-content').addClass('d-block');
-                    $('.tab2-content').addClass('d-none');
-                    $('.tab2-content').remove('d-block');
-
-                    $('#btntab2').removeClass('btn-fill-blue');
-                    $('#btntab2').addClass('btn-line-blue');
-               } else if (idtab == 'btntab2') {
-                    $('.tab1-content').remove('d-block');
-                    $('.tab1-content').addClass('d-none');
-                    $('.tab2-content').removeClass('d-none');
-                    $('.tab2-content').addClass('d-block');
-
-                    $('#btntab1').removeClass('btn-fill-blue');
-                    $('#btntab1').addClass('btn-line-blue');
-               }
-          });
-
-          // Check when scroll visible
-          function checkVisible(elm, eval) {
-               eval = eval || 'visible';
-               var vpH = $(window).height(), // Viewport Height
-                    st = $(window).scrollTop(), // Scroll Top
-                    y = $(elm).offset().top,
-                    elementHeight = $(elm).height();
-
-               if (eval == 'visible') return y < vpH + st && y > st - elementHeight;
-               if (eval == 'above') return y < vpH + st;
-          }
-          // count up script
-          $(window).scroll(function () {
-               if (checkVisible($('.count'))) {
-                    $(window).off('scroll');
-                    $('.count').each(function () {
-                         $(this)
-                              .prop('Counter', 0)
-                              .animate(
-                                   {
-                                        Counter: $(this).text(),
-                                   },
-                                   {
-                                        duration: 4000,
-                                        easing: 'swing',
-                                        step: function (now) {
-                                             now = Number(Math.ceil(now)).toLocaleString('en');
-                                             $(this).text(now);
-                                        },
-                                   }
-                              );
-                    });
-               } else {
-                    // silent is perfect
-               }
           });
      </script>
 </html>

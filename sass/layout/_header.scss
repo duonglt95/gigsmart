@@ -1,31 +1,41 @@
 // Header
 header {
      .nav {
-          &-list1 {
+          &-desktop {
+               height: auto;
+          }
+          &-left {
                .nav-link {
                     @include border-right;
                }
-               &-line {
+               &--line {
                     a {
                          height: 100%;
                     }
                }
           }
-          &-list2 {
+          &-right {
                .nav-link {
                     @include border-left;
                     &:last-child {
                          border-left: 0px;
                     }
                }
-               &-line {
+               &--line {
                     a {
                          height: 100%;
                     }
                }
+               svg {
+                    margin-left: 5px;
+                    fill: $orange;
+                    height: 19px;
+                    vertical-align: top;
+               }
           }
           &-mobile {
                display: none;
+               cursor: pointer;
           }
      }
 }
@@ -37,9 +47,9 @@ header {
 @media screen and (max-width: 1199px) {
      header {
           .nav {
-               &-list1 {
+               &-left {
                     flex-wrap: wrap;
-                    &-line {
+                    &--line {
                          width: 100%;
                          border-right: 0px;
                          border-bottom: 1px solid #eaeaea;
@@ -51,7 +61,7 @@ header {
                          height: 37px;
                     }
                }
-               &-list2 {
+               &-right {
                     flex-wrap: wrap;
                     .nav-link:first-child {
                          order: 2;
@@ -59,15 +69,15 @@ header {
                     .nav-link:last-child {
                          order: 3;
                     }
-                    &-line {
+                    &--line {
                          order: 1;
                          width: 100%;
                          text-align: right;
                          border-bottom: 1px solid #eaeaea;
-                         .nav-link {
+                         .nav-link:last-child {
                               height: 100%;
                               display: inline-block;
-                              border-left: 1px solid #eaeaea !important;
+                              border-left: 1px solid #eaeaea;
                          }
                     }
                }
@@ -81,8 +91,51 @@ header {
 @media screen and (max-width: 767px) {
      header {
           .nav {
+               &-left {
+                    &--line {
+                         display: none;
+                    }
+                    .nav-link {
+                         border-right: unset;
+                         border-bottom: 1px solid #eaeaea;
+                    }
+               }
+               &-right {
+                    .nav-link:first-child {
+                         order: unset;
+                         border-bottom: 1px solid #eaeaea;
+                         color: $blue-text;
+                    }
+                    .nav-link:last-child {
+                         order: unset;
+                    }
+                    .nav-link {
+                         border-left: unset;
+                    }
+                    &--line {
+                         order: unset;
+                         .nav-link:last-child {
+                              border-left: unset;
+                         }
+                    }
+                    svg {
+                         fill: $blue-text;
+                    }
+               }
                &-desktop {
-                    display: none;
+                    flex-flow: column;
+                    align-items: flex-start;
+                    height: 0;
+                    overflow: hidden;
+               }
+               .col {
+                    flex-flow: column;
+                    align-items: flex-start;
+                    width: 100%;
+               }
+               &-link {
+                    width: 100%;
+                    text-align: left;
                }
                &-mobile {
                     padding-top: 21px;
@@ -91,6 +144,9 @@ header {
                     padding-right: 20px;
                     display: flex;
                     justify-content: space-between;
+                    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+                    position: relative;
+                    z-index: 1;
                     i {
                          font-size: 32px;
                          color: $blue;

@@ -20,6 +20,10 @@
      padding-top: 100px;
      padding-bottom: 100px;
 }
+.p-lr-100 {
+     padding-left: 100px;
+     padding-right: 100px;
+}
 .p-lr-72px {
      padding-left: 72px;
      padding-right: 72px;
@@ -110,6 +114,10 @@
      .p-lr-xl-72 {
           padding-left: 50px;
           padding-right: 50px;
+     }
+     .p-lr-md-20 {
+          padding-left: 20px;
+          padding-right: 20px;
      }
 }
 // Responsive mobile

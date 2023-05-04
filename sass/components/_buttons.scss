@@ -35,7 +35,7 @@
      border: unset;
      border-right: 1px solid #eaeaea;
 }
-.btn-fill-orange {
+.btn-fill--orange {
      @include button-variant($orange, $orange, $white, #bf4600, #bf4600, $white, $orange, $orange, $white);
      @include btn-custom();
      &:focus {
@@ -44,7 +44,7 @@
           border-color: $orange;
      }
 }
-.btn-fill-blue {
+.btn-fill--blue {
      @include button-variant($blue, $blue, $white, #002940, #002940, $white, $blue, $blue, $white);
      @include btn-custom();
      &:focus {
@@ -53,7 +53,7 @@
           border-color: $blue;
      }
 }
-.btn-fill-white {
+.btn-fill--white {
      @include button-variant($white, $white, $blue-text, #e5e5e5, #e5e5e5, $blue, $white, $white, $blue-text);
      @include btn-custom();
      &:focus {
@@ -62,7 +62,16 @@
           border-color: $white;
      }
 }
-.btn-line-blue {
+.btn-line--blue {
+     @include button-variant($white, $blue, $blue-text, #e5e5e5, $blue, $blue, $white, $blue, $blue-text);
+     @include btn-custom();
+     &:focus {
+          color: $blue-text;
+          @include gradient-bg($white);
+          border-color: $blue;
+     }
+}
+.btn-line--blue2 {
      @include button-variant($white, $blue, $blue-text, #e5e5e5, $blue, $blue, $white, $blue, $blue-text);
      @include btn-custom();
      &:focus {
@@ -82,7 +91,7 @@
           background-color: rgba(225, 82, 0, 0.1);
      }
 }
-.btn-color-orange {
+.btn-color--orange {
      color: $orange;
      &:hover {
           color: $orange;

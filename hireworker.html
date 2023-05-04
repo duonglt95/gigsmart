@@ -13,34 +13,46 @@
      <body>
           <header>
                <div class="row justify-content-center align-items-center g-0">
-                    <nav class="nav nav-mobile">
+                    <nav id="btn-mobile" class="nav nav-mobile">
                          <img src="assets/images/home/logo.png" alt="" />
-                         <a href="#"><i class="fas fa-bars"></i></a>
+                         <i class="fas fa-bars"></i>
                     </nav>
                     <nav class="nav nav-desktop">
-                         <div class="col d-flex nav-list1 a-15">
-                              <div class="nav-list1-line">
-                                   <a class="nav-link active" href="#" aria-current="page"><img src="assets/images/home/logo.png" alt="" /></a>
+                         <div class="col d-flex nav-left a-15">
+                              <div class="nav-left--line">
+                                   <a class="nav-link active" href="/" aria-current="page"><img src="assets/images/home/logo.png" alt="" /></a>
                               </div>
-                              <a class="nav-link btn btn-fill-white" href="#" role="button">Hire Workers</a>
-                              <a class="nav-link btn btn-fill-white" href="#" role="button">Find Work</a>
-                              <a class="nav-link btn btn-fill-white" href="#" role="button">Resources</a>
+                              <a class="nav-link btn btn-fill--white" href="hireworker.html" role="button">Hire Workers</a>
+                              <a class="nav-link btn btn-fill--white" href="#" role="button">Find Work</a>
+                              <a class="nav-link btn btn-fill--white" href="#" role="button">Resources</a>
                          </div>
-                         <div class="col d-flex justify-content-end nav-list2">
-                              <a class="nav-link btn btn-fill-white btn-color-orange" href="#" role="button">CONTACT SALES</a>
-                              <div class="nav-list2-line">
-                                   <a class="btn-flex nav-link btn btn-fill-white btn-color-orange" href="#" role="button"
-                                        >LOGIN <img src="assets/images/home/login_arrow.png" alt=""
-                                   /></a>
+                         <div class="col d-flex justify-content-end nav-right">
+                              <a class="nav-link btn btn-fill--white btn-color--orange" href="#" role="button">CONTACT SALES</a>
+                              <div class="nav-right--line">
+                                   <a class="btn-flex nav-link btn btn-fill--white btn-color--orange" href="#" role="button"
+                                        >LOGIN
+                                        <svg
+                                             id="arrow-right-to-bracket-solid"
+                                             xmlns="http://www.w3.org/2000/svg"
+                                             width="16"
+                                             height="14"
+                                             viewBox="0 0 16 14"
+                                        >
+                                             <path
+                                                  id="Shape"
+                                                  d="M15,14H10V12h4V2H10V0h6V14ZM4.585,11l.706-.706L7.584,8H0V6H7.584L5.29,3.706,4.585,3,6,1.584l.709.71,4,4L11.416,7l-.709.706v0l-4,4L6,12.416Z"
+                                             />
+                                        </svg>
+                                   </a>
                               </div>
-                              <a class="nav-link btn btn-signup btn-fill-orange" href="#" role="button">SIGN UP FOR FREE</a>
+                              <a class="nav-link btn btn-signup btn-fill--orange" href="#" role="button">SIGN UP FOR FREE</a>
                          </div>
                     </nav>
                </div>
           </header>
           <main>
                <div class="intro intro-layout1">
-                    <div class="wrapper p-100-72">
+                    <div class="wrapper p-100-72" style="background-image: url(assets/images/hireworkers/bg_intro.png)">
                          <div class="row align-items-center g-0">
                               <div class="col">
                                    <h1>The Right Workers For All Your Business Needs</h1>
@@ -48,7 +60,7 @@
                                         With Workers across all industries and positions, GigSmart provides access to qualified candidates who have
                                         the experience aligned with your specific needs.
                                    </p>
-                                   <a class="btn btn-fill-orange" href="#" role="button">GET STARTED</a>
+                                   <a class="btn btn-fill--orange" href="#" role="button">GET STARTED</a>
                               </div>
                          </div>
                     </div>
@@ -69,7 +81,7 @@
                                              Save time and money by instantly connecting to over 800,000 qualified and insured workers to fill
                                              temporary Shifts and scale your workforce quickly.
                                         </p>
-                                        <a class="btn btn-fill-orange" href="#" role="button">LEARN MORE</a>
+                                        <a class="btn btn-fill--orange" href="#" role="button">LEARN MORE</a>
                                    </div>
                               </div>
                               <div class="col proceed-box">
@@ -81,7 +93,7 @@
                                              Tap into thousands of workers seeking your job opportunities. See how easy it is to post your open roles
                                              on the GigSmart Job Board today.
                                         </p>
-                                        <a class="btn btn-fill-white" href="#" role="button">LEARN MORE</a>
+                                        <a class="btn btn-fill--white" href="#" role="button">LEARN MORE</a>
                                    </div>
                               </div>
                          </div>
@@ -93,22 +105,30 @@
                               <h6 class="sub-heading">How to Hire Temporary Staff On-Demand</h6>
                               <h2 class="c-blue2">How to Hire Temporary Staff On-Demand</h2>
                          </div>
+                         <div class="staff-btn d-flex">
+                              <button id="staff-tab1" class="btn btn-fill--blue" href="#" role="button">FIND</button>
+                              <button id="staff-tab2" class="btn btn-line--blue" href="#" role="button">HIRE</button>
+                              <button id="staff-tab3" class="btn btn-line--blue" href="#" role="button">PAY</button>
+                         </div>
+                         <div id="staff-tab1--content" class="tab-content h6-14 pg-16">dsafdasf</div>
+                         <div id="staff-tab2--content" class="tab-content h6-14">sdafsaf2</div>
+                         <div id="staff-tab3--content" class="tab-content h6-14">sdafsaf3</div>
                     </div>
                </div>
                <div class="results p-72" style="background-color: #001424">
                     <div class="wrapper">
-                         <h2 class="text-center c-white">Results You Can Count On</h2>
-                         <div class="row g-0 intro-layout2-count pg-10">
-                              <div class="col col-5 col-md-2">
-                                   <h1 class="intro-layout2-num1 c-white hide-after">><span class="count">40</span>%</h1>
+                         <h2 class="text-center c-white m-b-50">Results You Can Count On</h2>
+                         <div class="row g-0 pg-10 justify-content-center flex-column flex-md-row">
+                              <div class="col h2-44 text-center">
+                                   <h2 class="intro-layout2--num1 c-white hide-after">><span class="count">80</span>%</h2>
                                    <p class="c-white">STATES COMPLETED GIGSMART SHIFTS</p>
                               </div>
-                              <div class="col col-5 col-md-2 col-xl-3 h2-44">
-                                   <h2 class="intro-layout2-num2 c-white"><span class="count">75</span>%</h2>
+                              <div class="col h2-44 p-lr-100 p-lr-md-20 text-center">
+                                   <h2 class="intro-layout2--num2 c-white"><span class="count">75</span>%</h2>
                                    <p class="c-white">OF SHIFTS ARE POSTED, WORKED, AND PAID THE SAME DAY</p>
                               </div>
-                              <div class="col col-6 col-md-3 h2-44">
-                                   <h2 class="intro-layout2-num3 c-white"><span class="count">25</span>%</h2>
+                              <div class="col h2-44 text-center">
+                                   <h2 class="intro-layout2--num3 c-white"><span class="count">25</span>%</h2>
                                    <p class="c-white">SATISFIED CUSTOMERS</p>
                               </div>
                          </div>
@@ -218,7 +238,7 @@
                               Whether you need to hire temporary workers on-demand or have open Full/Part-Time Positions, GigSmart is a comprehensive,
                               cost-effective solution that addresses all of your needs.
                          </p>
-                         <a class="btn btn-fill-orange" href="#" role="button">START HIRING</a>
+                         <a class="btn btn-fill--orange" href="#" role="button">START HIRING</a>
                     </div>
                </div>
                <div class="case-study m-t-72">
@@ -248,8 +268,8 @@
                                    </p>
                               </div>
                               <div class="resources-box--btn">
-                                   <a class="btn btn-fill-blue" href="#" role="button">SCHEDULE A CALL</a>
-                                   <a class="btn btn-line-blue" href="#" role="button">HELP CENTER</a>
+                                   <a class="btn btn-fill--blue" href="#" role="button">SCHEDULE A CALL</a>
+                                   <a class="btn btn-line--blue" href="#" role="button">HELP CENTER</a>
                               </div>
                          </div>
                     </div>
@@ -315,6 +335,7 @@
                integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
                crossorigin="anonymous"
           ></script>
+          <script src="assets/js/custom.js"></script>
      </body>
      <script>
           const swiper = new Swiper('.swiper', {
@@ -337,7 +358,9 @@
                },
                paginationClickable: true,
           });
-
+     </script>
+     <!-- <script>
+          
           // Check when scroll visible
           function checkVisible(elm, eval) {
                eval = eval || 'visible';
@@ -374,5 +397,6 @@
                     // silent is perfect
                }
           });
-     </script>
+          // menu mobile
+     </script> -->
 </html>

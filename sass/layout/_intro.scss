@@ -6,8 +6,9 @@
      &-layout1 {
           background-color: #425a66;
           .wrapper {
-               background: url(/assets/images/home/banner.png);
                background-position: center top;
+               background-repeat: no-repeat;
+               background-size: cover;
           }
           .col {
                max-width: 513.5px;
@@ -20,14 +21,14 @@
           img {
                width: 100%;
           }
-          &-btn {
+          &--btn {
                display: flex;
                justify-content: flex-start;
                .btn:first-child {
                     margin-right: 20px;
                }
           }
-          &-count {
+          &--count {
                margin-top: 49px;
                text-align: center;
                justify-content: space-around;
@@ -38,22 +39,25 @@
                img {
                     width: auto;
                }
+               h1 {
+                    line-height: 53px;
+               }
           }
           .count {
                position: relative;
           }
-          &-num1 {
+          &--num1 {
                margin-left: -25px;
                &:after {
                     content: url(/assets/images/home/pin_icon.png);
                     position: absolute;
                     right: -25px;
-                    top: -2px;
+                    top: 6px;
                }
           }
-          &-num2 {
+          &--num2 {
           }
-          &-num3 {
+          &--num3 {
           }
      }
 }
@@ -69,16 +73,16 @@
                }
           }
           &-layout2 {
-               &-right {
+               &--right {
                     display: none;
                }
-               &-count {
+               &--count {
                     justify-content: center;
                     .col:nth-child(2) {
                          margin: 0px 20px;
                     }
                }
-               &-num1 {
+               &--num1 {
                     &:after {
                          display: none;
                     }
@@ -107,7 +111,7 @@
                }
           }
           &-layout2 {
-               &-count {
+               &--count {
                     justify-content: space-between;
                     .col:first-child {
                          margin-right: 7.5px;
@@ -121,8 +125,11 @@
                     .col:last-child {
                          margin: 0 auto;
                     }
+                    h1 {
+                         line-height: 42px;
+                    }
                }
-               &-btn {
+               &--btn {
                     .btn {
                          flex: 0 0 calc(50% - 12.5px);
                     }
