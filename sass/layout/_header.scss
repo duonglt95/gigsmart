@@ -1,6 +1,12 @@
 // Header
 header {
+     li {
+          list-style-type: none;
+     }
      .menu-top-navigation-left {
+          list-style-type: none;
+          display: flex;
+          margin-bottom: 0px;
           a {
                @include border-right;
                @extend .nav-link;
@@ -9,6 +15,9 @@ header {
           }
      }
      .menu-top-navigation-right {
+          list-style-type: none;
+          display: flex;
+          margin-bottom: 0px;
           .menu-item:not(:last-child) {
                a {
                     @extend .nav-link;
@@ -136,11 +145,7 @@ header {
 // Responsive mobile
 @media screen and (max-width: 767px) {
      header {
-          li {
-               list-style-type: none;
-          }
           .menu-top-navigation-left {
-               display: flex;
                .menu-item {
                     a {
                          border-bottom: 1px solid #eaeaea;
@@ -148,7 +153,6 @@ header {
                }
           }
           .menu-top-navigation-right {
-               display: flex;
                .menu-item:first-child {
                     order: unset;
 

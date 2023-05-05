@@ -8871,19 +8871,29 @@ a {
 
   .p-mb-15 {
     padding: 15px; } }
-header .menu-top-navigation-left a {
-  border: unset;
-  border-right: 1px solid #eaeaea;
-  font-size: 15px; }
-header .menu-top-navigation-right .menu-item:not(:last-child) a {
-  border: unset;
-  border-left: 1px solid #eaeaea;
-  font-size: 15px; }
-header .menu-top-navigation-right .menu-item:last-child a {
-  display: block;
-  border-left: 0px;
-  text-decoration: none;
-  font-size: 15px; }
+header li {
+  list-style-type: none; }
+header .menu-top-navigation-left {
+  list-style-type: none;
+  display: flex;
+  margin-bottom: 0px; }
+  header .menu-top-navigation-left a {
+    border: unset;
+    border-right: 1px solid #eaeaea;
+    font-size: 15px; }
+header .menu-top-navigation-right {
+  list-style-type: none;
+  display: flex;
+  margin-bottom: 0px; }
+  header .menu-top-navigation-right .menu-item:not(:last-child) a {
+    border: unset;
+    border-left: 1px solid #eaeaea;
+    font-size: 15px; }
+  header .menu-top-navigation-right .menu-item:last-child a {
+    display: block;
+    border-left: 0px;
+    text-decoration: none;
+    font-size: 15px; }
 header .navbar {
   padding-top: 0px;
   padding-bottom: 0px; }
@@ -8945,22 +8955,16 @@ header .nav-mobile {
     header .nav .menu-top-navigation-right .menu-item:last-child {
       order: 3; } }
 @media screen and (max-width: 767px) {
-  header li {
-    list-style-type: none; }
-  header .menu-top-navigation-left {
-    display: flex; }
-    header .menu-top-navigation-left .menu-item a {
-      border-bottom: 1px solid #eaeaea; }
-  header .menu-top-navigation-right {
-    display: flex; }
-    header .menu-top-navigation-right .menu-item:first-child {
-      order: unset;
-      color: #003a5c; }
-    header .menu-top-navigation-right .menu-item:nth-child(2) {
-      order: unset;
-      border-bottom: 0px; }
-    header .menu-top-navigation-right .menu-item:last-child {
-      order: unset; }
+  header .menu-top-navigation-left .menu-item a {
+    border-bottom: 1px solid #eaeaea; }
+  header .menu-top-navigation-right .menu-item:first-child {
+    order: unset;
+    color: #003a5c; }
+  header .menu-top-navigation-right .menu-item:nth-child(2) {
+    order: unset;
+    border-bottom: 0px; }
+  header .menu-top-navigation-right .menu-item:last-child {
+    order: unset; }
   header .nav-left--line {
     display: none; }
   header .nav-desktop {
