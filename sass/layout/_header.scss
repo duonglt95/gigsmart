@@ -45,6 +45,8 @@ header {
                     a,
                     img {
                          height: 100%;
+                         width: auto;
+                         object-fit: cover;
                     }
                }
           }
@@ -134,7 +136,11 @@ header {
 // Responsive mobile
 @media screen and (max-width: 767px) {
      header {
+          li {
+               list-style-type: none;
+          }
           .menu-top-navigation-left {
+               display: flex;
                .menu-item {
                     a {
                          border-bottom: 1px solid #eaeaea;
@@ -142,6 +148,7 @@ header {
                }
           }
           .menu-top-navigation-right {
+               display: flex;
                .menu-item:first-child {
                     order: unset;
 
