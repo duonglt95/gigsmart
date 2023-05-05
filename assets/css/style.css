@@ -9005,8 +9005,45 @@ header .nav-mobile {
     .intro-layout1 .col {
       max-width: 513.5px; }
   .intro-layout2 {
-    background: linear-gradient(170deg, #001424 0%, #001424 51%), linear-gradient(170deg, rgba(0, 148, 235, 0.8071603641) 52%, rgba(0, 148, 235, 0.8071603641) 100%);
+    background-color: #001424;
+    position: relative;
+    overflow: hidden;
     background-position: bottom left, right; }
+    .intro-layout2 .wrapper {
+      position: relative;
+      z-index: 1; }
+    .intro-layout2:before {
+      content: '';
+      background: #001424;
+      background: radial-gradient(circle, #3b00e1 0%, #001424 100%);
+      background-repeat: no-repeat;
+      border-radius: 50%;
+      opacity: 0.2;
+      background-size: cover;
+      position: absolute;
+      width: 100%;
+      height: 500px;
+      bottom: -105px;
+      left: 27%;
+      transform: translateX(-50%);
+      filter: blur(100px);
+      z-index: 0; }
+    .intro-layout2:after {
+      content: '';
+      background: #001424;
+      background: radial-gradient(circle, #0094eb 0%, #001424 100%);
+      background-repeat: no-repeat;
+      border-radius: 30%;
+      opacity: 0.3;
+      background-size: cover;
+      position: absolute;
+      width: 100%;
+      height: 500px;
+      bottom: -200px;
+      right: 27%;
+      transform: translateX(50%);
+      filter: blur(100px);
+      z-index: 0; }
     .intro-layout2 img {
       width: 100%; }
     .intro-layout2--btn {
@@ -9171,7 +9208,28 @@ header .nav-mobile {
     display: none; } }
 .looking-work {
   background-color: #001424;
+  position: relative;
+  overflow: hidden;
   color: #fff; }
+  .looking-work .wrapper {
+    position: relative;
+    z-index: 1; }
+  .looking-work:after {
+    content: '';
+    background: #001424;
+    background: radial-gradient(circle, #0094eb 0%, #001424 100%);
+    background-repeat: no-repeat;
+    border-radius: 30%;
+    opacity: 0.3;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    bottom: -100px;
+    right: 27%;
+    transform: translateX(50%);
+    filter: blur(100px);
+    z-index: 0; }
   .looking-work p {
     width: 744px;
     max-width: 100%;

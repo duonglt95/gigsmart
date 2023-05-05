@@ -15,8 +15,47 @@
           }
      }
      &-layout2 {
-          background: linear-gradient(170deg, rgba(0, 20, 36, 1) 0%, rgba(0, 20, 36, 1) 51%),
-               linear-gradient(170deg, rgba(0, 148, 235, 0.8071603641456583) 52%, rgba(0, 148, 235, 0.8071603641456583) 100%);
+          background-color: #001424;
+          position: relative;
+          overflow: hidden;
+          .wrapper {
+               position: relative;
+               z-index: 1;
+          }
+          &:before {
+               content: '';
+               background: #001424;
+               background: radial-gradient(circle, #3b00e1 0%, #001424 100%);
+               background-repeat: no-repeat;
+               border-radius: 50%;
+               opacity: 0.2;
+               background-size: cover;
+               position: absolute;
+               width: 100%;
+               height: 500px;
+               bottom: -105px;
+               left: 27%;
+               transform: translateX(-50%);
+               filter: blur(100px);
+               z-index: 0;
+          }
+          &:after {
+               content: '';
+               background: #001424;
+               background: radial-gradient(circle, #0094eb 0%, #001424 100%);
+               background-repeat: no-repeat;
+               border-radius: 30%;
+               opacity: 0.3;
+               background-size: cover;
+               position: absolute;
+               width: 100%;
+               height: 500px;
+               bottom: -200px;
+               right: 27%;
+               transform: translateX(50%);
+               filter: blur(100px);
+               z-index: 0;
+          }
           background-position: bottom left, right;
           img {
                width: 100%;
