@@ -47,15 +47,16 @@
      .underline {
           color: $orange;
           position: relative;
-          white-space: nowrap;
-          &:before {
+          display: inline-grid;
+          &:after {
                background-image: url(/assets/images/home/underline.png);
-               background-size: 295px 15px;
+               background-size: 100% 15px;
                background-repeat: no-repeat;
-               width: 295px;
+               width: 100%;
                height: 15px;
                position: absolute;
                content: '';
+               left: 0px;
                bottom: -11px;
                // content: url(/assets/images/home/underline.png);
                // position: absolute;
@@ -146,8 +147,8 @@
           .underline {
                &:before {
                     bottom: -10px;
-                    background-size: 205px 13px;
-                    width: 205px;
+                    background-size: 100% 13px;
+                    width: 100%;
                     height: 13px;
                     left: -5px;
                }

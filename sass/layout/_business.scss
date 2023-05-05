@@ -3,6 +3,9 @@
           max-width: 1440px;
      }
      &-box-left {
+          img:not(:first-child) {
+               display: none;
+          }
           img {
                width: 100%;
                height: 100%;

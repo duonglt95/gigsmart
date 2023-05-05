@@ -1,6 +1,7 @@
 // Buttons
 @mixin btn-custom {
      @include button-size(15px, 22px, 14px, 0px);
+     display: inline-block;
      &.active {
           background-color: rgba(44, 86, 150, 0.08);
      }
@@ -16,6 +17,12 @@
      // &:focus{
      //     box-shadow: unset;
      // }
+}
+@mixin style-i {
+     i {
+          margin-left: 8px;
+          display: inline-block;
+     }
 }
 // @mixin clear-active($color){
 //     &.active{
@@ -38,6 +45,7 @@
 .btn-fill--orange {
      @include button-variant($orange, $orange, $white, #bf4600, #bf4600, $white, $orange, $orange, $white);
      @include btn-custom();
+     @include style-i();
      &:focus {
           color: $white;
           @include gradient-bg($orange);
@@ -47,6 +55,7 @@
 .btn-fill--blue {
      @include button-variant($blue, $blue, $white, #002940, #002940, $white, $blue, $blue, $white);
      @include btn-custom();
+     @include style-i();
      &:focus {
           color: $white;
           @include gradient-bg($blue);
@@ -56,6 +65,7 @@
 .btn-fill--white {
      @include button-variant($white, $white, $blue-text, #e5e5e5, #e5e5e5, $blue, $white, $white, $blue-text);
      @include btn-custom();
+     @include style-i();
      &:focus {
           color: $blue-text;
           @include gradient-bg($white);
@@ -65,6 +75,7 @@
 .btn-line--blue {
      @include button-variant($white, $blue, $blue-text, #e5e5e5, $blue, $blue, $white, $blue, $blue-text);
      @include btn-custom();
+     @include style-i();
      &:focus {
           color: $blue-text;
           @include gradient-bg($white);
@@ -74,6 +85,7 @@
 .btn-line--blue2 {
      @include button-variant($white, $blue, $blue-text, #e5e5e5, $blue, $blue, $white, $blue, $blue-text);
      @include btn-custom();
+     @include style-i();
      &:focus {
           color: $blue-text;
           @include gradient-bg($white);
@@ -86,6 +98,7 @@
      padding: 6px 11px 8px 11px;
      font-size: 14px;
      border-radius: 4px;
+     @include style-i();
      &:hover {
           color: $orange;
           background-color: rgba(225, 82, 0, 0.1);

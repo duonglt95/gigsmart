@@ -1,12 +1,16 @@
 $(window).on('resize', function (event) {
      var width = $(document).width();
-     if (width >= 768) {
+     if (width > 767) {
           $('.nav-desktop').css('height', 'auto');
-     } else {
+     } else if (width < 768) {
           $('.nav-desktop').css('height', '0');
      }
 });
-
+if (window.matchMedia('(max-width: 767px)').matches) {
+     $('.nav-desktop').css('height', '0');
+} else {
+     $('.nav-desktop').css('height', 'auto');
+}
 // nav header
 $('.nav .nav-link').on('click', function () {
      $('.nav').find('.active').removeClass('active');
@@ -17,35 +21,57 @@ $('.nav .nav-link').on('click', function () {
 });
 
 // Home page tab business
+$('.business button:not(:first)').addClass('inactive');
+$('.tab-content').hide();
+$('.tab-content:first').show();
+$('.tab-img').hide();
+$('.tab-img:first').show();
 $('.business .btn').on('click', function () {
-     var idtab = $(this).attr('id');
-     $(this).removeClass('btn-line-blue');
-     $(this).addClass('btn-fill--blue');
-     if (idtab == 'btntab1') {
-          $('.tab1-content').removeClass('d-none');
-          $('.tab1-content').addClass('d-block');
-          $('.tab2-content').addClass('d-none');
-          $('.tab2-content').remove('d-block');
+     var t = $(this).attr('id');
 
-          $('#btntab2').removeClass('btn-fill--blue');
-          $('#btntab2').addClass('btn-line--blue');
-     } else if (idtab == 'btntab2') {
-          $('.tab1-content').remove('d-block');
-          $('.tab1-content').addClass('d-none');
-          $('.tab2-content').removeClass('d-none');
-          $('.tab2-content').addClass('d-block');
+     if ($(this).hasClass('inactive')) {
+          //this is the start of our condition
+          $('.business button').addClass('inactive');
+          $('.business button').addClass('btn-line--blue');
+          $('.business button').removeClass('btn-fill--blue');
 
-          $('#btntab1').removeClass('btn-fill--blue');
-          $('#btntab1').addClass('btn-line--blue');
+          $(this).removeClass('btn-line--blue');
+          $(this).removeClass('inactive');
+          $(this).addClass('btn-fill--blue');
+          $('.tab-content').hide();
+          $('.tab-img').hide();
+          $('#i-' + t).fadeIn('slow');
+          $('#c-' + t).fadeIn('slow');
      }
 });
+// $('.business .btn').on('click', function () {
+//      var idtab = $(this).attr('id');
+//      $(this).removeClass('btn-line-blue');
+//      $(this).addClass('btn-fill--blue');
+//      if (idtab == 'btntab1') {
+//           $('.tab1-content').removeClass('d-none');
+//           $('.tab1-content').addClass('d-block');
+//           $('.tab2-content').addClass('d-none');
+//           $('.tab2-content').remove('d-block');
+
+//           $('#btntab2').removeClass('btn-fill--blue');
+//           $('#btntab2').addClass('btn-line--blue');
+//      } else if (idtab == 'btntab2') {
+//           $('.tab1-content').remove('d-block');
+//           $('.tab1-content').addClass('d-none');
+//           $('.tab2-content').removeClass('d-none');
+//           $('.tab2-content').addClass('d-block');
+
+//           $('#btntab1').removeClass('btn-fill--blue');
+//           $('#btntab1').addClass('btn-line--blue');
+//      }
+// });
 // Hire worker page tab
 $('.staff-btn button:not(:first)').addClass('inactive');
 $('.tab-content').hide();
 $('.tab-content:first').show();
 
 $('.staff-btn button').click(function () {
-     console.log('clicked');
      var t = $(this).attr('id');
 
      if ($(this).hasClass('inactive')) {
