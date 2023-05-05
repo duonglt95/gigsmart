@@ -1,6 +1,6 @@
 // Header
 header {
-     #menu-top-navigation-left {
+     .menu-top-navigation-left {
           a {
                @include border-right;
                @extend .nav-link;
@@ -8,7 +8,7 @@ header {
                font-size: 15px;
           }
      }
-     #menu-top-navigation-right {
+     .menu-top-navigation-right {
           .menu-item:not(:last-child) {
                a {
                     @extend .nav-link;
@@ -104,7 +104,7 @@ header {
                .menu-top-navigation-left-container {
                     width: 100%;
                }
-               #menu-top-navigation-right {
+               .menu-top-navigation-right {
                     flex-wrap: wrap;
                     justify-content: flex-end;
                     .menu-item:first-child {
@@ -134,14 +134,14 @@ header {
 // Responsive mobile
 @media screen and (max-width: 767px) {
      header {
-          #menu-top-navigation-left {
+          .menu-top-navigation-left {
                .menu-item {
                     a {
                          border-bottom: 1px solid #eaeaea;
                     }
                }
           }
-          #menu-top-navigation-right {
+          .menu-top-navigation-right {
                .menu-item:first-child {
                     order: unset;
 
