@@ -9922,6 +9922,12 @@ header .nav-mobile {
 .footer {
   background-color: #001f37;
   color: #fff; }
+  .footer .list-unstyled li a {
+    color: #adb7be; }
+  .footer .list-unstyled li a:hover {
+    color: #fff; }
+  .footer-logo img {
+    max-height: 34px; }
   .footer-top, .footer-bottom {
     justify-content: space-between; }
   .footer-bottom {
@@ -9933,6 +9939,8 @@ header .nav-mobile {
     .footer-imgs a {
       display: inline-block;
       vertical-align: middle; }
+    .footer-imgs img {
+      max-height: 34px; }
   .footer ul {
     padding: 0px;
     margin: 0px;
@@ -9945,8 +9953,7 @@ header .nav-mobile {
   .footer h6, .footer .h6 {
     text-transform: uppercase; }
   .footer a {
-    text-decoration: none;
-    color: #adb7be; }
+    text-decoration: none; }
     .footer a:hover {
       color: #fff; }
   .footer li {
@@ -9965,6 +9972,14 @@ header .nav-mobile {
       text-transform: uppercase; }
     .footer-bottom a:first-child {
       margin-right: 21px; }
+  .footer #menu-copyright-menu li:not(:last-child):after {
+    display: none; }
+  .footer footer #menu-copyright-menu li:first-child {
+    margin-right: 21px; }
+  .footer #menu-copyright-menu {
+    text-align: right;
+    display: flex;
+    justify-content: flex-end; }
 
 @media screen and (max-width: 1439px) {
   .footer-logo {
@@ -9991,12 +10006,16 @@ header .nav-mobile {
       left: 0px;
       top: -10px; }
     .footer-bottom-left {
-      text-align: center; }
+      text-align: center;
+      display: flex;
+      justify-content: center; }
       .footer-bottom-left h6, .footer-bottom-left .h6 {
         margin: 0 auto; }
     .footer-bottom a:first-child {
       margin-right: 21px; } }
 @media screen and (max-width: 767px) {
+  .footer .list-unstyled li a {
+    font-size: 14px; }
   .footer-top {
     flex-flow: column; }
     .footer-top-col:nth-child(2) {
