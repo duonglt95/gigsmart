@@ -1,4 +1,23 @@
 .proceed {
+     position: relative;
+     overflow: hidden;
+     &:before {
+          content: '';
+          background: #001424;
+          background: radial-gradient(circle, #0094eb 0%, #001424 100%);
+          background-repeat: no-repeat;
+          border-radius: 50%;
+          opacity: 0.4;
+          background-size: cover;
+          position: absolute;
+          width: 150%;
+          height: 500px;
+          left: 20%;
+          top: -7%;
+          transform: translate(-50%, -50%);
+          filter: blur(80px);
+          z-index: 0;
+     }
      &-sub-title {
           @include sub-title;
           font-size: 14px;
@@ -10,6 +29,8 @@
      color: white;
      .wrapper {
           max-width: 1072.5px;
+          position: relative;
+          z-index: 1;
      }
      .row {
           justify-content: center;
