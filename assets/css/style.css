@@ -9955,7 +9955,8 @@ header .nav-mobile {
   .footer a {
     text-decoration: none; }
     .footer a:hover {
-      color: #fff; }
+      color: #fff;
+      opacity: 1; }
   .footer li {
     text-transform: uppercase;
     list-style-type: none; }
@@ -9966,10 +9967,15 @@ header .nav-mobile {
       align-items: center; }
       .footer-bottom-left h6, .footer-bottom-left .h6 {
         margin-bottom: 0px; }
+      .footer-bottom-left p {
+        opacity: 0.68; }
     .footer-bottom-right {
       padding-right: 50px;
       text-align: right;
       text-transform: uppercase; }
+      .footer-bottom-right a {
+        color: #adb7be;
+        opacity: 0.68; }
     .footer-bottom a:first-child {
       margin-right: 21px; }
   .footer #menu-copyright-menu li:not(:last-child):after {
