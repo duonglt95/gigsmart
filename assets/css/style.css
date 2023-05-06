@@ -8899,6 +8899,9 @@ a {
 
   .p-mb-15 {
     padding: 15px; } }
+header ul {
+  padding: 0px;
+  margin: 0px; }
 header li {
   list-style-type: none; }
 header .menu-top-navigation-left {
@@ -8922,9 +8925,9 @@ header .menu-top-navigation-right {
     border-left: 0px;
     text-decoration: none;
     font-size: 15px; }
-header .navbar {
-  padding-top: 0px;
-  padding-bottom: 0px; }
+header .navbar,
+header .col {
+  padding: 0px; }
 header .nav-desktop {
   height: auto; }
 header .nav-left .nav-link, header .nav-left .menu-top-navigation-left a, header .menu-top-navigation-left .nav-left a, header .nav-left .menu-top-navigation-right .menu-item:not(:last-child) a, header .menu-top-navigation-right .menu-item:not(:last-child) .nav-left a {
@@ -8934,7 +8937,7 @@ header .nav-left--line a,
 header .nav-left--line img {
   height: 100%;
   width: auto;
-  object-fit: cover; }
+  object-fit: contain; }
 header .nav-right .nav-link, header .nav-right .menu-top-navigation-left a, header .menu-top-navigation-left .nav-right a, header .nav-right .menu-top-navigation-right .menu-item:not(:last-child) a, header .menu-top-navigation-right .menu-item:not(:last-child) .nav-right a {
   border: unset;
   border-left: 1px solid #eaeaea; }
@@ -8983,16 +8986,26 @@ header .nav-mobile {
     header .nav .menu-top-navigation-right .menu-item:last-child {
       order: 3; } }
 @media screen and (max-width: 767px) {
-  header .menu-top-navigation-left .menu-item a {
-    border-bottom: 1px solid #eaeaea; }
-  header .menu-top-navigation-right .menu-item:first-child {
-    order: unset;
-    color: #003a5c; }
-  header .menu-top-navigation-right .menu-item:nth-child(2) {
-    order: unset;
-    border-bottom: 0px; }
-  header .menu-top-navigation-right .menu-item:last-child {
-    order: unset; }
+  header .menu-top-navigation-left {
+    flex-flow: column; }
+    header .menu-top-navigation-left .menu-item a {
+      border-bottom: 1px solid #eaeaea;
+      border-right: 0px; }
+  header .nav .menu-top-navigation-right {
+    justify-content: flex-start; }
+    header .nav .menu-top-navigation-right .menu-item:first-child {
+      width: 100%;
+      order: 1;
+      border-bottom: 1px solid #eaeaea;
+      color: #003a5c; }
+    header .nav .menu-top-navigation-right .menu-item:nth-child(2) {
+      order: 2;
+      border-bottom: 0px; }
+      header .nav .menu-top-navigation-right .menu-item:nth-child(2) a:last-child {
+        border-left: 0px; }
+    header .nav .menu-top-navigation-right .menu-item:last-child {
+      width: 100%;
+      order: 3; }
   header .nav-left--line {
     display: none; }
   header .nav-desktop {

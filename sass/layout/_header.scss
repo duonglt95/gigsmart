@@ -1,5 +1,9 @@
 // Header
 header {
+     ul {
+          padding: 0px;
+          margin: 0px;
+     }
      li {
           list-style-type: none;
      }
@@ -38,9 +42,9 @@ header {
           }
      }
 
-     .navbar {
-          padding-top: 0px;
-          padding-bottom: 0px;
+     .navbar,
+     .col {
+          padding: 0px;
      }
      .nav {
           &-desktop {
@@ -55,7 +59,7 @@ header {
                     img {
                          height: 100%;
                          width: auto;
-                         object-fit: cover;
+                         object-fit: contain;
                     }
                }
           }
@@ -146,27 +150,36 @@ header {
 @media screen and (max-width: 767px) {
      header {
           .menu-top-navigation-left {
+               flex-flow: column;
                .menu-item {
                     a {
                          border-bottom: 1px solid #eaeaea;
+                         border-right: 0px;
                     }
                }
           }
-          .menu-top-navigation-right {
-               .menu-item:first-child {
-                    order: unset;
 
-                    color: $blue-text;
-               }
-               .menu-item:nth-child(2) {
-                    order: unset;
-                    border-bottom: 0px;
-               }
-               .menu-item:last-child {
-                    order: unset;
-               }
-          }
           .nav {
+               .menu-top-navigation-right {
+                    justify-content: flex-start;
+                    .menu-item:first-child {
+                         width: 100%;
+                         order: 1;
+                         border-bottom: 1px solid #eaeaea;
+                         color: $blue-text;
+                    }
+                    .menu-item:nth-child(2) {
+                         order: 2;
+                         border-bottom: 0px;
+                         a:last-child {
+                              border-left: 0px;
+                         }
+                    }
+                    .menu-item:last-child {
+                         width: 100%;
+                         order: 3;
+                    }
+               }
                &-left {
                     &--line {
                          display: none;
