@@ -9055,9 +9055,15 @@ header .nav-mobile {
       margin-top: 49px;
       text-align: center;
       justify-content: space-around; }
-      .intro-layout2--count h1, .intro-layout2--count .h1,
-      .intro-layout2--count h2,
-      .intro-layout2--count .h2 {
+      .intro-layout2--count .col:first-child h2, .intro-layout2--count .col:first-child .h2 {
+        font-size: 50px;
+        margin-left: -25px; }
+        .intro-layout2--count .col:first-child h2:after, .intro-layout2--count .col:first-child .h2:after {
+          content: url(/assets/images/home/pin_icon.png);
+          position: absolute;
+          right: -25px;
+          top: 4px; }
+      .intro-layout2--count h2, .intro-layout2--count .h2 {
         display: inline; }
       .intro-layout2--count img {
         width: auto; }
@@ -9065,13 +9071,6 @@ header .nav-mobile {
         line-height: 53px; }
     .intro-layout2 .count {
       position: relative; }
-    .intro-layout2--num1 {
-      margin-left: -25px; }
-      .intro-layout2--num1:after {
-        content: url(/assets/images/home/pin_icon.png);
-        position: absolute;
-        right: -25px;
-        top: 6px; }
 
 @media screen and (max-width: 1199px) {
   .intro-layout1 .col {
@@ -9082,7 +9081,7 @@ header .nav-mobile {
     justify-content: center; }
     .intro-layout2--count .col:nth-child(2) {
       margin: 0px 20px; }
-  .intro-layout2--num1:after {
+  .intro-layout2 .col:first-child h2:after, .intro-layout2 .col:first-child .h2:after {
     display: none; } }
 @media screen and (max-width: 767px) {
   .intro-layout1 .col {

@@ -71,7 +71,18 @@
                margin-top: 49px;
                text-align: center;
                justify-content: space-around;
-               h1,
+               .col:first-child {
+                    h2 {
+                         font-size: 50px;
+                         margin-left: -25px;
+                         &:after {
+                              content: url(/assets/images/home/pin_icon.png);
+                              position: absolute;
+                              right: -25px;
+                              top: 4px;
+                         }
+                    }
+               }
                h2 {
                     display: inline;
                }
@@ -86,13 +97,6 @@
                position: relative;
           }
           &--num1 {
-               margin-left: -25px;
-               &:after {
-                    content: url(/assets/images/home/pin_icon.png);
-                    position: absolute;
-                    right: -25px;
-                    top: 6px;
-               }
           }
           &--num2 {
           }
@@ -121,8 +125,8 @@
                          margin: 0px 20px;
                     }
                }
-               &--num1 {
-                    &:after {
+               .col:first-child {
+                    h2:after {
                          display: none;
                     }
                }
