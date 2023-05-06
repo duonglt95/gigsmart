@@ -9342,6 +9342,8 @@ header .nav-mobile {
 .advertise .wrapper .row {
   justify-content: center;
   align-items: stretch; }
+  .advertise .wrapper .row:nth-child(2n) {
+    flex-flow: row-reverse; }
 .advertise-text {
   color: #595959; }
 .advertise-box-text {
@@ -9356,8 +9358,6 @@ header .nav-mobile {
   color: #001f37; }
 
 @media screen and (max-width: 1199px) {
-  .advertise .row .col:first-child {
-    order: 2; }
   .advertise-box-text {
     flex: 0 0 60%; }
   .advertise-box-img {
@@ -9367,6 +9367,8 @@ header .nav-mobile {
     flex-flow: column; }
     .advertise .wrapper .row .advertise-box-img {
       order: -1; }
+    .advertise .wrapper .row:nth-child(2n) {
+      flex-flow: column; }
   .advertise-box-img {
     flex: 1; }
     .advertise-box-img img {

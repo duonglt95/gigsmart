@@ -3,6 +3,9 @@
           .row {
                justify-content: center;
                align-items: stretch;
+               &:nth-child(2n) {
+                    flex-flow: row-reverse;
+               }
           }
      }
      &-text {
@@ -30,9 +33,9 @@
 @media screen and (max-width: 1199px) {
      .advertise {
           .row {
-               .col:first-child {
-                    order: 2;
-               }
+               // .col:first-child {
+               //      order: 2;
+               // }
           }
           &-box-text {
                flex: 0 0 60%;
@@ -50,6 +53,9 @@
                     flex-flow: column;
                     .advertise-box-img {
                          order: -1;
+                    }
+                    &:nth-child(2n) {
+                         flex-flow: column;
                     }
                }
           }
