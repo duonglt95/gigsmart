@@ -1,0 +1,493 @@
+.banner-business-page {
+    overflow: hidden;
+    position: relative;
+}
+.banner-business-page .banner-page {
+    position: relative;
+}
+.banner-business-page .background-image {
+    left: -13%;
+    top: -69%;
+    position: absolute;
+    z-index: 0;
+    max-width: initial;
+    width: 1040px;
+    height: 1040px;
+    transform: translate(-50%, -50%);
+    -webkit-animation: rotate-picture 24s infinite linear;
+    -moz-animation: rotate-picture 24s infinite linear;
+    -o-animation: rotate-picture 24s infinite linear;
+    -ms-animation: rotate-picture 24s infinite linear;
+    animation: rotate-picture 24s infinite linear;
+    display: block;
+}
+.banner-business-page .content {
+    display: flex;
+    align-items: center;
+    min-height: 440px;
+}
+.banner-business-page .content .left-content {
+    padding: 90px 0;
+    color: #ffffff;
+}
+.banner-business-page h1 {
+    position: relative;
+    font-family: Produkt Web, Arial;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 67px;
+    letter-spacing: 1.2px;
+    margin-bottom: 20px;
+    color: #003a5c;
+}
+.banner-business-page .left-content p {
+    font-family: proxima-nova, san-serif;
+    font-weight: 500;
+    font-style: normal;
+    position: relative;
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: 1px;
+    max-width: 80%;
+    color: #003a5c;
+    margin-bottom: 35px;
+}
+.banner-business-page .button {
+    display: inline-block;
+}
+.banner-business-page .button:hover {
+    opacity: 0.8;
+}
+.featured-audience {
+    margin: 58px 0 74px;
+}
+.featured-audience h2 {
+    color: #df4602;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: proxima-nova, san-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 35px;
+    letter-spacing: 0.64px;
+    margin-bottom: 49px;
+}
+.featured-audience .content {
+    margin-bottom: 50px;
+}
+.featured-audience .featured-audience-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 212px;
+    margin-bottom: 35px;
+}
+.featured-audience .featured-audience-label {
+    min-height: 75px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    padding-top: 18px;
+    color: #df4602;
+    position: relative;
+}
+.featured-audience .featured-audience-label:before {
+    content: "";
+    position: absolute;
+    width: 105px;
+    height: 5px;
+    top: 0;
+    background-color: #df4602;
+}
+.featured-audience .featured-audience-headline,
+.featured-audience h4 {
+    color: #003a5c;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+}
+.featured-audience p {
+    color: #003a5c;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    margin-bottom: 25px;
+}
+.featured-audience .button {
+    display: inline-block;
+}
+.featured-audience .button:hover {
+    opacity: 0.8;
+}
+.service-type {
+    margin: 90px 0 30px;
+}
+.service-type h2 {
+    color: #003a5c;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: proxima-nova, san-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 35px;
+    letter-spacing: 0.64px;
+}
+.service-type .service-type-img {
+    text-align: right;
+    min-width: 31%;
+    margin-right: 15px;
+}
+.service-type .content {
+    display: flex;
+    margin-top: 50px;
+}
+.service-type .content .content-right .service-type-label {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    padding-top: 18px;
+    color: #df4602;
+    position: relative;
+    margin-bottom: 20px;
+}
+.service-type .content .content-right .service-type-label:before {
+    content: "";
+    position: absolute;
+    width: 170px;
+    height: 5px;
+    top: 0;
+    background-color: #df4602;
+}
+.service-type .content .content-right p {
+    color: #003a5c;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    margin-bottom: 30px;
+}
+.service-type .content .content-right .button:hover {
+    opacity: 0.8;
+}
+.how-it-work .subtitle {
+    color: #4e4d4d;
+    max-width: 68%;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+.how-it-work .section-anchor-link.pinned .subtitle {
+    display: none;
+}
+body .editor-content .content img {
+    margin-bottom: 35px;
+}
+.banner .background-image {
+    position: absolute;
+    z-index: 0;
+    max-width: initial;
+    width: 1040px;
+    height: 1040px;
+    transform: translate(-50%, -50%);
+    -webkit-animation: rotate-picture 24s infinite linear;
+    -moz-animation: rotate-picture 24s infinite linear;
+    -o-animation: rotate-picture 24s infinite linear;
+    -ms-animation: rotate-picture 24s infinite linear;
+    animation: rotate-picture 24s infinite linear;
+    display: block;
+}
+.how-it-work-business .background-image,
+.residential .background-image,
+.find-worker .background-image {
+    top: -48%;
+    left: 12%;
+}
+.managed-service .background-image {
+    top: -60%;
+    left: 13%;
+}
+.how-it-work-worker .background-image {
+    top: -65%;
+    left: 13%;
+}
+.top-residential {
+    text-align: center;
+    padding: 0;
+}
+.top-residential .title {
+    font-family: proxima-nova, san-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+    color: #003a5c;
+    margin: 40px 0 10px;
+    padding: 0;
+    letter-spacing: 1.8px;
+}
+.top-residential .content {
+    font-family: proxima-nova, san-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #868686;
+    margin: 0 auto;
+    max-width: 792px;
+    letter-spacing: 0.32px;
+}
+.top-residential .end-content {
+    font-family: proxima-nova, san-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    margin: 30px 0 50px;
+    color: #003a5c;
+    letter-spacing: 0.32px;
+}
+.top-residential .top-residential-services .left-side {
+    text-align: right;
+}
+.top-residential .top-residential-services .right-side {
+    text-align: left;
+    margin-left: 40px;
+}
+.top-residential .top-residential-services .right-side .sub-title {
+    font-family: proxima-nova, san-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    letter-spacing: 0.32px;
+    color: #003a5c;
+}
+.top-residential .top-residential-services .right-side .list-services {
+    font-family: proxima-nova, san-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    letter-spacing: 0.32px;
+    color: #4e4d4d;
+    line-height: 31px;
+}
+.top-residential .top-residential-services .right-side .list-services p {
+    margin-bottom: 0;
+}
+.how-it-work.residential {
+    padding-top: 0px;
+    padding-bottom: 80px;
+}
+.how-to-hire-staff.residential {
+    padding: 90px 0 10px;
+}
+.how-it-work.residential .guide-section .guide:last-child:after {
+    top: calc(50% + 7px);
+}
+.search-skills-workers {
+    padding-top: 35px;
+    padding-bottom: 70px;
+}
+.how-it-work .guide-section .guide-wrap {
+    cursor: default;
+}
+.faqs.residential {
+    padding-top: 60px;
+}
+@media only screen and (max-width: 1200px) {
+    .featured-audience .featured-audience-label {
+        font-size: 21px;
+    }
+    .how-it-work-business .background-image,
+    .residential .background-image,
+    .find-worker .background-image {
+        top: -48%;
+        left: -10%;
+    }
+    .managed-service .background-image {
+        top: -60%;
+        left: -10%;
+    }
+    .how-it-work-worker .background-image {
+        top: -65%;
+        left: -10%;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .featured-audience .featured-audience-label {
+        min-height: 100%;
+        margin-bottom: 15px;
+    }
+    .featured-audience .content {
+        margin-bottom: 40px;
+    }
+    .how-it-work .subtitle {
+        max-width: 100%;
+    }
+    .banner-business-page .background-image {
+        left: calc(50% - 380px);
+        top: -311px;
+        width: 740px;
+        height: auto;
+        animation: none;
+        transform: rotate(145deg);
+    }
+    .banner .background-image {
+        left: calc(50% - 380px);
+        top: -40%;
+        width: 740px;
+        height: auto;
+        animation: none;
+        transform: rotate(145deg);
+    }
+    .how-it-work-business .background-image,
+    .residential .background-image {
+        left: calc(50% - 380px);
+        top: -40%;
+        width: 740px;
+        height: auto;
+        animation: none;
+        transform: rotate(145deg);
+    }
+    .find-worker .background-image {
+        transform: rotate(-100deg);
+    }
+    .how-it-work-worker .background-image {
+        transform: rotate(-90deg);
+    }
+}
+@media only screen and (max-width: 767px) {
+    .banner-business-page h1 {
+        font-size: 40px;
+        letter-spacing: 0.4px;
+        line-height: 48px;
+    }
+    .banner-business-page p {
+        font-size: 16px;
+        max-width: 100%;
+        line-height: 22px;
+        letter-spacing: 0.8px;
+        margin-bottom: 20px;
+    }
+    .featured-audience {
+        margin: 50px 0 20px;
+    }
+    .featured-audience h2 {
+        font-size: 25px;
+        letter-spacing: 0.5px;
+        margin-bottom: 35px;
+    }
+    .featured-audience .featured-audience-label {
+        padding-top: 12px;
+    }
+    .featured-audience p {
+        margin-bottom: 20px;
+    }
+    .service-type {
+        margin: 50px 0 0;
+    }
+    .service-type h2 {
+        font-size: 25px;
+        letter-spacing: 0.5px;
+        line-height: 35px;
+    }
+    .service-type .content {
+        display: block;
+        margin-top: 35px;
+    }
+    .service-type .content .content-right {
+        text-align: left;
+    }
+    .service-type .content .content-right p {
+        max-width: 100%;
+    }
+    .service-type .service-type-img {
+        margin-bottom: 20px;
+    }
+    .service-type .service-type-img img {
+        max-width: 180px;
+    }
+    section.how-it-work .section-title {
+        margin: 15px 0 20px;
+    }
+    section.how-it-work.how-it-work-business .section-title {
+        margin: 15px auto;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .banner-business-page h1 {
+        font-size: 35px;
+        letter-spacing: 0.4px;
+        line-height: 40px;
+    }
+    .featured-audience h2 {
+        font-size: 24px;
+        line-height: 1.2;
+    }
+    .featured-audience .featured-audience-label {
+        padding-top: 8px;
+        margin-bottom: 5px;
+    }
+    .featured-audience .featured-audience-label:before {
+        width: 85px;
+        height: 3px;
+    }
+    .service-type h2 {
+        font-size: 24px;
+        line-height: 1.2;
+    }
+}
+.banner-business-page .right-content .title {
+    max-width: 250px;
+    text-transform: uppercase;
+}
+.banner-business-page .right-content .subtitle {
+    max-width: 280px;
+    margin-bottom: 25px;
+}
+@media only screen and (max-width: 767px) {
+    .banner-business-page .content {
+        min-height: auto;
+    }
+    .banner-business-page .content .left-content {
+        padding: 30px 0;
+    }
+    .banner-business-page .content .left-content p {
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 0.8px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .banner-business-page h1 {
+        font-size: 40px;
+        letter-spacing: 0.4px;
+        line-height: 48px;
+        margin-top: 42px;
+        margin-bottom: 25px;
+    }
+    .banner-business-page p {
+        font-size: 16px;
+        max-width: 100%;
+        line-height: 22px;
+        letter-spacing: 0.8px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+	.featured-audience .content {
+        width: 431px;
+    	margin: 0 auto;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.featured-audience .container {
+	    max-width: 1038px;
+	}
+}

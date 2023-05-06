@@ -1,0 +1,22 @@
+.how-it-work.how-it-work-worker .guide-section .list-guide:before {
+    transform: none;
+    top: 0;
+}
+
+.how-it-work.how-it-work-worker .guide-section .guide:before {
+    top: 35px;
+}
+
+.how-it-work.how-it-work-worker .guide-section .guide:first-child:after {
+    top: 0;
+    height: 28px;
+}
+
+.how-it-work-worker.residential-project .guide-section .guide:last-child:after, .how-it-work-worker.how-it-work-worker .guide-section .guide:last-child:after {
+    top: 42px;
+    height: 100%;
+}
+
+.how-it-work .guide-section .guide-content {
+    min-height: 1em;
+}

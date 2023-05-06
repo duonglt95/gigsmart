@@ -9559,6 +9559,40 @@ header .nav-mobile {
     display: inline-block;
     vertical-align: middle; }
 
+.hw-proceed:before {
+  content: '';
+  background: #001424;
+  background: radial-gradient(circle, #3b00e1 0%, #001424 100%);
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  opacity: 0.1;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  top: unset;
+  bottom: -10%;
+  left: 27%;
+  transform: translate(-50%, 50%);
+  filter: blur(100px);
+  z-index: 0; }
+.hw-proceed:after {
+  content: '';
+  background: #001424;
+  background: radial-gradient(circle, #0094eb 0%, #001424 100%);
+  background-repeat: no-repeat;
+  border-radius: 12%;
+  opacity: 0.3;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  bottom: -10%;
+  right: 23%;
+  transform: translate(50%, 50%);
+  filter: blur(100px);
+  z-index: 0; }
+
 @media screen and (max-width: 1199px) {
   .proceed .wrapper {
     max-width: 1199px; }
@@ -9613,6 +9647,31 @@ header .nav-mobile {
   .help-center .wrapper {
     text-align: center; }
 
+.results {
+  position: relative;
+  overflow: hidden; }
+  .results .wrapper {
+    position: relative;
+    z-index: 1; }
+  .results:after {
+    content: '';
+    background: #001424;
+    background: radial-gradient(circle, #0094eb 0%, #001424 100%);
+    background-repeat: no-repeat;
+    border-radius: 30%;
+    opacity: 0.3;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    bottom: -300px;
+    right: 27%;
+    transform: translateX(50%);
+    filter: blur(100px);
+    z-index: 0; }
+
+.case-study .how-it-work {
+  padding-top: 0px; }
 .case-study .wrapper {
   background-repeat: no-repeat; }
 .case-study-box h2, .case-study-box .h2 {
@@ -9698,6 +9757,60 @@ header .nav-mobile {
     .contact-box:not(:last-child) {
       margin-right: 0px;
       margin-bottom: 20px; } }
+.staff-title {
+  margin-bottom: 100px; }
+.staff-btn button {
+  min-width: 150px;
+  padding: 5px 10px; }
+.staff-btn button:nth-child(2n + 1) {
+  margin-left: -1px;
+  margin-right: -1px; }
+.staff-btn button:last-child {
+  margin-right: 0px; }
+.staff .how-it-work {
+  padding-top: 72x; }
+  .staff .how-it-work .guide-section {
+    padding-top: 0px; }
+    .staff .how-it-work .guide-section .guide:first-child:after {
+      bottom: calc(92% + 7px); }
+    .staff .how-it-work .guide-section .list-guide:before {
+      height: 96%;
+      background-color: #001f37; }
+    .staff .how-it-work .guide-section .guide:before {
+      top: 5%;
+      transform: translateY(50%);
+      width: 7px;
+      height: 7px;
+      background-color: #fff;
+      border: 1px solid #001f37; }
+    .staff .how-it-work .guide-section .guide:last-child:after {
+      top: calc(6% + 8.5px); }
+    .staff .how-it-work .guide-section .image-placeholder-wrapper {
+      min-width: 50%;
+      min-height: 580px; }
+    .staff .how-it-work .guide-section .guide.active:before {
+      background-color: #001f37;
+      border-color: #001f37;
+      transition: all 0.5s ease; }
+    .staff .how-it-work .guide-section .guide-content {
+      color: #595959; }
+    .staff .how-it-work .guide-section .guide-title {
+      color: #001f37; }
+  .staff .how-it-work .guide-section:nth-child(odd) .content {
+    justify-content: space-between; }
+  .staff .how-it-work .guide-section:nth-child(odd) .guide:before {
+    left: -74.5px;
+    right: auto; }
+    @media screen and (max-width: 991px) {
+      .staff .how-it-work .guide-section:nth-child(odd) .guide:before {
+        left: -51.5px; } }
+
+@media screen and (max-width: 1199px) {
+  .staff-title {
+    margin-bottom: 50px; } }
+@media screen and (max-width: 767px) {
+  .staff-btn button {
+    min-width: 117px; } }
 .wrapper-modal {
   width: 100%;
   height: 100vh;

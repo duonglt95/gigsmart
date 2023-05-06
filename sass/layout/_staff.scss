@@ -1,0 +1,93 @@
+.staff {
+     &-title {
+          margin-bottom: 100px;
+     }
+     &-btn {
+          button {
+               min-width: 150px;
+               padding: 5px 10px;
+          }
+          button:nth-child(2n + 1) {
+               margin-left: -1px;
+               margin-right: -1px;
+          }
+          button:last-child {
+               margin-right: 0px;
+          }
+     }
+     .how-it-work {
+          padding-top: 72x;
+          .guide-section {
+               padding-top: 0px;
+               .guide:first-child:after {
+                    bottom: calc(92% + 7px);
+               }
+               .list-guide:before {
+                    height: 96%;
+                    background-color: $blue-text2;
+               }
+               .guide:before {
+                    top: 5%;
+                    transform: translateY(50%);
+                    width: 7px;
+                    height: 7px;
+
+                    background-color: $white;
+                    border: 1px solid $blue-text2;
+               }
+               .guide:last-child:after {
+                    top: calc(6% + 8.5px);
+               }
+
+               .image-placeholder-wrapper {
+                    min-width: 50%;
+                    min-height: 580px;
+               }
+               .guide.active:before {
+                    background-color: $blue-text2;
+                    border-color: $blue-text2;
+                    transition: all 0.5s ease;
+               }
+               .guide-content {
+                    color: #595959;
+               }
+               .guide-title {
+                    color: $blue-text2;
+               }
+          }
+          .guide-section:nth-child(odd) .content {
+               justify-content: space-between;
+          }
+          .guide-section:nth-child(odd) .guide:before {
+               left: -74.5px;
+               @media screen and (max-width: 991px) {
+                    left: -51.5px;
+               }
+               right: auto;
+          }
+     }
+}
+// Responsive desktop 1
+@media screen and (max-width: 1439px) {
+}
+// Responsive tablet 2
+@media screen and (max-width: 1199px) {
+     .staff {
+          &-title {
+               margin-bottom: 50px;
+          }
+     }
+}
+// Responsive tablet 1
+@media screen and (max-width: 991px) {
+}
+// Responsive mobile
+@media screen and (max-width: 767px) {
+     .staff {
+          &-btn {
+               button {
+                    min-width: 117px;
+               }
+          }
+     }
+}

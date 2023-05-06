@@ -1,0 +1,2658 @@
+@media only screen and (min-width: 1900px) {
+    .testimonials.home .list-testimonial .owl-item .item .main-idea {
+        min-height: 24px;
+    }
+}
+
+@media only screen and (min-width: 1733px) {
+    .testimonials.home .list-testimonial .owl-item.center .interpretations {
+        min-height: 100px;
+    }
+    .testimonials.home .list-testimonial .owl-item.center .commentator {
+        min-height: 24px;
+    }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1732px) {
+    .testimonials.home .list-testimonial .owl-item.center .interpretations {
+        min-height: 120px;
+    }
+    .testimonials.home .list-testimonial .owl-item.center .commentator {
+        min-height: 24px;
+    }
+}
+
+@media only screen and (min-width: 1165px) and (max-width: 1599px) {
+    .testimonials.home .list-testimonial .owl-item.center .interpretations {
+        min-height: 120px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1024px) {
+    .job-detail .job-name {
+        max-width: 58%;
+        -webkit-line-clamp: 1;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .reference-numbers .content-numbers .number {
+        font-size: 80px;
+        margin-bottom: 15px;
+    }
+    .reference-numbers .list-block .block {
+        margin-bottom: 30px;
+    }
+    .reference-numbers .list-block .block .number {
+        margin-bottom: 15px;
+    }
+    header .header-navigation {
+        display: block;
+    }
+    header .menu-bot {
+        margin: 0;
+        float: right;
+    }
+    header .menu-mobile .menu-bot {
+        float: none;
+    }
+    header .brand-logo-wrap {
+        margin-top: 20px;
+    }
+    .reference-numbers .list-block .block .number {
+        font-size: 80px;
+    }
+    .residential-labor .right-lines-residential {
+        right: -20px;
+    }
+    form.form-search {
+        display: block;
+    }
+    form.form-search .form-group {
+        display: inline-block;
+    }
+    .group-main-content .content-right {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .search-state .box-search {
+        padding: 40px 20px;
+    }
+    .search-state .box-search ul {
+        margin: 0 0px 0 50px;
+    }
+    .search-state .box-search ul li {
+        min-width: 200px;
+    }
+    .how-to-hire-staff.residential .utilities .item,
+    .how-to-hire-staff.managed-service .utilities .item {
+        margin: 0 40px 30px 40px;
+    }
+    .search-skills-workers .skills .skill .filter-content p {
+        font-size: 14px;
+    }
+    /*Ad Landing Pages*/
+    .ad-landing-pages-banner h1 {
+        font-size: 40px;
+        line-height: 54px;
+        max-width: 80%;
+    }
+    .ad-landing-pages-banner .background-image {
+        width: 50%;
+        height: 100%;
+    }
+    .download-gigsmart-today .download-content p {
+        max-width: 100%;
+    }
+    .job-detail .job-name {
+        max-width: 58%;
+        -webkit-line-clamp: 1;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 768px) {
+    .job-detail .job-name {
+        max-width: 56%;
+        -webkit-line-clamp: 1;
+    }
+}
+
+@media only screen and (min-width: 414px) and (max-width: 768px) {
+    .testimonials .list-testimonial .item .main-idea {
+        font-size: 19px;
+    }
+}
+
+@media only screen and (min-width:992px) {
+    .testimonials.how-it-work-worker .list-testimonial .owl-item:not(.center) .interpretations {
+        margin-bottom: 8px;
+        max-height: 120px;
+        overflow: hidden;
+        -webkit-line-clamp: 3;
+    }
+    .testimonials.home .list-testimonial .item .main-idea {
+        min-height: 48px;
+    }
+    .testimonials.home .list-testimonial .item .interpretations {
+        min-height: 144px;
+    }
+    .testimonials.home .list-testimonial .item .commentator {
+        min-height: 48px;
+    }
+    .testimonials.home .list-testimonial .owl-item:not(.center) .interpretations {
+        -webkit-line-clamp: 4;
+        min-height: 100px;
+    }
+    .testimonials.home .list-testimonial .owl-item:not(.center) .commentator {
+        -webkit-line-clamp: 1;
+        min-height: 24px;
+    }
+    .testimonials.home {
+        padding-bottom: 60px;
+    }
+    .testimonials .list-testimonial .item .main-idea {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        max-height: 48px;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .main-header {
+        display: block;
+    }
+    .main-header.is-mobile {
+        display: none;
+    }
+    .data-result-skill,
+    .data-result-region {
+        width: calc(100% - 100px);
+    }
+    .banner.how-it-work-worker .right-content {
+        padding-left: 20px;
+    }
+    .popup-input .hs_error_rollup label.hs-main-font-element {
+        position: absolute;
+        width: 200px;
+        top: 21px;
+        right: calc(30% - 253px);
+    }
+    .top-residential .top-residential-services .left-side {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .list-testimonial .owl-item {
+        padding: 40px 50px;
+    }
+    .list-testimonial .owl-nav .owl-prev {
+        left: 23.5%;
+    }
+    .list-testimonial .owl-nav .owl-next {
+        right: 23.5%;
+    }
+    .testimonials.how-it-work-worker .list-testimonial .owl-item {
+        padding: 40px 20px;
+    }
+}
+
+@media screen and (max-width: 1368px) {
+    .list-testimonial .owl-item {
+        padding: 30px;
+    }
+    .list-testimonial .owl-item.center {
+        padding: 20px 0;
+    }
+    .list-testimonial .owl-nav .owl-prev {
+        left: calc(25% - 30px);
+    }
+    .list-testimonial .owl-nav .owl-next {
+        right: calc(25% - 30px);
+    }
+    .testimonials.how-it-work-worker .list-testimonial .owl-nav .owl-prev {
+        left: calc(25% - 20px);
+    }
+    .testimonials.how-it-work-worker .list-testimonial .owl-nav .owl-next {
+        right: calc(25% - 20px);
+    }
+}
+
+@media only screen and (max-width:1199px) {
+    .top-header-holder-desktop {
+        height: 94px;
+    }
+    header .menu-bot .navbar-nav .nav-item:not(:first-child) {
+        margin-left: 18px;
+    }
+    header .menu-bot .navbar-nav .menu-item a {
+        font-size: 14px;
+    }
+    .button {
+        padding: 6px 15px;
+        display: inline-block;
+    }
+    .banner .left-content .title,
+    body .editor-content h1.title {
+        font-size: 56px;
+    }
+    .banner .right-content {
+        padding-left: 30px;
+    }
+    .list-rest-worker .worker {
+        width: calc(50% - 34px);
+        min-width: 250px;
+    }
+    .news img.card-img-top,
+    .news .first-news {
+        margin-bottom: 30px;
+    }
+    .news .recent-articles {
+        width: 100%;
+    }
+    .list-workers .list-profiles .profile-workers ul li {
+        width: calc(50% - 23px);
+    }
+    .top-construction-skills .list-skills ul {
+        padding: 0;
+        margin-left: 0;
+    }
+    .above-top-construction-skills .content_above_related_top_skills h1 {
+        font-size: 56px;
+        line-height: 1.3em;
+    }
+    .below-top-construction-skills .content_below_related_top_skills h1 {
+        font-size: 56px;
+        line-height: 1.3em;
+    }
+    .articles .list-articles .post-image {
+        height: 190px;
+    }
+    .news-letter-form form input {
+        text-align: left;
+    }
+    .news-letter-form form input[type="submit"] {
+        text-align: center;
+    }
+    .news-letter-form input.invalid,
+    .news-letter-form select.invalid {
+        min-width: 285px;
+    }
+    .bottom-cta .block.news-letter .image {
+        height: 0;
+    }
+    .bottom-cta .block.Media .content {
+        min-height: initial;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .news-letter-form form .hs-tues_job_alerts_opt_in {
+        margin-left: 0;
+    }
+    .reference-numbers {
+        padding-bottom: 15px;
+    }
+    .how-it-work.how-it-work-worker .guide-section .list-guide:before {
+        top: 0;
+    }
+    .how-it-work.how-it-work-worker .guide-section .guide:before {
+        top: 35px;
+    }
+    .reference-numbers .content-numbers {
+        margin-bottom: 65px;
+    }
+    .reference-numbers .section-title {
+        margin-bottom: 65px;
+    }
+    .how-it-work-worker .guide-section .guide:last-child:after {
+        top: calc(50% + -154px);
+    }
+    .how-it-work-worker.residential-project .guide-section .guide:last-child:after,
+    .how-it-work-worker.how-it-work-worker .guide-section .guide:last-child:after {
+        top: 42px;
+    }
+    header .menu-bot .navbar-nav>.menu-item:not(:first-child) {
+        margin-left: 25px;
+    }
+    header .menu-bot .menu-new-main-navigation-container {
+        margin-top: 0;
+    }
+    header .menu-bot .menu-new-main-navigation-container .sub-menu {
+        left: -25px;
+    }
+    .banner.contact .background-image,
+    .banner.about-us .background-image {
+        display: none;
+    }
+    .managed-service-tesmonial .item img {
+        max-width: 100%;
+    }
+    .how-to-hire-staff .utilities .item {
+        display: inline-block;
+    }
+    .managed-service-tesmonial .item .image {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .managed-service-tesmonial .item .content {
+        margin: 0;
+    }
+    .dropdown.show .dropdown-menu {
+        margin-left: 0;
+    }
+    .videos-page .wpb_content_element.body-copy {
+        max-width: 100%;
+    }
+    .videos-page .body-copy h3 {
+        max-width: 100%;
+    }
+    .residential-labor .right-lines-residential:not(.is-mobile) {
+        display: none;
+    }
+    .meet-the-rest .section-title {
+        margin-bottom: 37px;
+    }
+    .list-rest-worker .worker {
+        margin-bottom: 23px;
+    }
+    .why-choose-gigsmart {
+        padding-top: 65px;
+    }
+    .meet-leadership-team .section-title {
+        margin-bottom: 38px;
+    }
+    .how-to-hire-staff.about-us {
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+    .how-to-hire-staff.about-us .section-title {
+        margin-bottom: 28px;
+    }
+    .how-to-hire-staff.about-us .sub-title {
+        margin-bottom: 37px;
+    }
+    .meet-leadership-team {
+        padding-top: 20px;
+    }
+    .meet-the-rest {
+        padding-top: 30px;
+    }
+    .above-footer-cta .title {
+        padding: 0 70px;
+        font-size: 25px;
+        line-height: 30px;
+        letter-spacing: 0.5px;
+        margin-bottom: 12px;
+    }
+    .find-volunteers-section .content,
+    .be-volunteer-section .content {
+        padding: 0;
+    }
+    .list-workers .is-mobile,
+    .list-worker .is-mobile {
+        display: none;
+    }
+    .list-workers .is-desktop,
+    .list-worker .is-desktop {
+        display: block;
+    }
+    .reference-numbers .list-block .block .description span {
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .reference-numbers .content-numbers .description span {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .banner .right-content {
+        padding-left: 0;
+    }
+    li.current-menu-parent>a,
+    li.current-menu-parent ul li.current-menu-item a {
+        color: #df4602 !important;
+    }
+    .banner .background-image.is_desktop {
+        display: none;
+    }
+    .banner .background-image.is_mobile {
+        display: block;
+    }
+    .banner.home .background-image.is_mobile,
+    .banner.header-skill-non-background .background-image.is_mobile {
+        right: calc(50% - 300px);
+        top: -210px;
+        width: 600px;
+        height: auto;
+        transform: rotate(-10deg);
+        animation: none;
+    }
+    .banner .left-content .subtitle,
+    .banner .left-content .title,
+    .banner .right-content .title,
+    .banner.right-content .subtitle {
+        max-width: 100% !important;
+    }
+    .banner.how-it-work-worker .left-content .subtitle {
+        width: 100%;
+        max-width: 100%;
+    }
+    .banner .left-content .title,
+    body .editor-content h1.title {
+        font-size: 54px;
+    }
+    .got-referrals .description {
+        max-width: 100%;
+    }
+    .got-referrals .background-image {
+        right: 0;
+        height: auto;
+        top: 0;
+        max-width: 70%;
+        transform: rotate(180deg) translateX(-34%);
+    }
+    .testimonials {
+        padding-bottom: 40px;
+        padding-top: 50px;
+    }
+    .testimonials .section-title {
+        margin-bottom: 10px;
+    }
+    .testimonials .list-testimonial .item .image {
+        padding-right: 15px;
+        height: auto;
+    }
+    .testimonials .list-testimonial .item .image img {
+        width: 100%;
+        margin: -190px auto 0 auto;
+        height: calc(100% + 160px);
+        max-height: 320px;
+        object-fit: cover;
+    }
+    .testimonials.home .list-testimonial .item .image {
+        height: auto;
+    }
+    .testimonials .list-testimonial .item .content {
+        text-align: center;
+        margin-left: 0;
+        padding-left: 15px;
+    }
+    .testimonials .list-testimonial .star-rating {
+        margin: 0 auto;
+    }
+    .list-testimonial .owl-item {
+        padding: 100px 40px 10px 40px;
+    }
+    .list-testimonial .owl-item.center,
+    .list-testimonial .owl-item:not(.center) {
+        transform: scale(1);
+        padding: 40px 40px 10px;
+    }
+    .list-testimonial .owl-nav .owl-prev,
+    .testimonials.how-it-work-worker .list-testimonial .owl-nav .owl-prev {
+        left: 10px;
+    }
+    .list-testimonial .owl-nav .owl-next,
+    .testimonials.how-it-work-worker .list-testimonial .owl-nav .owl-next {
+        right: 10px;
+    }
+    .testimonials.how-it-work-worker .list-testimonial .owl-item {
+        padding: 30px 40px 0;
+    }
+    .testimonials.how-it-work-worker .list-testimonial .item .image {
+        margin-top: -50px;
+        margin-bottom: 30px;
+    }
+    .testimonials.how-it-work-worker .list-testimonial .item .image img {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -100px;
+    }
+    .testimonials.how-it-work-worker .list-testimonial .item .interpretations {
+        max-height: inherit;
+    }
+    .testimonials.how-it-work-worker .list-testimonial .item .content {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .testimonials .star-ratings-css .star-ratings-css-top {
+        left: 2px;
+    }
+    .download-gigsmart .image-holder {
+        margin-top: -75px;
+    }
+    .share-location .share-my-location {
+        flex-direction: column;
+        text-align: center;
+    }
+    .share-location .share-my-location .left-content {
+        width: 100%;
+        max-width: 100%;
+    }
+    .share-location .share-my-location .share-location-button {
+        margin-left: 0;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 7px 53px;
+    }
+    .share-location .share-my-location .btn-dropdown-location {
+        margin-left: 0;
+        width: 100%;
+    }
+    .top-construction-skills .subtitle {
+        padding: 0;
+    }
+    .top-construction-skills .list-skills ul li {
+        margin: 0 auto 30px auto;
+    }
+    .above-top-construction-skills .content_above_related_top_skills h1 {
+        font-size: 54px;
+    }
+    .below-top-construction-skills .content_below_related_top_skills h1 {
+        font-size: 54px;
+    }
+    .download-gigsmart .wrapper {
+        padding-bottom: 20px;
+    }
+    .how-it-work .guide-section:nth-child(odd) .list-guide,
+    .how-it-work.how-it-work-worker .guide-section:nth-child(odd) .list-guide {
+        padding-left: 70px;
+    }
+    .how-it-work .guide-section:nth-child(even) .list-guide {
+        padding-right: 70px;
+    }
+    .how-it-work .guide-section:nth-child(odd) .list-guide:before {
+        left: 20px;
+    }
+    .how-it-work.residential-project .guide-section:nth-child(odd) .list-guide:before {
+        height: 92%;
+    }
+    .how-it-work .guide-section:nth-child(even) .list-guide:before {
+        right: 20px;
+    }
+    .how-it-work .guide-section:nth-child(odd) .guide:first-child:after,
+    .how-it-work .guide-section:nth-child(odd) .guide:last-child:after {
+        left: -56px;
+    }
+    .how-it-work .guide-section:nth-child(even) .guide:first-child:after,
+    .how-it-work .guide-section:nth-child(even) .guide:last-child:after {
+        right: -56px;
+    }
+    .how-it-work .guide-section:nth-child(odd) .guide:before,
+    .how-it-work.how-it-work-worker .guide-section .guide:before {
+        left: -56px;
+    }
+    .how-it-work .guide-section:nth-child(even) .guide:before {
+        right: -56px;
+    }
+    .how-it-work.how-it-work-worker .guide-section .guide:first-child:after {
+        left: -56px;
+        top: 0;
+    }
+    .articles .list-articles .post-image {
+        height: 215px;
+    }
+    .articles .filter .form-filter .field {
+        width: calc(33.33% - 30px);
+        margin: 0 20px;
+    }
+    .banner.resources .element {
+        width: 100%;
+    }
+    .news-letter-form {
+        width: 100%;
+        max-width: 400px;
+    }
+    .news-letter-form form {
+        flex-direction: column;
+        text-align: left;
+    }
+    .news-letter-form .field {
+        margin-left: 0;
+        margin-bottom: 15px;
+        display: block;
+        width: 100%;
+    }
+    .news-letter-form .field .hs-input {
+        width: 100%;
+        text-align: left;
+        padding: 0;
+    }
+    .news-letter-form form .hs_submit.hs-submit,
+    .news-letter-form form .hs-form_source_code,
+    .news-letter-form form .hs-email {
+        margin-right: 0;
+        margin-top: 10px;
+    }
+    .news-letter-form form .hs_submit.hs-submit,
+    .news-letter-form form .hs-form_source_code {
+        margin-left: 0;
+    }
+    .hs_error_rollup label.hs-main-font-element {
+        margin-left: 0;
+    }
+    .bottom-cta {
+        padding-bottom: 80px;
+    }
+    .bottom-cta .block.news-letter {
+        margin-left: 0;
+        padding-top: 0;
+        text-align: center;
+    }
+    .bottom-cta .block.Media .content {
+        min-height: 3em;
+    }
+    .banner.resources .banner-content {
+        padding-top: 50px;
+    }
+    .news .recent-articles .list-news .news-item .news-title {
+        max-width: 85%;
+    }
+    .pagination-page {
+        margin-top: auto;
+        margin-left: auto;
+    }
+    .top-residential {
+        padding: 0px 0 40px;
+    }
+    .top-residential.custom {
+        padding: 0;
+    }
+    .top-residential .title {
+        padding: 30px 0;
+        font-size: 25px;
+    }
+    .top-residential.custom .title {
+        padding: 0;
+        margin-bottom: 0;
+    }
+    .top-residential .end-content {
+        margin: 30px 0 0px;
+    }
+    .top-residential .top-residential-services .right-side {
+        text-align: left;
+        margin-top: 30px;
+        margin-left: 0;
+    }
+    .banner.contact .left-content {
+        padding-bottom: 0;
+    }
+    .faqs {
+        padding: 40px 0 70px;
+    }
+    .faqs .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .faqs .button-faq,
+    .faqs .button-view-more.collapsed {
+        padding: 10px 35px 10px 60px;
+        min-height: 70px;
+        align-items: center;
+        display: flex;
+    }
+    .faqs .button-faq.collapsed i:before {
+        font-size: 18px;
+        position: relative;
+        top: 0px;
+    }
+    .faqs .button-faq {
+        font-size: 18px;
+    }
+    .faqs .button-view-more {
+        font-size: 18px;
+    }
+    .download-gigsmart.how-it-work-worker .title {
+        width: 100%;
+    }
+    .why-choose-gigsmart .section-title.text-blue {
+        margin-bottom: 60px;
+    }
+    .bottom-cta .block.About-Us,
+    .bottom-cta .block.Media {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .bottom-cta .block.Media .content {
+        max-width: 100%;
+    }
+    .bottom-cta {
+        padding-top: 0;
+    }
+    .how-to-hire-staff.about-us .sub-title {
+        padding: 0;
+    }
+    .contact-info {
+        padding: 30px 0 60px;
+    }
+    .contact-info .map {
+        margin-bottom: 30px;
+    }
+    .contact-form-section {
+        padding-bottom: 50px;
+    }
+    .articles {
+        padding-top: 10px;
+    }
+    .editor-content .wpb_content_element .title_referral {
+        /*font-size: 1.5em;*/
+        font-size: 22px;
+        font-family: proxima-nova, sans-serif;
+        font-weight: 700;
+    }
+    .editor-content .wpb_content_element .p_referral {
+        font-size: 17px;
+    }
+    section .section-sub-title {
+        max-width: 100%;
+    }
+    .how-it-work {
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+    .residential-labor .left-lines-residential {
+        display: none;
+    }
+    #menu-mobile-menu-bottom li.current-menu-item a {
+        color: #df4602;
+    }
+    body h1.small-headline {
+        font-size: 30px;
+    }
+    .faqs-page .faqs .button-faq i:before {
+        font-size: 18px;
+    }
+    .faqs-page .faqs {
+        padding: 40px 15px 70px;
+    }
+    .faqs-page .faqs body h1.small-headline {
+        margin-bottom: 30px;
+    }
+    .archive .main-content .articles,
+    .search .main-content .articles,
+    .blog .main-content .articles {
+        padding-top: 50px;
+    }
+    .archive .main-content .gray_headline,
+    .search .main-content .gray_headline,
+    .blog .main-content .gray_headline {
+        font-size: 56px;
+    }
+    .callout_image_right .image-right {
+        margin-left: 0;
+    }
+    .callout-section.callout_image_right .content-left {
+        max-width: 100%;
+    }
+    .callout_image_right .image-right,
+    .callout_image_right .content-left {
+        text-align: center;
+    }
+    .callout_image_right .image-right {
+        position: relative;
+    }
+    .search-state .box-search ul {
+        margin: 0 0px 0 50px;
+    }
+    .search-state .box-search ul li {
+        min-width: 180px;
+    }
+    .search-state .box-search h2 {
+        font-size: 25px;
+        line-height: 30px;
+        letter-spacing: 0.5px;
+    }
+    .search-state .box-search p {
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 0.32px;
+    }
+    .featured-employment .featured-icon p {
+        margin-bottom: 20px;
+    }
+    .featured-employment .featured-icon {
+        margin-bottom: 40px;
+    }
+    .featured-employment .featured-icon img {
+        min-height: auto;
+    }
+    .header-employment-intro h1 {
+        font-size: 44px;
+        line-height: 54px;
+    }
+    /*Ad Landing Pages*/
+    .ad-landing-pages-banner h1 {
+        max-width: 100%;
+    }
+    .ad-landing-pages-banner {
+        height: auto;
+    }
+    .ad-landing-pages-banner:before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        top: 0;
+        opacity: 0.8;
+    }
+    .ad-landing-pages-banner .background-image {
+        width: 100%;
+        height: 100%;
+        min-height: auto;
+        z-index: -1;
+    }
+    .ad-landing-pages-interested h2 {
+        font-size: 48px;
+        line-height: 42px;
+    }
+    .ad-landing-pages-interested h3 {
+        font-size: 28px;
+        line-height: 24px;
+        margin-bottom: 13px;
+    }
+}
+
+@media only screen and (max-width:813px) {
+    .download-gigsmart .wrapper {
+        padding-bottom: 20px;
+    }
+}
+
+.site-popup .popup-header.is-mobile {
+    display: none;
+}
+
+@media only screen and (max-width:767px) {
+    .reference-numbers .content-numbers {
+        margin-bottom: 45px;
+    }
+    .why-choose-gigsmart.residential-project .section-title {
+        margin-bottom: 60px;
+    }
+    .job-detail .job-name {
+        max-width: 65%;
+        -webkit-line-clamp: 1;
+    }
+    .how-to-hire-staff .utilities .item .img {
+        margin: 0;
+    }
+    .service-type .service-type-img {
+        text-align: center;
+    }
+    .menu-mobile .menu-top>ul>li>a {
+        display: block;
+        margin-right: 24px;
+    }
+    .alignright,
+    .alignleft {
+        float: none;
+        margin: 0 auto;
+        display: block;
+    }
+    .single-resources .main-content {
+        padding: 40px 0;
+    }
+    .is-mobile {
+        display: block;
+    }
+    .is-desktop {
+        display: none;
+    }
+    .search-skills-workers .skills .skill {
+        display: inline-block;
+    }
+    .how-it-work.residential {
+        padding-bottom: 10px;
+    }
+    .how-to-hire-staff.managed-service .utilities .item .img {
+        min-height: auto;
+    }
+    fieldset.form-columns-1,
+    fieldset.form-columns-2 {
+        margin-bottom: 0px !important;
+    }
+    .contact-form .hs-form fieldset.form-columns-2 .hs-form-field:first-child,
+    .contact-form .hs-form fieldset.form-columns-2 .hs-form-field,
+    .contact-form .hs-form fieldset.form-columns-1 .hs-form-field {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 12px;
+    }
+    .managed-service-tesmonial {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    .managed-service-tesmonial .section-title {
+        margin-bottom: 40px;
+    }
+    .how-to-hire-staff.residential .utilities .item,
+    .how-to-hire-staff.managed-service .utilities .item {
+        display: inline-block;
+        margin: 0 0px 30px 0px;
+    }
+    .how-to-hire-staff.residential,
+    .how-to-hire-staff.managed-service {
+        padding: 65px 15px 25px;
+    }
+    .vc_row.custom-padding {
+        padding-top: 0 !important;
+    }
+    .main-sample ul li {
+        min-height: auto;
+        max-width: 100%;
+	   margin-right: 0px;
+    }
+    .list-workers .is-mobile,
+    .list-worker .is-mobile {
+        display: block;
+    }
+    .list-workers .is-desktop,
+    .list-worker .is-desktop {
+        display: none;
+    }
+    .videos-page .wpb_content_element.body-copy {
+        max-width: 100%;
+    }
+    .videos-page .body-copy h3 {
+        max-width: 100%;
+    }
+    .videos-page .wpb_wrapper img {
+        min-width: 0;
+    }
+    #findJobPopupBottom .modal-body.worker-option-2 .popup-input {
+        display: none;
+    }
+    .testimonials.home {
+        margin-top: 0;
+    }
+    .editor-content .page-title {
+        font-size: 40px;
+    }
+    .single-post .main-content {
+        padding: 80px 0 40px;
+    }
+    .above-footer-cta .content {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .modal-body.option-2 .web-app input,
+    .modal-body.option-1 .web-app input {
+        padding-bottom: 0;
+    }
+    .how-it-work .section-anchor-link.pinned {
+        top: 0;
+        padding-top: 75px;
+    }
+    .how-it-work.how-it-work-business .section-anchor-link.pinned .section-title {
+        margin-top: 0;
+        margin-bottom: 0;
+        display: none;
+    }
+    .how-it-work .section-anchor-link.pinned .anchor-link li {
+        padding-bottom: 0;
+    }
+    .how-it-work .guide-section-mobile .anchor-section-guide {
+        top: -180px;
+    }
+    .main-header.is-mobile {
+        display: block;
+    }
+    .banner.resources .banner-content {
+        padding-top: 0;
+    }
+    .single-post-column {
+        margin-bottom: 50px;
+    }
+    .how-it-work-business .section-title {
+        font-size: 25px;
+        letter-spacing: 0.5px;
+        line-height: 30px;
+        padding: 0 65px;
+    }
+    .how-it-work-business .list-guide-section.is_mobile {
+        margin-top: 40px;
+    }
+    .how-it-work-business .list-guide-section.is_mobile.mt-120 {
+        margin-top: 60px;
+    }
+    .faqs .section-title {
+        margin-left: 25px;
+    }
+    .how-it-work .anchor-link {
+        padding-bottom: 10px;
+    }
+    .list-guide-section.is_desktop {
+        display: none;
+    }
+    .list-guide-section.is_mobile {
+        display: block;
+        margin-top: 40px;
+    }
+    .how-it-work .guide-section .content {
+        display: block;
+    }
+    .how-it-work.how-it-work-worker {
+        padding-top: 5px;
+        padding-bottom: 0px;
+    }
+    .how-it-work.how-it-work-worker .section-title {
+        font-size: 25px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .how-it-work .anchor-link.is_desktop {
+        display: none;
+    }
+    .how-it-work .anchor-link.is_mobile {
+        display: flex;
+        justify-content: space-around;
+        padding: 0 10px;
+    }
+    .top-construction-skills {
+        margin: 0;
+    }
+    .top-construction-skills .title {
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    .top-construction-skills .subtitle {
+        margin-bottom: 40px;
+        word-break: break-word;
+    }
+    .above-top-construction-skills .content_above_related_top_skills h1 {
+        font-size: 40px;
+    }
+    .below-top-construction-skills .content_below_related_top_skills h1 {
+        font-size: 40px;
+    }
+    .above-top-construction-skills .content_above_related_top_skills h2 {
+        font-size: 25px;
+    }
+    .below-top-construction-skills .content_below_related_top_skills h2 {
+        font-size: 25px;
+    }
+    body .skill-page-header h1.small-headline,
+    body .region-page-header h1.small-headline {
+        font-size: 40px;
+        line-height: 48px;
+        margin-bottom: 30px;
+    }
+    body .skill-page-header h2.small-headline,
+    body .region-page-header h2.small-headline {
+        font-size: 25px;
+    }
+    .skill-page-header,
+    .region-page-header {
+        padding: 70px 0 57px;
+    }
+    #referral_banner {
+        padding-top: 75px !important;
+        padding-bottom: 25px !important;
+    }
+    .wpb_content_element.vc_custom_1571362148298,
+    .vc_custom_1571362458229 .wpb_content_element {
+        margin-bottom: 7px;
+    }
+    body .type-slider .launcher_referral {
+        font-size: 25px;
+    }
+    body .content_referral {
+        padding-bottom: 8px !important;
+    }
+    .menu-mobile-toggle {
+        margin-right: 10px;
+    }
+    .main-header.is-mobile .navbar a.button {
+        width: auto;
+        font-size: 13px;
+        margin-left: 27px;
+        padding: 6px 16px;
+    }
+    .main-header.is-mobile .navbar .navbar-toggler {
+        font-size: 28px;
+        outline: none;
+        padding: 0;
+    }
+    .main-header.is-mobile #top-menu {
+        margin: 10px 0 20px;
+    }
+    .main-header.is-mobile #top-menu .right-column {
+        text-align: right;
+    }
+    .main-header.is-mobile #top-menu .right-column li {
+        margin-bottom: 10px;
+    }
+    .main-header.is-mobile #top-menu .right-column li:not(:first-child) {
+        margin-left: 40px;
+    }
+    .main-header.is-mobile #top-menu .right-column li a {
+        font-family: proxima-nova, san-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 16px;
+        letter-spacing: 2.24px;
+        color: #87898B;
+        text-transform: uppercase;
+        border-top: 5px solid;
+        text-decoration: none;
+        margin-bottom: 5px;
+    }
+    .main-header.is-mobile #top-menu .right-column li.active a {
+        font-family: proxima-nova, san-serif;
+        font-weight: 700;
+        font-style: normal;
+        color: #df4602;
+    }
+    .main-header.is-mobile #top-menu .left-column li {
+        margin-bottom: 10px;
+    }
+    .main-header.is-mobile #top-menu .left-column li a {
+        font-family: proxima-nova, san-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 16px;
+        letter-spacing: 1.6px;
+        color: #003A5C;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    .main-header.is-mobile #top-menu .left-column li a.button {
+        margin-top: 10px;
+    }
+    .main-header.is-mobile #top-menu .left-column li.active a {
+        color: #df4602;
+        border-bottom: 5px solid #df4602;
+    }
+    .button.button-orange {
+        width: auto;
+        display: inline-block;
+    }
+    .banner .is-mobile-button {
+        display: inline-block;
+    }
+    .banner .is-desktop-button {
+        display: none;
+    }
+    .banner.find-worker .left-content {
+        padding: 30px 0;
+    }
+    .banner.find-worker .right-content {
+        padding: 0;
+    }
+    .banner .left-content {
+        padding: 30px 0;
+    }
+    .banner .left-content .title,
+    body .editor-content h1.title {
+        margin-top: 42px;
+        margin-bottom: 25px;
+        font-size: 40px;
+        max-width: 100% !important;
+        letter-spacing: 0.4px;
+        line-height: 48px;
+    }
+    .banner .left-content .subtitle {
+        font-size: 16px;
+        max-width: 100% !important;
+        line-height: 22px;
+        letter-spacing: 0.8px;
+        margin-bottom: 20px;
+    }
+    .banner .right-content {
+        padding: 0;
+        margin-bottom: 44px;
+    }
+    .banner .right-content .title,
+    .banner .right-content .subtitle {
+        max-width: 100% !important;
+    }
+    .banner .right-content .title:before {
+        top: -38px;
+        width: 78px;
+    }
+    .banner .right-content .title {
+        font-size: 25px;
+        line-height: 29px;
+        letter-spacing: 0.5px;
+        padding-top: 38px;
+        margin-bottom: 17px;
+    }
+    .banner .right-content .subtitle {
+        margin-bottom: 42px;
+    }
+    .banner .right-content .button {
+        padding: 8px 16px;
+    }
+    .banner.home .left-content {
+        padding: 30px 0;
+    }
+    .banner.home .right-content {
+        padding-top: 0;
+    }
+    .cooperation-companies .list-unstyled {
+        display: block;
+        text-align: center;
+        padding: 10px 0;
+    }
+    .cooperation-companies .list-unstyled li.item {
+        display: inline-block;
+        max-width: 170px;
+        padding: 10px;
+    }
+    .testimonials .list-testimonial .item .image {
+        padding-right: 15px;
+    }
+    .news {
+        padding-top: 50px;
+    }
+    .news .section-title {
+        font-size: 25px;
+        margin-bottom: 45px;
+    }
+    .news .first-news {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .news .first-news .news-title {
+        color: #003A5C;
+        font-size: 20px;
+        margin-bottom: 17px;
+    }
+    .news .first-news .author {
+        margin-bottom: 10px;
+    }
+    .news .first-news .news-collapsed-content p {
+        margin-bottom: 10px;
+    }
+    .news .first-news .news-collapsed-content p:last-child {
+        margin-bottom: 10px;
+    }
+    .news .recent-articles {
+        width: 100%;
+        margin-left: 0;
+    }
+    .download-gigsmart .download-content {
+        text-align: center;
+    }
+    .download-gigsmart .description {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .download-gigsmart a div.button {
+        margin: 0 auto;
+    }
+    .download-gigsmart .wrapper {
+        padding-bottom: 0;
+    }
+    .download-gigsmart .image-holder {
+        margin-top: 0;
+        padding-top: 30px;
+        height: auto;
+        text-align: center;
+    }
+    .download-gigsmart .image-holder .iphone-last-cta {
+        position: relative;
+        transform: none;
+        left: 0;
+    }
+    .modal-body.option-2 .web-app .hs_submit.hs-submit input[type="submit"],
+    .modal-body.option-1 .web-app .hs_submit.hs-submit input[type="submit"] {
+        margin-left: 0;
+    }
+    .site-popup .option-1 .popup-input p {
+        font-size: 15px;
+    }
+    .site-footer .list-categories span {
+        display: block;
+        text-align: center;
+    }
+    .site-popup .modal-dialog-leader {
+        top: 40px;
+        transform: none !important;
+        padding: 0 15px;
+    }
+    .site-footer {
+        height: auto;
+        padding: 40px 0 93px;
+    }
+    .site-footer .app {
+        display: inline-block;
+        width: 130px;
+        vertical-align: middle;
+    }
+    .site-footer .download {
+        display: inline-block;
+        width: calc(100% - 135px);
+        text-align: right;
+        vertical-align: middle;
+    }
+    .site-footer .logo-footer {
+        display: block;
+        margin: 0 auto 30px auto;
+    }
+    .site-footer .download .button-download {
+        height: auto;
+        margin: 0;
+    }
+    .site-footer .download .button-download img {
+        width: 100%;
+        height: 36px;
+        max-width: 115px;
+    }
+    .site-popup .close {
+        top: 12px;
+        left: 18px;
+    }
+    .site-popup .modal-content {
+        padding: 30px 30px 40px 30px;
+    }
+    .site-popup .download {
+        display: block;
+        text-align: center;
+    }
+    .site-popup .button {
+        width: auto;
+    }
+    .site-popup .button.button-schedule {
+        display: block;
+        width: 240px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .site-popup .button.button-download {
+        display: inline-flex;
+        max-width: 120px;
+    }
+    .site-popup .button.button-download:not(:last-child) {
+        margin-bottom: 10px;
+    }
+    .site-popup .popup-input {
+        display: block;
+        text-align: center;
+    }
+    .site-popup .popup-input input[type=text] {
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .site-popup .popup-input button,
+    .site-popup .popup-input input[type=submit] {
+        margin: 0;
+    }
+    .site-popup .modal-body {
+        text-align: center;
+    }
+    .popup-button .button-download {
+        max-width: 100%;
+    }
+    .site-popup .modal-dialog {
+        max-width: 90%;
+    }
+    .site-popup .modal-body.option-2 {
+        padding: 0;
+    }
+    .modal-body.option-2 .schedule-demo,
+    .modal-body.option-2 .web-app {
+        padding: 20px 10px;
+    }
+    .modal-body.option-2 .hbspt-form .hs_email .hs-input {
+        margin-bottom: 15px;
+    }
+    .modal-body.option-2 .hbspt-form .hs_submit .actions {
+        text-align: center;
+    }
+    .site-popup .modal-dialog-leader .info {
+        padding: 0;
+    }
+    .site-popup .modal-dialog-leader .avatar {
+        padding: 0;
+        max-width: 100%;
+        max-height: 100%;
+        margin-bottom: 15px;
+    }
+    .site-popup .modal-dialog-leader .avatar img {
+        width: 100%;
+    }
+    .site-popup .popup-header .sub-title {
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 24px;
+        letter-spacing: 0.16px;
+        color: #4E4D4D;
+    }
+    .site-popup .close {
+        top: 25px;
+        left: 35px;
+    }
+    .site-popup .modal-content {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .site-popup .popup-header {
+        padding: 0;
+    }
+    .site-popup .popup-header.desktop {
+        display: none;
+    }
+    .site-popup .popup-header.is-mobile {
+        display: block;
+    }
+    .site-popup .popup-header .title,
+    #findJobPopupBottom .popup-header .title {
+        font-size: 25px;
+        line-height: 30px;
+        letter-spacing: 0.5px;
+        margin: 0px 20px 15px;
+    }
+    #findJobPopupBottom .modal-body .popup-input,
+    #findJobPopupBottom .modal-body p {
+        display: none;
+    }
+    #findJobPopupBottom .modal-content {
+        padding: 55px 20px;
+    }
+    .site-popup .button.button-schedule {
+        width: 216px;
+    }
+    .modal-body .web-app .popup-input form {
+        display: block;
+    }
+    .site-popup .modal-body.option-1 {
+        padding: 0;
+    }
+    .modal-body.option-1 .web-app .hs_email.hs-email {
+        margin-bottom: 15px;
+    }
+    .modal-body.option-1 .web-app input {
+        width: 100%;
+    }
+    .site-popup .popup-input button,
+    .site-popup .popup-input input[type=submit] {
+        padding: 5px 15px;
+    }
+    .site-popup .option-1 .web-app .popup-input {
+        margin-top: 0;
+    }
+    .site-popup .option-1 .popup-input {
+        margin-top: 10px;
+    }
+    .site-popup .option-1 .popup-input p {
+        margin-bottom: 10px;
+    }
+    #findJobPopup .download.popup-button .button-schedule {
+        margin-right: 0;
+    }
+    .news-letter [type="submit"] {
+        width: auto;
+    }
+    .how-to-hire-staff .section-sub-title {
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+    .how-to-hire-staff {
+        padding: 65px 15px;
+    }
+    .how-to-hire-staff .utilities .item {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        margin-bottom: 37px;
+    }
+    .how-to-hire-staff .utilities .item img {
+        width: 100%;
+        max-width: 100px;
+        margin-bottom: 10px;
+    }
+    .how-to-hire-staff .utilities .item .content {
+        max-width: 230px;
+        font-size: 17px;
+        margin: auto;
+    }
+    .search-skills-workers {
+        padding-top: 20px;
+        padding-bottom: 70px;
+    }
+    .page-template-template-find-workers .search-skills-workers {
+        padding-bottom: 30px;
+    }
+    .search-skills-workers .section-sub-title {
+        max-width: 90%;
+        margin-bottom: 50px;
+    }
+    .search-skills-workers .skills {
+        margin-bottom: 35px;
+    }
+    .cooperation-companies .list-company .slick-track {
+        margin-left: -20px;
+    }
+    section .section-title {
+        font-size: 25px;
+        letter-spacing: 0.5px;
+        padding-left: 0px;
+    }
+    .faqs .button-faq i,
+    .faqs .button-view-more i {
+        position: absolute;
+        left: 25px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #d1d1d1;
+    }
+    .faqs .button-view-more i:before {
+        margin-left: 5px;
+        font-size: 18px;
+        font-weight: 700;
+        color: #87898b;
+    }
+    .list-guide-mobile {
+        padding: 0 20px;
+    }
+    .above-footer-cta .left-side,
+    .above-footer-cta .right-side {
+        padding: 34px 0 44px;
+    }
+    .above-footer-cta .left-side .sub-title,
+    .above-footer-cta .right-side .sub-title {
+        font-size: 16px;
+        letter-spacing: 0.16px;
+        line-height: 24px;
+        font-weight: 300;
+        max-width: 80%;
+        min-height: initial;
+    }
+    footer .app .name {
+        line-height: 18px;
+    }
+    footer .list-categories {
+        margin-top: 15px;
+    }
+    footer .list-unstyled li a {
+        font-size: 18px;
+        letter-spacing: 0.9px;
+        font-weight: 400;
+    }
+    .reference-numbers .section-title {
+        margin-bottom: 50px;
+    }
+    .reference-numbers .list-block {
+        display: block;
+    }
+    .reference-numbers .list-block .block {
+        margin-bottom: 25px;
+        min-width: auto;
+    }
+    .reference-numbers .list-block .block .number {
+        font-size: 80px;
+        letter-spacing: 2.88px;
+        margin-bottom: 5px;
+    }
+    .reference-numbers .list-block .block .description b,
+    .reference-numbers .content-numbers .description strong {
+        font-size: 20px;
+        line-height: 29px;
+    }
+    .reference-numbers .list-block .block .description,
+    .reference-numbers .content-numbers .description span {
+        font-size: 18px;
+    }
+    .residential-labor .section-title {
+        font-size: 25px;
+    }
+    .residential-labor .section-sub-title {
+        font-size: 18px;
+        max-width: 100%;
+    }
+    .residential-labor .right-lines-residential {
+        right: 0;
+    }
+    .above-footer-cta {
+        display: block;
+    }
+    .above-footer-cta .left-side,
+    .above-footer-cta .right-side {
+        width: 100%;
+    }
+    .list-workers+.top-construction-skills {
+        margin-top: 45px;
+    }
+    .list-workers+.above-top-construction-skills {
+        margin-top: 45px;
+    }
+    .list-workers .list-profiles .profile-workers {
+        margin-left: 0;
+    }
+    .list-workers .list-profiles .profile-workers ul li {
+        width: 100%;
+        min-height: auto;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .list-workers .list-profiles .profile-workers ul li .profile .description {
+        padding: 10px 10px 0 30px;
+    }
+    .profile .description p {
+        height: auto;
+        margin-bottom: 0;
+    }
+    .copyright-footer {
+        text-align: center;
+        margin-top: 60px;
+    }
+    .articles .list-articles .post-image {
+        height: auto;
+    }
+    .post-type-archive-news .articles .list-articles .post-image {
+        padding-bottom: 0;
+    }
+    .articles .list-articles .post-content .title,
+    .articles .list-articles .post-content .content {
+        height: auto;
+        white-space: normal;
+        display: block;
+    }
+    .articles .list-articles .post-content .wrapper {
+        margin-bottom: 0;
+    }
+    .articles .list-articles .type-news .post-image {
+        padding-bottom: 0;
+    }
+    .articles .list-articles .type-news .post-image img {
+        margin: 0;
+    }
+    .news {
+        padding-top: 75px;
+    }
+    .news .first-news .author {
+        margin-bottom: 24px;
+    }
+    .news .first-news {
+        margin-bottom: 35px;
+    }
+    .download-gigsmart .download-content .app {
+        margin-bottom: 30px;
+    }
+    .download-gigsmart .download-content .app .name {
+        text-align: left;
+    }
+    .download-gigsmart .title {
+        padding-bottom: 30px;
+    }
+    .download-gigsmart .description {
+        margin-bottom: 36px;
+    }
+    .download-gigsmart .image-holder .iphone-last-cta {
+        max-width: 70%;
+    }
+    .download-gigsmart.home {
+        margin-top: 80px;
+        padding-top: 0;
+    }
+    .articles .filter .form-filter .field {
+        display: block;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .articles .filter .form-filter .field:last-child {
+        margin-bottom: 0;
+    }
+    .browser-workers-section .browser-workers .title {
+        font-size: 25px;
+    }
+    .browser-workers-section .browser-workers .sub-title {
+        font-size: 16px;
+    }
+    .browser-workers-section .browser-workers .skill-and-region {
+        display: block;
+        margin-top: 30px;
+    }
+    .browser-workers-section .browser-workers .skill-and-region .skill,
+    .browser-workers-section .browser-workers .skill-and-region .region {
+        width: 100%;
+        border-right: none;
+        padding: 0 15px;
+    }
+    .browser-workers-section .browser-workers .skill-and-region .skill {
+        margin-bottom: 30px;
+        border-bottom: 2px solid #d0d0d0;
+    }
+    .browser-workers-section .browser-workers .skill-and-region .skill .skill-title,
+    .browser-workers-section .browser-workers .skill-and-region .region .region-title {
+        font-size: 22px;
+    }
+    .browser-workers-section .browser-workers .skill-and-region .skill .wrapper,
+    .browser-workers-section .browser-workers .skill-and-region .region .wrapper {
+        padding: 0;
+    }
+    .browser-workers-section .browser-workers .skill-and-region .skill .skill-subtitle,
+    .browser-workers-section .browser-workers .skill-and-region .region .region-subtitle {
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    .browser-workers-section .browser-workers .skill-and-region .skill .list-skills .skill-ul,
+    .browser-workers-section .browser-workers .skill-and-region .region .list-regions .region-ul {
+        padding: 0;
+        margin-top: 20px;
+    }
+    .browser-workers-section .browser-workers {
+        margin-bottom: 40px;
+    }
+    .heat-map .content {
+        font-size: 16px;
+        padding: 0;
+    }
+    .search-skills-workers .skills .item {
+        margin-bottom: 8px;
+    }
+    .hiring-resources .title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .hiring-resources .sub-title {
+        margin: 30px 0;
+    }
+    .hiring-resources .list-articles .post {
+        margin-bottom: 30px;
+    }
+    .hiring-resources .list-articles .post-content .title,
+    .hiring-resources .list-articles .post-content .content {
+        height: initial;
+        min-height: initial;
+        display: block;
+    }
+    .hiring-resources .list-articles .post-content .content p:last-child {
+        margin-bottom: 0;
+    }
+    .download-gigsmart.find-worker {
+        margin-top: 60px;
+    }
+    .download-gigsmart.find-worker .title {
+        width: 100%;
+    }
+    .download-gigsmart.find-worker .wrapper {
+        padding-bottom: 0;
+    }
+    .download-gigsmart .title {
+        font-size: 25px;
+    }
+    .data-result-skill,
+    .data-result-region {
+        left: 15px;
+        width: calc(100% - 30px);
+    }
+    .contact-form-section .section-title {
+        padding-left: 0;
+    }
+    ul.hs-error-msgs label.hs-error-msg {
+        position: initial;
+    }
+    .news-letter-form form ul.hs-error-msgs label.hs-error-msg {
+        position: absolute;
+    }
+    .modal-body.option-1 .web-app .hs_email.hs-email {
+        margin-bottom: 10px;
+    }
+    .how-it-work .guide-section-mobile {
+        padding-top: 0;
+        padding-bottom: 48px;
+    }
+    .how-it-work.how-it-work-worker .guide-section-mobile {
+        padding-bottom: 53px;
+    }
+    .testimonials.how-it-work-worker .owl-carousel .owl-stage-outer {
+        margin-bottom: 40px;
+    }
+    .testimonials.how-it-work-worker {
+        padding-bottom: 40px;
+    }
+    .residential-labor .wrapper {
+        margin-top: 6px;
+    }
+    .browser-workers-section .browser-workers .skill-and-region .skill .list-skills .skill-ul .skill-items,
+    .browser-workers-section .browser-workers .skill-and-region .region .list-regions .region-ul .region-items {
+        padding: 3px 0;
+        padding-right: 5px;
+    }
+    .faqs-page .faqs h2.category-faqs {
+        font-size: 25px;
+    }
+    body h1.headline_referral {
+        font-size: 40px;
+        line-height: 48px;
+    }
+    #findJobPopupBottom .popup-header .sub-title {
+        font-size: 16px;
+        letter-spacing: 0.16px;
+        line-height: 24px;
+    }
+    .site-popup .popup-header .title,
+    #findJobPopupBottom .popup-header .title {
+        color: #df4602;
+    }
+    .find-volunteers-section .wrapper,
+    .be-volunteer-section .wrapper {
+        overflow: hidden;
+    }
+    .find-volunteers-section .title,
+    .be-volunteer-section .title {
+        font-size: 25px;
+        letter-spacing: 0.64px;
+        line-height: 35px;
+    }
+    .find-volunteers-section .content,
+    .be-volunteer-section .content {
+        font-size: 18px;
+        letter-spacing: 0.44px;
+        line-height: 22px;
+        padding: 0;
+    }
+    .find-volunteers-section .volunteer-module {
+        position: relative;
+        overflow: hidden;
+    }
+    .banner .left-content .animated {
+        animation: none;
+    }
+    .archive .main-content .gray_headline,
+    .search .main-content .gray_headline,
+    .blog .main-content .gray_headline {
+        font-size: 40px;
+    }
+    .sidebar-section ul li a {
+        padding-top: 0.1rem;
+    }
+    .bottom-cta .block.Media .content {
+        min-height: initial;
+    }
+    .popup-worker .modal-dialog-worker .button-signup {
+        margin-top: 20px;
+    }
+    .browse-work-search-box form.form-search .btn-dropdown-radiusmiles {
+        width: 100%;
+        text-align: left;
+    }
+    .top-residential .top-residential-services .left-side {
+        text-align: center;
+    }
+    .main-header {
+        display: none;
+    }
+    .main-header.is-mobile {
+        display: block;
+    }
+    .guide-section.pt-50 {
+        padding-top: 90px;
+    }
+    .how-it-work .section-anchor-link.pinned {
+        position: fixed;
+        z-index: 9;
+        padding-top: 70px;
+    }
+    .browse-work-search-box h2 {
+        font-size: 25px;
+    }
+    .browse-work-search-box p {
+        font-size: 16px;
+    }
+    .browse-work-search-box .form-search {
+        flex-wrap: wrap;
+    }
+    .browse-work-search-box .form-search .form-group {
+        width: 100%;
+    }
+    .browse-work-search-box form.form-search .skill-input,
+    .browse-work-search-box form.form-search .region-input {
+        min-width: 0;
+    }
+    .browse-work-search-box form.form-search select {
+        width: 100%;
+    }
+    .pagination-page {
+        padding: 20px 0 10px 0;
+        display: block;
+    }
+    .pagination-page a,
+    .pagination-page span {
+        display: inline-block;
+    }
+    .callout-section h2 {
+        font-size: 25px;
+        line-height: 32px;
+        margin-bottom: 0.4em;
+        letter-spacing: 0.1px;
+    }
+    .callout-section p {
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 0.8px;
+        margin-bottom: 1.5em;
+    }
+    .callout-section.callout_image_right {
+        padding: 30px 0 0;
+    }
+    .callout_image_right .image-right img {
+        max-width: 70%
+    }
+    .callout-section.callout_image_right p {
+        line-height: 20px;
+    }
+    .header-employment-intro h1 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .group-main-content .content-right {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .header-employment-intro {
+        margin: 50px 0 50px;
+    }
+    .header-employment-intro h1 {
+        margin-bottom: 0.5em;
+    }
+    .header-employment-intro p {
+        margin-bottom: 1.1em;
+    }
+    .white-banner-form {
+        margin: 50px 0 50px;
+    }
+    .dropdown.show .dropdown-menu {
+        max-width: 100%;
+    }
+    /*Ad Landing Pages*/
+    .ad-landing-pages-banner {
+        padding: 90px 0;
+    }
+    .ad-landing-pages-banner h1 {
+        letter-spacing: 0.64px;
+        line-height: 54px;
+    }
+    .ad-landing-pages-banner h3 span {
+        font-size: 21px;
+        line-height: 45px;
+    }
+    .ad-landing-pages-banner p {
+        max-width: 100%;
+    }
+    .ad-landing-pages-features h2 {
+        font-size: 25px;
+    }
+    .download-gigsmart-today .download-content h2 {
+        font-size: 26px;
+        line-height: 28px;
+    }
+    .download-gigsmart-today .download-content .get-gigs p {
+        font-size: 18px;
+        max-width: 115px;
+        margin-left: 15px;
+    }
+    .download-gigsmart-today .download-content p {
+        font-size: 16px;
+    }
+    .download-gigsmart-today .image-iphone {
+        margin-bottom: 20px;
+    }
+    .download-gigsmart-today .image-iphone img {
+        max-width: 60%;
+    }
+    .ad-landing-pages-testimonial .background-left,
+    .ad-landing-pages-testimonial .background-right {
+        max-width: 30%;
+    }
+    .ad-landing-pages-interested .content-left {
+        margin-bottom: 30px;
+    }
+    .ad-landing-pages-interested .content-right {
+        text-align: center;
+    }
+    .landing-pages-testimonial .item .main-idea {
+        font-size: 42px;
+        letter-spacing: 0.96px;
+        line-height: 48px;
+    }
+    .ad-landing-pages-interested h2 {
+        font-size: 48px;
+        letter-spacing: 1.2px;
+        line-height: 50px;
+    }
+    .ad-landing-pages-interested h3 {
+        font-size: 26px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    .how-to-hire-staff.ad-landing-pages-features {
+        padding: 65px 0 20px;
+    }
+    .download-gigsmart-today .download-content-1 .download-content {
+        text-align: left;
+    }
+    .download-gigsmart-today .download-content-1 .download-content p {
+        text-align: left;
+    }
+    .download-gigsmart-today .download-content-1 .download-content .get-gigs {
+        display: block;
+        margin: 0;
+    }
+    .download-gigsmart-today .download-content-1 .download-content .get-gigs p {
+        margin-left: 17px;
+    }
+    .job-modal .modal-dialog {
+        min-width: auto;
+        width: 90%;
+    }
+    body.ie .job-detail .job-name {
+        max-height: initial;
+    }
+}
+
+@media only screen and (max-width:590px) {
+    .team-leader {
+        text-align: center;
+    }
+    .team-leader .avatar {
+        width: 100%;
+        max-width: initial;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 27px;
+        float: none;
+    }
+    .team-leader .avatar img {
+        width: 100%;
+    }
+    .share-location .share-my-location {
+        padding: 20px;
+    }
+    .share-location .share-my-location .share-location-button {
+        padding: 7px 34px;
+    }
+    .share-location .share-my-location .btn-dropdown-location {
+        font-size: 10px;
+        padding: 6px 0 6px 10px;
+    }
+    .how-it-work.how-it-work-business .section-title {
+        padding: 0 15px;
+    }
+    .guide-section-mobile .image-placeholder {
+        width: 190px;
+    }
+    .guide-section-mobile .image-placeholder .list-image-guide {
+        top: 10px;
+        left: 12px;
+        width: calc(100% - 24px);
+    }
+    .editor-content .top-right-background {
+        background-size: 100%;
+    }
+    .search-state .box-search ul {
+        margin: 0 0px 0 28px;
+    }
+    .search-state .box-search ul li {
+        min-width: 49%;
+        padding-left: 0;
+    }
+    .search-state .box-search {
+        padding: 30px 15px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #company-88b443f3-f14e-442d-aa09-f4f74061a268 {
+        margin-bottom: 20px;
+    }
+    #hsForm_c7c7ee4b-7841-4e29-afe9-27fef787508d input[type='email'] {
+        margin-bottom: 20px;
+    }
+    #firstname-88b443f3-f14e-442d-aa09-f4f74061a268,
+    #firstname-c7c7ee4b-7841-4e29-afe9-27fef787508d {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .reference-numbers .list-block .block .number {
+        font-size: 70px;
+        letter-spacing: 1.8px;
+        margin-bottom: 5px;
+    }
+    .cooperation-companies .list-unstyled li.item {
+        max-width: 175px;
+    }
+    .search-skills-workers .skills .skill {
+        width: 100%;
+    }
+    .search-skills-workers .skills .skill img {
+        width: 100%;
+    }
+    .articles .filter .form-filter {
+        padding: 20px 25px;
+    }
+    .list-testimonial .owl-item .item {
+        padding: 20px;
+    }
+    .testimonials .list-testimonial .item .main-idea {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .testimonials .list-testimonial .item .interpretations {
+        font-size: 15px;
+        line-height: 1.4em;
+    }
+    .list-testimonial .owl-item.center,
+    .list-testimonial .owl-item:not(.center) {
+        padding-top: 20px;
+    }
+    .list-testimonial .owl-item .item {
+        margin-bottom: 30px;
+    }
+    .testimonials .list-testimonial .item .image img {
+        margin-top: -100px;
+    }
+    .testimonials .list-testimonial .item .image img {
+        min-width: auto;
+        width: 100%;
+        max-width: 180px;
+        height: 180px;
+        object-fit: cover;
+    }
+    .testimonials.how-it-work-worker .list-testimonial .item .image img {
+        min-width: auto;
+        width: 100%;
+        max-width: 180px;
+        height: 180px;
+        object-fit: cover;
+    }
+    .main-header.is-mobile .navbar .brand-logo-wrap {
+        margin-left: 0;
+    }
+    .main-header.is-mobile .menu-navigation ul.navbar-nav {
+        margin-left: 0;
+    }
+    /*Ad Landing Pages*/
+    .ad-landing-pages-banner h1 {
+        font-size: 32px;
+        line-height: 44px;
+    }
+    .ad-landing-pages-banner h1 span {
+        padding: 0 5px 3px;
+    }
+    .ad-landing-pages-banner .background-image {
+        width: 100%;
+        height: 100%;
+        min-height: auto;
+        z-index: -1;
+    }
+    .download-gigsmart-today {
+        padding: 35px 0;
+    }
+    .site-popup .popup-header .title,
+    #findJobPopupBottom .popup-header .title {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    #findJobPopup .popup-header {
+        padding-top: 35px;
+    }
+    .site-popup .popup-header .sub-title {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .modal-body.option-3 .popup-block .title {
+        font-size: 20px;
+    }
+    .modal-body.option-3 .popup-block .subtitle {
+        font-size: 14px;
+    }
+    .site-popup .button {
+        font-size: 11px;
+    }
+    .site-popup .modal-content {
+        padding: 15px;
+    }
+    .modal-body.option-3 .popup-block .popup-button {
+        margin-top: 1em;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .reference-numbers .list-block .block .number {
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .main-header.is-mobile .navbar .brand-logo-wrap {
+        max-width: 115px;
+    }
+    .main-header.is-mobile .navbar a.button {
+        margin-left: 0;
+    }
+    .menu-mobile-toggle {
+        margin-right: 0;
+    }
+    .cooperation-companies .list-unstyled li.item {
+        max-width: 200px;
+    }
+    .reference-numbers .list-block .block .number {
+        font-size: 60px !important;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .menu-mobile {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .menu-mobile-toggle {
+        padding: 0;
+    }
+    .search-skills-workers .skills .skill .filter-content:after {
+        bottom: 10px;
+    }
+    .search-skills-workers .skills .skill .filter-content p {
+        font-size: 16px;
+        top: calc(50% - 10px);
+    }
+    .header-employment-intro h1 {
+        font-size: 38px;
+        line-height: 42px;
+    }
+    .white-banner-form {
+        margin: 50px 0 50px;
+    }
+    /*Ad Landing Pages*/
+    .ad-landing-pages-banner .background-image {
+        height: 100%;
+    }
+    .landing-pages-testimonial .item .main-idea {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .landing-pages-testimonial .item .commentator {
+        font-size: 16px;
+        line-height: 22px;
+        max-width: 100%;
+        margin-left: 15px;
+    }
+    .ad-landing-pages-testimonial .background-left,
+    .ad-landing-pages-testimonial .background-right {
+        max-width: 145px;
+    }
+    .ad-landing-pages-interested h2 {
+        font-size: 42px;
+        letter-spacing: 1.2px;
+        line-height: 44px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .list-workers .list-profiles .profile-workers ul li .profile .avatar-sample {
+        padding: 10px 0 0 10px;
+    }
+    .list-workers .list-profiles .profile-workers ul li .profile .description {
+        padding: 10px 10px 0 10px;
+    }
+    .reference-numbers .content-numbers .number {
+        font-size: 60px;
+        margin-bottom: 0;
+    }
+    .reference-numbers .content-numbers .description span {
+        font-size: 16px;
+    }
+    .reference-numbers .content-numbers .description {
+        font-size: 20px;
+        line-height: 16px;
+    }
+    section .section-title {
+        font-size: 24px;
+    }
+    .search-skills-workers .section-title {
+        font-size: 24px;
+    }
+    .news .section-title {
+        font-size: 24px;
+    }
+    .download-gigsmart .title {
+        font-size: 24px;
+    }
+    .main-header.is-mobile .menu-navigation ul.navbar-nav li a {
+        font-size: 14px;
+    }
+    .main-header.is-mobile .menu-navigation ul.navbar-nav li {
+        padding: 20px 0 10px;
+    }
+    .download-gigsmart.home {
+        margin-top: 80px;
+        padding-top: 0;
+    }
+    .reference-numbers .list-block .block .number {
+        font-size: 58px !important;
+    }
+    .menu-mobile {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 20px;
+    }
+    .browser-workers-section .browser-workers .skill-and-region .skill .list-skills .skill-ul .skill-items,
+    .browser-workers-section .browser-workers .skill-and-region .region .list-regions .region-ul .region-items {
+        padding-right: 0;
+    }
+    .search-state .box-search ul {
+        margin: 0 0px 0 10px;
+    }
+    .header-employment-intro .button-search-different-state,
+    .resources .button-jobs-load-more {
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 18px;
+        letter-spacing: 1.9px;
+        color: #ffffff;
+        border: 2px solid #003a5c;
+        background-color: #003a5c;
+        padding: 7px 15px;
+        text-transform: uppercase;
+        transition: 0.3s all;
+        min-width: 300px;
+        text-align: center;
+        display: inline-block;
+    }
+    .header-employment-intro h1 {
+        font-size: 36px;
+        line-height: 42px;
+    }
+    .group-main-content h4 {
+        font-size: 21px;
+        font-weight: 700;
+        line-height: 25px;
+        color: #4E4D4D;
+        margin-bottom: 15px;
+    }
+    /*Ad Landing Pages*/
+    .ad-landing-pages-banner h1 {
+        font-size: 26px;
+        line-height: 42px;
+    }
+}
+
+@media screen and (max-width:1015px) and (min-width:992px) {
+    header .menu-bot .navbar-nav .nav-item.button a {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    .download-gigsmart .title {
+        padding: 20px 0 20px;
+        font-size: 28px;
+    }
+    .download-gigsmart.find-worker .description {
+        margin-bottom: 20px
+    }
+    .download-gigsmart.find-worker .wrapper {
+        padding-bottom: 35px;
+    }
+    .download-gigsmart.find-worker .title {
+        padding-top: 30px;
+    }
+    .reference-numbers .content-numbers .description {
+        max-width: 250px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1015px) {
+    .news .first-news {
+        width: 100%;
+    }
+    .news .recent-articles {
+        width: 100%;
+    }
+    .search-skills-workers .skills .skill .filter-title h3 {
+        width: 95%;
+        font-size: 20px;
+    }
+    .search-skills-workers .skills .skill .filter-content p {
+        font-size: 11px;
+        width: 95%;
+        top: 50%;
+    }
+    .search-skills-workers .skills .skill .filter-content:after {
+        bottom: 0;
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 832px) {
+    .above-footer-cta .sub-title {
+        min-height: 150px;
+    }
+}
+
+@media screen and (min-width: 833px) and (max-width: 1128px) {
+    .above-footer-cta .sub-title {
+        min-height: 130px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 955px) {
+    .above-footer-cta .title {
+        min-height: 60px;
+    }
+    .above-footer-cta .sub-title {
+        min-height: 150px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .reference-numbers .list-block .block {
+        min-width: 370px;
+    }
+    .site-footer .logo-footer {
+        max-width: 150px;
+    }
+    header .brand-logo-wrap .logo img {
+        padding-top: 5px;
+    }
+    .banner .left-content .title,
+    body .editor-content h1.title {
+        font-size: 46px;
+        line-height: 55px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1085px) {
+    .residential-labor .right-lines-residential {
+        right: 0;
+    }
+}
+
+@media screen and (min-width: 956px) and (max-width: 991px) {
+    .page-template-template-business-how-it-works-php .above-footer-cta .title {
+        min-height: 60px;
+    }
+    .page-template-template-business-how-it-works-php .above-footer-cta .sub-title {
+        min-height: 130px;
+    }
+    .blog .above-footer-cta .title {
+        min-height: 60px;
+    }
+    .blog .above-footer-cta .sub-title {
+        min-height: 130px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1058px) {
+    .page-template-template-business-how-it-works-php .above-footer-cta .title {
+        min-height: 96px;
+    }
+    .blog .above-footer-cta .title {
+        min-height: 96px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .find-jobs-paging .page-numbers {
+        font-size: 20px;
+        padding: 5px;
+    }
+    .list-job-wrapper:before {
+        display: block;
+        position: relative;
+        top: auto;
+        left: auto;
+        width: 100%;
+        height: 30px;
+        margin-bottom: 20px;
+    }
+    .list-job-wrapper .list-job-tag {
+        position: absolute;
+        top: 4px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .job-modal .modal-content {
+        padding: 0;
+    }
+    .job-modal .modal-job-description {
+        padding: 25px 5px 15px;
+    }
+    .job-modal .job-description-content {
+        max-height: 200px;
+        padding: 0px 20px;
+    }
+    .job-modal .modal-content.no-content .modal-job-information {
+        border-bottom: 0;
+    }
+    .job-modal .modal-content.no-content .modal-job-description {
+        display: none;
+    }
+    .job-modal .modal-job-information {
+        padding: 55px 25px 30px 25px;
+    }
+    .job-modal .modal-job-footer {
+        display: block;
+        border-top: 1px solid #D1D1D1;
+    }
+    .job-modal .job-footer-content {
+        display: inline-flex;
+        padding: 20px 25px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .job-modal .job-footer-content img {
+        width: 11%;
+    }
+    .job-modal .job-footer-content p {
+        font-size: 12px;
+        line-height: 16px;
+        color: #87898B;
+        padding: 0 10px;
+        margin: 0;
+    }
+    .job-modal .job-view-footer {
+        display: block;
+        font-size: 16px;
+        line-height: 18px;
+        color: #003A5C;
+        font-weight: 700;
+        border: 2px solid #003A5C;
+        padding: 6px 12px;
+        text-transform: uppercase;
+    }
+    .job-modal .job-button .button.button-orange {
+        font-size: 14px;
+    }
+    .job-modal .modal-job-information h4 {
+        font-size: 20px;
+    }
+    .job-detail .job-snippet {
+        -webkit-line-clamp: 4;
+    }
+    .job-detail .job-snippet div {
+        margin-bottom: 10px;
+    }
+    .job-detail .job-name {
+        max-width: 68%;
+    }
+}
+
+@media screen and (width: 414px) {
+    body .container {
+        padding-left: 36px;
+        padding-right: 36px;
+    }
+    .how-to-hire-staff {
+        padding: 65px 0;
+    }
+    .faqs-page .faqs .container {
+        padding-left: 36px;
+        padding-right: 36px;
+    }
+    .faqs .section-title {
+        margin-left: 36px;
+    }
+    .faqs .button-faq,
+    .faqs .button-view-more.collapsed {
+        padding-left: 80px;
+    }
+    .faqs .button-faq i,
+    .faqs .button-view-more i {
+        transform: translateY(-50%) translateX(50%);
+    }
+    .faqs .answer .card {
+        padding-left: 36px;
+    }
+    .menu-mobile-toggle {
+        padding: 0;
+        margin-right: 0;
+    }
+}
+
+@media screen and (width: 320px) {
+    .job-modal .job-description-content {
+        max-height: 175px;
+    }
+    .job-modal .modal-job-information h4 {
+        font-size: 18px;
+    }
+    .job-modal .job-button .button.button-orange {
+        font-size: 11px;
+    }
+    .job-modal .modal-job-information {
+        padding: 50px 25px 20px 25px;
+    }
+    .job-modal .modal-job-description {
+        padding: 20px 5px 10px;
+    }
+    .job-modal .job-footer-content {
+        padding: 10px 15px;
+    }
+    .job-modal .modal-job-information .job-button {
+        margin-top: 20px;
+    }
+    .menu-mobile .menu-top>ul>li>ul>li>a {
+        font-size: 18px;
+        line-height: 1.8;
+    }
+    .menu-mobile .menu-top>ul>li.menu-item-has-children:before {
+        font-size: 15px;
+    }
+    .menu-mobile .menu-top>ul>li>a {
+        font-size: 20px;
+    }
+    .menu-mobile .menu-bot .menu-item {
+        line-height: 2em;
+    }
+    .menu-mobile .menu-bot a {
+        font-size: 18px;
+        line-height: 1.8;
+    }
+    section.how-it-work .section-title {
+        max-width: 100%;
+    }
+}
