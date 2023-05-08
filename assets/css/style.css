@@ -9322,6 +9322,8 @@ header .nav-mobile {
     justify-content: center; }
   .categories h2, .categories .h2 {
     margin-bottom: 52.5px; }
+  .categories h6, .categories .h6 {
+    text-transform: uppercase; }
   .categories .btn {
     margin-top: 49.55px; }
   .categories-card {
@@ -9474,7 +9476,14 @@ header .nav-mobile {
   .testimonials .swiper {
     width: 618.4px;
     max-width: 100%;
-    padding-bottom: 50px; }
+    padding-bottom: 0px;
+    border-radius: 14px; }
+  .testimonials .swiper-container,
+  .testimonials .swiper-slide {
+    border-radius: 14px;
+    overflow: hidden; }
+  .testimonials .swiper-pagination {
+    position: unset; }
   .testimonials-left {
     flex: 0 0 46%; }
   .testimonials-right {
@@ -9503,7 +9512,7 @@ header .nav-mobile {
     position: relative;
     display: inline-grid; }
     .testimonials .underline:after {
-      background-image: url(/assets/images/home/underline.png);
+      background-image: url("/images/underline.png");
       background-size: 100% 15px;
       background-repeat: no-repeat;
       width: 100%;

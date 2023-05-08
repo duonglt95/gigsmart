@@ -11,7 +11,16 @@
      .swiper {
           width: 618.4px;
           max-width: 100%;
-          padding-bottom: 50px;
+          padding-bottom: 0px;
+          border-radius: 14px;
+     }
+     .swiper-container,
+     .swiper-slide {
+          border-radius: 14px;
+          overflow: hidden;
+     }
+     .swiper-pagination {
+          position: unset;
      }
      &-left {
           flex: 0 0 46%;
@@ -49,7 +58,7 @@
           position: relative;
           display: inline-grid;
           &:after {
-               background-image: url(/assets/images/home/underline.png);
+               background-image: url('/images/underline.png');
                background-size: 100% 15px;
                background-repeat: no-repeat;
                width: 100%;
