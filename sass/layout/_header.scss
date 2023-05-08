@@ -16,6 +16,7 @@ header {
                @extend .nav-link;
                @extend .btn-fill--white;
                font-size: 15px;
+               white-space: nowrap;
           }
      }
      .menu-top-navigation-right {
