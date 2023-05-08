@@ -8425,7 +8425,10 @@ a {
   h3,
   .h3,
   .h3 {
-    font-size: 1.875rem; } }
+    font-size: 1.875rem; }
+
+  .h1-mb-40 h1, .h1-mb-40 .h1 {
+    font-size: 2.5rem; } }
 .btn-fill--orange, header .menu-top-navigation-right .menu-item:last-child a {
   color: #fff;
   background-color: #e15200;
@@ -8741,7 +8744,10 @@ a {
   h3,
   .h3,
   .h3 {
-    font-size: 1.875rem; } }
+    font-size: 1.875rem; }
+
+  .h1-mb-40 h1, .h1-mb-40 .h1 {
+    font-size: 2.5rem; } }
 .wrapper {
   margin-right: auto;
   margin-left: auto;
@@ -9827,13 +9833,51 @@ header .nav-mobile {
     .resources-box--btn .btn:first-child {
       margin-bottom: 20px; } }
 .contact-title {
-  background-color: #003b5c;
-  color: #fff; }
+  background-color: #001424;
+  color: #fff;
+  position: relative;
+  overflow: hidden; }
+  .contact-title:before {
+    content: '';
+    background: #001424;
+    background: radial-gradient(circle, #3b00e1 0%, #001424 100%);
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    opacity: 0.2;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    bottom: -105px;
+    left: 27%;
+    transform: translateX(-50%);
+    filter: blur(100px);
+    z-index: 0; }
+  .contact-title:after {
+    content: '';
+    background: #001424;
+    background: radial-gradient(circle, #0094eb 0%, #001424 100%);
+    background-repeat: no-repeat;
+    border-radius: 0%;
+    opacity: 0.5;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 260px;
+    bottom: -127px;
+    right: 25%;
+    transform: translate(50%);
+    filter: blur(50px);
+    z-index: 0; }
+  .contact-title .wrapper {
+    position: relative;
+    z-index: 1; }
 .contact-box {
   background-color: #e4e4e4;
   display: flex;
   flex-flow: column;
-  justify-content: space-between; }
+  justify-content: space-between;
+  align-items: flex-start; }
   .contact-box:not(:last-child) {
     margin-right: 20px; }
   .contact-box--text {
@@ -9852,6 +9896,9 @@ header .nav-mobile {
     .contact-box:not(:last-child) {
       margin-right: 0px;
       margin-bottom: 20px; } }
+@media screen and (max-width: 767px) {
+  .contact h1, .contact .h1 {
+    font-size: 30px; } }
 .staff-title {
   margin-bottom: 100px; }
 .staff-btn button {
