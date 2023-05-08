@@ -9123,7 +9123,7 @@ header .nav-mobile {
         width: auto; }
       .intro-layout2--count h1, .intro-layout2--count .h1 {
         line-height: 53px; }
-    .intro-layout2 .count {
+    .intro-layout2--num2 {
       position: relative; }
 
 @media screen and (max-width: 1199px) {
