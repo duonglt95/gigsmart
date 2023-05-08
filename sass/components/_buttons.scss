@@ -2,6 +2,7 @@
 @mixin btn-custom {
      @include button-size(15px, 22px, 14px, 0px);
      display: inline-block;
+     text-transform: uppercase;
      &.active {
           background-color: rgba(44, 86, 150, 0.08);
      }

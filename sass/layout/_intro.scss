@@ -3,6 +3,7 @@
      .btn {
           width: auto;
      }
+
      &-layout1 {
           background-color: #425a66;
           .wrapper {
@@ -12,6 +13,9 @@
           }
           .col {
                max-width: 513.5px;
+          }
+          a {
+               text-transform: uppercase;
           }
      }
      &-layout2 {
@@ -76,7 +80,7 @@
                          font-size: 50px;
                          margin-left: -25px;
                          &:after {
-                              content: url(/assets/images/home/pin_icon.png);
+                              content: url('../images/pin_icon.svg');
                               position: absolute;
                               right: -25px;
                               top: 4px;

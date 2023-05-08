@@ -8433,7 +8433,8 @@ a {
   padding: 15px 22px;
   font-size: 0.875rem;
   border-radius: 0;
-  display: inline-block; }
+  display: inline-block;
+  text-transform: uppercase; }
   .btn-fill--orange:hover, header .menu-top-navigation-right .menu-item:last-child a:hover {
     color: #fff;
     background-color: #bf4600;
@@ -8470,7 +8471,8 @@ a {
   padding: 15px 22px;
   font-size: 0.875rem;
   border-radius: 0;
-  display: inline-block; }
+  display: inline-block;
+  text-transform: uppercase; }
   .btn-fill--blue:hover {
     color: #fff;
     background-color: #002940;
@@ -8507,7 +8509,8 @@ a {
   padding: 15px 22px;
   font-size: 0.875rem;
   border-radius: 0;
-  display: inline-block; }
+  display: inline-block;
+  text-transform: uppercase; }
   .btn-fill--white:hover, header .menu-top-navigation-left a:hover, header .menu-top-navigation-right .menu-item:not(:last-child) a:hover {
     color: #003b5c;
     background-color: #e5e5e5;
@@ -8544,7 +8547,8 @@ a {
   padding: 15px 22px;
   font-size: 0.875rem;
   border-radius: 0;
-  display: inline-block; }
+  display: inline-block;
+  text-transform: uppercase; }
   .btn-line--blue:hover {
     color: #003b5c;
     background-color: #e5e5e5;
@@ -8581,7 +8585,8 @@ a {
   padding: 15px 22px;
   font-size: 0.875rem;
   border-radius: 0;
-  display: inline-block; }
+  display: inline-block;
+  text-transform: uppercase; }
   .btn-line--blue2:hover {
     color: #003b5c;
     background-color: #e5e5e5;
@@ -9045,6 +9050,8 @@ header .nav-mobile {
       background-size: cover; }
     .intro-layout1 .col {
       max-width: 513.5px; }
+    .intro-layout1 a {
+      text-transform: uppercase; }
   .intro-layout2 {
     background-color: #001424;
     position: relative;
@@ -9100,7 +9107,7 @@ header .nav-mobile {
         font-size: 50px;
         margin-left: -25px; }
         .intro-layout2--count .col:first-child h2:after, .intro-layout2--count .col:first-child .h2:after {
-          content: url(/assets/images/home/pin_icon.png);
+          content: url("../images/pin_icon.svg");
           position: absolute;
           right: -25px;
           top: 4px; }
@@ -9190,7 +9197,7 @@ header .nav-mobile {
 .business-tab1 li {
   position: relative; }
   .business-tab1 li:before {
-    content: url(/assets/images/home/tick.png);
+    content: url("../images/icon_tick.svg");
     position: absolute;
     left: -23.5px;
     top: 3px; }
@@ -9270,11 +9277,30 @@ header .nav-mobile {
     transform: translateX(50%);
     filter: blur(100px);
     z-index: 0; }
+  .looking-work h6, .looking-work .h6 {
+    text-transform: uppercase; }
   .looking-work p {
     width: 744px;
     max-width: 100%;
     margin-left: auto;
     margin-right: auto; }
+
+.fw-looking-work:before {
+  content: '';
+  background: #001424;
+  background: radial-gradient(circle, #3b00e1 0%, #001424 100%);
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  opacity: 0.2;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  bottom: -105px;
+  left: 27%;
+  transform: translateX(-50%);
+  filter: blur(100px);
+  z-index: 0; }
 
 @media screen and (max-width: 1199px) {
   .looking-work p {
@@ -9297,13 +9323,21 @@ header .nav-mobile {
     display: block;
     cursor: pointer;
     color: #001f37;
-    padding-top: 26.5px;
-    padding-bottom: 0px;
     text-align: center;
     background-color: #fff;
     border-radius: 14px;
-    height: 100%;
-    transition: 0.5s all; }
+    transition: 0.5s all;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 139px;
+    max-height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center; }
+    .categories-card img {
+      max-height: 50px;
+      display: flex;
+      object-fit: scale-down; }
     .categories-card:hover {
       transition: 0.5s all;
       background-color: rgba(0, 31, 55, 0.85);
@@ -9311,14 +9345,56 @@ header .nav-mobile {
       .categories-card:hover img {
         filter: brightness(0) invert(1); }
 
+.fw-categories {
+  padding-left: 0px;
+  padding-right: 0px; }
+  .fw-categories .wrapper {
+    padding-left: 200px;
+    padding-right: 200px; }
+  .fw-categories .categories-card {
+    height: 175px; }
+    .fw-categories .categories-card p {
+      font-weight: bold; }
+    .fw-categories .categories-card img {
+      max-height: 51px; }
+    .fw-categories .categories-card p:last-child {
+      font-size: 12px;
+      display: none;
+      margin-bottom: 0px; }
+    .fw-categories .categories-card:hover img {
+      display: none; }
+    .fw-categories .categories-card:hover p {
+      display: block; }
+
 @media screen and (max-width: 1439px) {
   .categories .row {
     max-width: 1295px; }
   .categories .col:nth-last-child(2) {
     margin-left: 12.5%; }
   .categories .col:last-child {
-    margin-right: 12.5%; } }
+    margin-right: 12.5%; }
+
+  .fw-categories .col:nth-last-child(2) {
+    margin-left: unset; }
+  .fw-categories .col:last-child {
+    margin-right: unset; }
+  .fw-categories .categories-card p {
+    font-weight: bold; }
+  .fw-categories .categories-card p:last-child {
+    font-size: 12px;
+    display: none; }
+  .fw-categories .categories-card:hover img {
+    display: none; }
+  .fw-categories .categories-card:hover p {
+    display: block; } }
 @media screen and (max-width: 1199px) {
+  .fw-categories {
+    padding-left: 50px;
+    padding-right: 50px; }
+    .fw-categories .wrapper {
+      padding-left: 0px;
+      padding-right: 0px; }
+
   .categories .row {
     max-width: 1199px; }
   .categories .col:nth-last-child(2) {
@@ -9338,7 +9414,11 @@ header .nav-mobile {
       --bs-gutter-x: 0px;
       padding: 7.5px; }
     .categories .row {
-      max-width: 100%; } }
+      max-width: 100%; }
+
+  .fw-categories .categories-card {
+    padding-left: 15px;
+    padding-right: 15px; } }
 .advertise .wrapper .row {
   justify-content: center;
   align-items: stretch; }
@@ -9782,8 +9862,14 @@ header .nav-mobile {
   margin-right: -1px; }
 .staff-btn button:last-child {
   margin-right: 0px; }
+.staff .how-it-work-business .list-guide {
+  align-items: flex-start;
+  flex-flow: column; }
+.staff-btn2 {
+  margin-top: 50px; }
 .staff .how-it-work {
-  padding-top: 72x; }
+  padding-top: 72x;
+  padding-bottom: 0px; }
   .staff .how-it-work .guide-section {
     padding-top: 0px; }
     .staff .how-it-work .guide-section .guide:first-child:after {

@@ -15,8 +15,16 @@
                margin-right: 0px;
           }
      }
+     .how-it-work-business .list-guide {
+          align-items: flex-start;
+          flex-flow: column;
+     }
+     &-btn2 {
+          margin-top: 50px;
+     }
      .how-it-work {
           padding-top: 72x;
+          padding-bottom: 0px;
           .guide-section {
                padding-top: 0px;
                .guide:first-child:after {

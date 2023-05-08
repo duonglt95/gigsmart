@@ -20,19 +20,61 @@
           display: block;
           cursor: pointer;
           color: #001f37;
-          padding-top: 26.5px;
-          padding-bottom: 0px;
+          // padding-top: 26.5px;
+          // padding-bottom: 0px;
           text-align: center;
           background-color: $white;
           border-radius: 14px;
-          height: 100%;
+          // height: 100%;
           transition: 0.5s all;
+          padding-top: 0px;
+          padding-bottom: 0px;
+          height: 139px;
+          max-height: 100%;
+          display: flex;
+          flex-flow: column;
+          justify-content: center;
+          img {
+               max-height: 50px;
+               display: flex;
+               object-fit: scale-down;
+          }
           &:hover {
                transition: 0.5s all;
                background-color: rgba(0, 31, 55, 0.85);
                color: white;
                img {
                     filter: brightness(0) invert(1);
+               }
+          }
+     }
+}
+.fw-categories {
+     padding-left: 0px;
+     padding-right: 0px;
+     .wrapper {
+          padding-left: 200px;
+          padding-right: 200px;
+     }
+     .categories-card {
+          height: 175px;
+          p {
+               font-weight: bold;
+          }
+          img {
+               max-height: 51px;
+          }
+          p:last-child {
+               font-size: 12px;
+               display: none;
+               margin-bottom: 0px;
+          }
+          &:hover {
+               img {
+                    display: none;
+               }
+               p {
+                    display: block;
                }
           }
      }
@@ -50,9 +92,42 @@
                margin-right: 12.5%;
           }
      }
+     .fw-categories {
+          .col:nth-last-child(2) {
+               margin-left: unset;
+          }
+          .col:last-child {
+               margin-right: unset;
+          }
+          .categories-card {
+               p {
+                    font-weight: bold;
+               }
+               p:last-child {
+                    font-size: 12px;
+                    display: none;
+               }
+               &:hover {
+                    img {
+                         display: none;
+                    }
+                    p {
+                         display: block;
+                    }
+               }
+          }
+     }
 }
 // Responsive tablet 2
 @media screen and (max-width: 1199px) {
+     .fw-categories {
+          padding-left: 50px;
+          padding-right: 50px;
+          .wrapper {
+               padding-left: 0px;
+               padding-right: 0px;
+          }
+     }
      .categories {
           .row {
                max-width: 1199px;
@@ -86,6 +161,12 @@
           }
           .row {
                max-width: 100%;
+          }
+     }
+     .fw-categories {
+          .categories-card {
+               padding-left: 15px;
+               padding-right: 15px;
           }
      }
 }

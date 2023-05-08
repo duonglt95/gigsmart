@@ -22,7 +22,7 @@
           li {
                position: relative;
                &:before {
-                    content: url(/assets/images/home/tick.png);
+                    content: url('../images/icon_tick.svg');
                     position: absolute;
                     left: -23.5px;
                     top: 3px;
