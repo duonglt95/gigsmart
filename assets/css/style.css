@@ -9200,22 +9200,22 @@ header .nav-mobile {
   height: 100%; }
 .business-box-right {
   padding: 72px 0px 72px 72px; }
-.business-tab1 li {
+.business .Business li {
   position: relative; }
-  .business-tab1 li:before {
+  .business .Business li:before {
     content: url("../images/icon_tick.svg");
     position: absolute;
     left: -23.5px;
     top: 3px; }
-.business-tab2 li {
+.business .Workers li {
   display: block; }
-  .business-tab2 li img,
-  .business-tab2 li p {
+  .business .Workers li img,
+  .business .Workers li p {
     display: inline-block;
     vertical-align: middle; }
-  .business-tab2 li img {
+  .business .Workers li img {
     margin-right: 15px; }
-  .business-tab2 li p {
+  .business .Workers li p {
     color: #001f37; }
 .business-btn {
   margin-bottom: 50px; }
