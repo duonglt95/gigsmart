@@ -9297,6 +9297,12 @@ header .nav-mobile {
     max-width: 100%; } }
 .business .wrapper {
   max-width: 1440px; }
+.business .img-default {
+  background-color: #595959;
+  width: 100%;
+  height: 100%; }
+.business .sub-heading {
+  text-transform: uppercase; }
 .business-box-left img:not(:first-child) {
   display: none; }
 .business-box-left img {

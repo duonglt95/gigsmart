@@ -2,6 +2,14 @@
      .wrapper {
           max-width: 1440px;
      }
+     .img-default {
+          background-color: $grey;
+          width: 100%;
+          height: 100%;
+     }
+     .sub-heading {
+          text-transform: uppercase;
+     }
      &-box-left {
           img:not(:first-child) {
                display: none;
