@@ -9261,8 +9261,8 @@ header .nav-mobile {
   padding: 72px 0px 72px 72px; }
 .business-tab1 ul:first-child {
   padding-left: 24px;
-  margin-right: 57px; }
-.business-tab1 ul li:not(:last-child) {
+  margin: 0px; }
+.business-tab1 ul li {
   margin-bottom: 18px; }
 .business-tab2 ul {
   margin-left: 0px;
@@ -9276,7 +9276,7 @@ header .nav-mobile {
     margin-right: 30px; }
 .business .ul-two-colum {
   column-count: 2;
-  column-gap: 30px; }
+  column-gap: 60px; }
 .business .businesses li {
   position: relative; }
   .business .businesses li:before {

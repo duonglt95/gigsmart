@@ -21,10 +21,10 @@
      &-tab1 {
           ul:first-child {
                padding-left: 24px;
-               margin-right: 57px;
+               margin: 0px;
           }
           ul {
-               li:not(:last-child) {
+               li {
                     margin-bottom: 18px;
                }
           }
@@ -46,7 +46,7 @@
      }
      .ul-two-colum {
           column-count: 2;
-          column-gap: 30px;
+          column-gap: 60px;
      }
      .businesses {
           li {
