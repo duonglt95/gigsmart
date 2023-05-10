@@ -19,7 +19,7 @@
           padding: 72px 0px 72px 72px;
      }
      &-tab1 {
-          &--list {
+          ul:first-child {
                padding-left: 24px;
                margin-right: 57px;
           }
@@ -30,6 +30,10 @@
           }
      }
      &-tab2 {
+          ul {
+               margin-left: 0px;
+               padding-left: 0px;
+          }
           li {
                display: flex;
                justify-content: flex-start;
