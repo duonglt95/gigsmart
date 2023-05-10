@@ -17,6 +17,9 @@
           a {
                text-transform: uppercase;
           }
+          h6 {
+               text-transform: uppercase;
+          }
      }
      &-layout2 {
           background-color: #001424;
@@ -25,6 +28,9 @@
           .wrapper {
                position: relative;
                z-index: 1;
+          }
+          &--left {
+               margin-right: 72px;
           }
           &:before {
                content: '';
@@ -75,24 +81,41 @@
                margin-top: 49px;
                text-align: center;
                justify-content: space-around;
+               .col {
+                    display: flex;
+                    flex-flow: column;
+                    justify-content: flex-start;
+               }
+               .icon-location {
+                    display: inline-block;
+                    position: relative;
+                    top: -5px;
+               }
                .col:first-child {
                     h2 {
                          font-size: 50px;
                          margin-left: -25px;
-                         &:after {
-                              content: url('../images/pin_icon.svg');
-                              position: absolute;
-                              right: -25px;
-                              top: 50%;
-                              transform: translateY(-50%);
-                         }
+                         line-height: 53px;
+                         // &:after {
+                         //      content: url('../images/pin_icon.svg');
+                         //      position: absolute;
+                         //      right: -25px;
+                         //      top: 50%;
+                         //      transform: translateY(-50%);
+                         // }
                     }
+               }
+               .col:not(:last-child) {
+                    padding-right: 72px;
                }
                h2 {
                     display: inline;
                }
                img {
                     width: auto;
+               }
+               p {
+                    margin-bottom: 0px;
                }
                h1 {
                     line-height: 53px;
@@ -120,19 +143,27 @@
                }
           }
           &-layout2 {
+               &--left {
+                    margin-right: 0px;
+               }
                &--right {
                     display: none;
                }
                &--count {
                     justify-content: center;
-                    .col:nth-child(2) {
-                         margin: 0px 20px;
-                    }
+                    // .col:nth-child(2) {
+                    //      margin: 0px 20px;
+                    // }
                }
                .col:first-child {
                     h2:after {
                          display: none;
                     }
+               }
+               .icon-location {
+                    display: inline-block;
+                    position: relative;
+                    top: -5px;
                }
           }
      }
@@ -146,6 +177,11 @@
                }
           }
           &-layout2 {
+               &--count {
+                    .col:not(:last-child) {
+                         padding-right: 20px;
+                    }
+               }
           }
      }
 }
@@ -160,17 +196,39 @@
           &-layout2 {
                &--count {
                     justify-content: space-between;
-                    .col:first-child {
-                         margin-right: 7.5px;
-                         width: calc(50% - 7.5px);
+                    // .col:first-child {
+                    //      margin-right: 7.5px;
+                    //      width: calc(50% - 7.5px);
+                    //      h2 {
+                    //           font-size: 35px;
+                    //           line-height: 42px;
+                    //      }
+                    // }
+                    // .col:nth-child(2) {
+                    //      margin: 0px;
+                    //      margin-left: 7.5px;
+                    //      width: calc(50% - 7.5px);
+                    // }
+                    .col:not(:last-child) {
+                         padding-right: 0px;
                     }
-                    .col:nth-child(2) {
-                         margin: 0px;
-                         margin-left: 7.5px;
-                         width: calc(50% - 7.5px);
+                    .col:first-child {
+                         padding-right: 15px;
+                         h2 {
+                              font-size: 35px;
+                              line-height: 42px;
+                              margin-left: 0px;
+                         }
+                    }
+                    .col:nth-child(4n) {
+                         padding-right: 15px;
+                    }
+                    .col:nth-child(n + 3) {
+                         margin-top: 30px;
                     }
                     .col:last-child {
-                         margin: 0 auto;
+                         margin-left: auto;
+                         margin-right: auto;
                     }
                     h1 {
                          line-height: 42px;

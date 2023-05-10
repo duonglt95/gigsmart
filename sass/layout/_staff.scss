@@ -25,14 +25,34 @@
      .how-it-work {
           padding-top: 72x;
           padding-bottom: 0px;
+          .guide-section:nth-child(odd) {
+               .list-guide {
+                    padding-left: 105px;
+               }
+               .guide:before {
+                    left: -55.1px;
+                    @media screen and (max-width: 991px) {
+                         left: -54.1px;
+                    }
+                    right: auto;
+               }
+               .guide:last-child:after {
+                    left: -60px;
+               }
+          }
           .guide-section {
                padding-top: 0px;
                .guide:first-child:after {
-                    bottom: calc(92% + 7px);
+                    bottom: calc(88% + 7px);
+                    @media screen and (max-width: 991px) {
+                         bottom: calc(91% + 7px);
+                    }
+                    left: -60px;
                }
                .list-guide:before {
-                    height: 96%;
+                    height: 98%;
                     background-color: $blue-text2;
+                    left: 52.5px;
                }
                .guide:before {
                     top: 5%;
@@ -44,7 +64,7 @@
                     border: 1px solid $blue-text2;
                }
                .guide:last-child:after {
-                    top: calc(6% + 8.5px);
+                    top: calc(6% + 8.3px);
                }
 
                .image-placeholder-wrapper {
@@ -67,11 +87,6 @@
                justify-content: space-between;
           }
           .guide-section:nth-child(odd) .guide:before {
-               left: -74.5px;
-               @media screen and (max-width: 991px) {
-                    left: -51.5px;
-               }
-               right: auto;
           }
      }
 }
