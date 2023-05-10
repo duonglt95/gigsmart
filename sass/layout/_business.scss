@@ -18,6 +18,32 @@
      &-box-right {
           padding: 72px 0px 72px 72px;
      }
+     &-tab1 {
+          &--list {
+               padding-left: 24px;
+               margin-right: 57px;
+          }
+          ul {
+               li:not(:last-child) {
+                    margin-bottom: 18px;
+               }
+          }
+     }
+     &-tab2 {
+          li {
+               display: flex;
+               justify-content: flex-start;
+               align-items: center;
+               img {
+                    object-fit: scale-down;
+                    margin-right: 30px;
+               }
+          }
+     }
+     .ul-two-colum {
+          column-count: 2;
+          column-gap: 30px;
+     }
      .businesses {
           li {
                position: relative;
@@ -96,6 +122,11 @@
           &-box-right {
                padding-left: 50px;
                padding-right: 50px;
+          }
+          &-tab1 {
+               &--list {
+                    margin-right: 41px;
+               }
           }
      }
 }

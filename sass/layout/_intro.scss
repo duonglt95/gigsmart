@@ -83,7 +83,8 @@
                               content: url('../images/pin_icon.svg');
                               position: absolute;
                               right: -25px;
-                              top: 4px;
+                              top: 50%;
+                              transform: translateY(-50%);
                          }
                     }
                }

@@ -8359,10 +8359,12 @@ a {
   font-size: 15px; }
 
 .h1-75 h1, .h1-75 .h1 {
-  font-size: 75px; }
+  font-size: 75px;
+  font-weight: 600; }
 
 .h1-52 h1, .h1-52 .h1 {
-  font-size: 52px; }
+  font-size: 52px;
+  font-weight: 600; }
 
 .h2-44 h2, .h2-44 .h2 {
   font-size: 44px; }
@@ -8408,6 +8410,30 @@ a {
 
 .li-18 li {
   font-size: 18px; }
+
+h1, .h1 {
+  font-family: Produkt Web, Arial;
+  font-weight: 600; }
+
+h2, .h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  font-family: proxima-nova, san-serif;
+  font-weight: 700; }
+
+p {
+  font-family: proxima-nova, san-serif;
+  font-weight: 400; }
+
+li {
+  font-family: proxima-nova, san-serif;
+  font-weight: 400; }
 
 @media screen and (max-width: 767px) {
   .h1-75 h1, .h1-75 .h1 {
@@ -8678,10 +8704,12 @@ a {
   font-size: 15px; }
 
 .h1-75 h1, .h1-75 .h1 {
-  font-size: 75px; }
+  font-size: 75px;
+  font-weight: 600; }
 
 .h1-52 h1, .h1-52 .h1 {
-  font-size: 52px; }
+  font-size: 52px;
+  font-weight: 600; }
 
 .h2-44 h2, .h2-44 .h2 {
   font-size: 44px; }
@@ -8727,6 +8755,30 @@ a {
 
 .li-18 li {
   font-size: 18px; }
+
+h1, .h1 {
+  font-family: Produkt Web, Arial;
+  font-weight: 600; }
+
+h2, .h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  font-family: proxima-nova, san-serif;
+  font-weight: 700; }
+
+p {
+  font-family: proxima-nova, san-serif;
+  font-weight: 400; }
+
+li {
+  font-family: proxima-nova, san-serif;
+  font-weight: 400; }
 
 @media screen and (max-width: 767px) {
   .h1-75 h1, .h1-75 .h1 {
@@ -9116,7 +9168,8 @@ header .nav-mobile {
           content: url("../images/pin_icon.svg");
           position: absolute;
           right: -25px;
-          top: 4px; }
+          top: 50%;
+          transform: translateY(-50%); }
       .intro-layout2--count h2, .intro-layout2--count .h2 {
         display: inline; }
       .intro-layout2--count img {
@@ -9200,6 +9253,21 @@ header .nav-mobile {
   height: 100%; }
 .business-box-right {
   padding: 72px 0px 72px 72px; }
+.business-tab1--list {
+  padding-left: 24px;
+  margin-right: 57px; }
+.business-tab1 ul li:not(:last-child) {
+  margin-bottom: 18px; }
+.business-tab2 li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; }
+  .business-tab2 li img {
+    object-fit: scale-down;
+    margin-right: 30px; }
+.business .ul-two-colum {
+  column-count: 2;
+  column-gap: 30px; }
 .business .businesses li {
   position: relative; }
   .business .businesses li:before {
@@ -9250,7 +9318,9 @@ header .nav-mobile {
     max-width: 1199px; }
   .business-box-right {
     padding-left: 50px;
-    padding-right: 50px; } }
+    padding-right: 50px; }
+  .business-tab1--list {
+    margin-right: 41px; } }
 @media screen and (max-width: 991px) {
   .business .wrapper {
     max-width: 991px; }
@@ -9512,7 +9582,7 @@ header .nav-mobile {
     position: relative;
     display: inline-grid; }
     .testimonials .underline:after {
-      background-image: url("/images/underline.png");
+      background-image: url("../images/underline.png");
       background-size: 100% 15px;
       background-repeat: no-repeat;
       width: 100%;
@@ -9613,7 +9683,9 @@ header .nav-mobile {
     margin-right: 16.6666666666%; } }
 @media screen and (max-width: 767px) {
   .brands .row {
-    --bs-gutter-x: 15px; }
+    --bs-gutter-x: 15px;
+    margin-left: -15px;
+    margin-right: -15px; }
   .brands .wrapper {
     padding: 0px; }
   .brands-container {

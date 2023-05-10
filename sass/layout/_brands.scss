@@ -66,6 +66,8 @@
      .brands {
           .row {
                --bs-gutter-x: 15px;
+               margin-left: -15px;
+               margin-right: -15px;
           }
           .wrapper {
                padding: 0px;
