@@ -9170,7 +9170,7 @@ header .nav-mobile {
     .intro-layout2--count {
       margin-top: 49px;
       text-align: center;
-      justify-content: space-around; }
+      justify-content: center; }
       .intro-layout2--count .col {
         display: flex;
         flex-flow: column;
@@ -9183,8 +9183,13 @@ header .nav-mobile {
         font-size: 50px;
         margin-left: -25px;
         line-height: 53px; }
-      .intro-layout2--count .col:not(:last-child) {
-        padding-right: 72px; }
+      .intro-layout2--count .col {
+        max-width: 160px; }
+      .intro-layout2--count .col:nth-child(2n + 2) {
+        padding: 0px 36px;
+        max-width: 232px; }
+      .intro-layout2--count .col:last-child {
+        padding: 0px; }
       .intro-layout2--count h2, .intro-layout2--count .h2 {
         display: inline; }
       .intro-layout2--count img {
@@ -9212,28 +9217,34 @@ header .nav-mobile {
     position: relative;
     top: -5px; } }
 @media screen and (max-width: 991px) {
-  .intro-layout2--count .col:not(:last-child) {
-    padding-right: 20px; } }
+  .intro-layout2--count .col:nth-child(2n + 2) {
+    padding: 0px 20px; }
+  .intro-layout2--count .col:last-child {
+    padding: 0px; } }
 @media screen and (max-width: 767px) {
   .intro-layout1 .col {
     max-width: 100%; }
   .intro-layout2--count {
     justify-content: space-between; }
+    .intro-layout2--count .col {
+      max-width: unset; }
     .intro-layout2--count .col:not(:last-child) {
-      padding-right: 0px; }
+      padding-right: 0px;
+      padding-left: 0px; }
     .intro-layout2--count .col:first-child {
       padding-right: 15px; }
       .intro-layout2--count .col:first-child h2, .intro-layout2--count .col:first-child .h2 {
         font-size: 35px;
         line-height: 42px;
         margin-left: 0px; }
-    .intro-layout2--count .col:nth-child(4n) {
-      padding-right: 15px; }
     .intro-layout2--count .col:nth-child(n + 3) {
       margin-top: 30px; }
+    .intro-layout2--count .col:nth-child(2n + 1) {
+      padding-right: 15px; }
     .intro-layout2--count .col:last-child {
       margin-left: auto;
-      margin-right: auto; }
+      margin-right: auto;
+      padding: 0px; }
     .intro-layout2--count h1, .intro-layout2--count .h1 {
       line-height: 42px; }
   .intro-layout2--btn .btn {

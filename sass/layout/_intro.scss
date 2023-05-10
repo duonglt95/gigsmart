@@ -80,7 +80,7 @@
           &--count {
                margin-top: 49px;
                text-align: center;
-               justify-content: space-around;
+               justify-content: center;
                .col {
                     display: flex;
                     flex-flow: column;
@@ -105,8 +105,16 @@
                          // }
                     }
                }
-               .col:not(:last-child) {
-                    padding-right: 72px;
+               .col {
+                    max-width: 160px;
+               }
+               .col:nth-child(2n + 2) {
+                    padding: 0px 36px;
+                    max-width: 232px;
+               }
+
+               .col:last-child {
+                    padding: 0px;
                }
                h2 {
                     display: inline;
@@ -178,8 +186,11 @@
           }
           &-layout2 {
                &--count {
-                    .col:not(:last-child) {
-                         padding-right: 20px;
+                    .col:nth-child(2n + 2) {
+                         padding: 0px 20px;
+                    }
+                    .col:last-child {
+                         padding: 0px;
                     }
                }
           }
@@ -209,8 +220,12 @@
                     //      margin-left: 7.5px;
                     //      width: calc(50% - 7.5px);
                     // }
+                    .col {
+                         max-width: unset;
+                    }
                     .col:not(:last-child) {
                          padding-right: 0px;
+                         padding-left: 0px;
                     }
                     .col:first-child {
                          padding-right: 15px;
@@ -220,15 +235,17 @@
                               margin-left: 0px;
                          }
                     }
-                    .col:nth-child(4n) {
-                         padding-right: 15px;
-                    }
                     .col:nth-child(n + 3) {
                          margin-top: 30px;
                     }
+                    .col:nth-child(2n + 1) {
+                         padding-right: 15px;
+                    }
+
                     .col:last-child {
                          margin-left: auto;
                          margin-right: auto;
+                         padding: 0px;
                     }
                     h1 {
                          line-height: 42px;
