@@ -9362,6 +9362,8 @@ header .nav-mobile {
   color: #595959; }
 .business ul li {
   list-style-type: none; }
+.business ol li::before {
+  display: none; }
 .business li,
 .business h2,
 .business .h2 {

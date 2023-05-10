@@ -97,6 +97,13 @@
                list-style-type: none;
           }
      }
+     ol {
+          li {
+               &::before {
+                    display: none;
+               }
+          }
+     }
      li,
      h2 {
           color: $blue-text2;
