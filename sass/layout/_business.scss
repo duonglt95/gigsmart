@@ -92,10 +92,14 @@
      p {
           color: $grey;
      }
+     ul {
+          li {
+               list-style-type: none;
+          }
+     }
      li,
      h2 {
           color: $blue-text2;
-          list-style-type: none;
      }
      .btn-line-blue {
           color: $blue-text2;

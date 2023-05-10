@@ -20,6 +20,9 @@
           h6 {
                text-transform: uppercase;
           }
+          .is-mobile-button {
+               display: none;
+          }
      }
      &-layout2 {
           background-color: #001424;
@@ -202,6 +205,12 @@
           &-layout1 {
                .col {
                     max-width: 100%;
+               }
+               .is-mobile-button {
+                    display: none;
+               }
+               .is-desktop-button {
+                    display: block;
                }
           }
           &-layout2 {

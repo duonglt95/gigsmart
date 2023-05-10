@@ -9118,6 +9118,8 @@ header .nav-mobile {
       text-transform: uppercase; }
     .intro-layout1 h6, .intro-layout1 .h6 {
       text-transform: uppercase; }
+    .intro-layout1 .is-mobile-button {
+      display: none; }
   .intro-layout2 {
     background-color: #001424;
     position: relative;
@@ -9224,6 +9226,10 @@ header .nav-mobile {
 @media screen and (max-width: 767px) {
   .intro-layout1 .col {
     max-width: 100%; }
+  .intro-layout1 .is-mobile-button {
+    display: none; }
+  .intro-layout1 .is-desktop-button {
+    display: block; }
   .intro-layout2--count {
     justify-content: space-between; }
     .intro-layout2--count .col {
@@ -9354,11 +9360,12 @@ header .nav-mobile {
     padding: 10px 36px 7px 36px; }
 .business p {
   color: #595959; }
+.business ul li {
+  list-style-type: none; }
 .business li,
 .business h2,
 .business .h2 {
-  color: #001f37;
-  list-style-type: none; }
+  color: #001f37; }
 .business .btn-line-blue {
   color: #001f37;
   border-color: #001f37; }
