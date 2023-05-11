@@ -10100,6 +10100,8 @@ header .nav-mobile {
   margin-bottom: 100px; }
   .staff-title h6, .staff-title .h6 {
     text-transform: uppercase; }
+.staff .wrapper {
+  position: relative; }
 .staff-btn button {
   min-width: 150px;
   padding: 5px 10px; }
