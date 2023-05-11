@@ -20,8 +20,15 @@
           h6 {
                text-transform: uppercase;
           }
+          .is-mobile-button,
+          .is-desktop-button {
+               white-space: pre-wrap;
+          }
           .is-mobile-button {
                display: none;
+          }
+          .is-desktop-button {
+               display: inline-block;
           }
      }
      &-layout2 {
@@ -207,10 +214,10 @@
                     max-width: 100%;
                }
                .is-mobile-button {
-                    display: none;
+                    display: inline-block;
                }
                .is-desktop-button {
-                    display: block;
+                    display: none;
                }
           }
           &-layout2 {

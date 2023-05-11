@@ -9118,8 +9118,13 @@ header .nav-mobile {
       text-transform: uppercase; }
     .intro-layout1 h6, .intro-layout1 .h6 {
       text-transform: uppercase; }
+    .intro-layout1 .is-mobile-button,
+    .intro-layout1 .is-desktop-button {
+      white-space: pre-wrap; }
     .intro-layout1 .is-mobile-button {
       display: none; }
+    .intro-layout1 .is-desktop-button {
+      display: inline-block; }
   .intro-layout2 {
     background-color: #001424;
     position: relative;
@@ -9227,9 +9232,9 @@ header .nav-mobile {
   .intro-layout1 .col {
     max-width: 100%; }
   .intro-layout1 .is-mobile-button {
-    display: none; }
+    display: inline-block; }
   .intro-layout1 .is-desktop-button {
-    display: block; }
+    display: none; }
   .intro-layout2--count {
     justify-content: space-between; }
     .intro-layout2--count .col {
