@@ -19,6 +19,13 @@
      flex-flow: column;
      background-color: #f7f8f8;
      overflow: hidden;
+     h5,
+     h6 {
+          text-transform: uppercase;
+     }
+     h6 {
+          margin-bottom: 0px;
+     }
      &-overlay {
           position: absolute;
           opacity: 0.05;
