@@ -3,6 +3,8 @@
      @include button-size(15px, 22px, 14px, 0px);
      display: inline-block;
      text-transform: uppercase;
+     font-family: $font-proxima-nova;
+     font-weight: 700;
      &.active {
           background-color: rgba(44, 86, 150, 0.08);
      }

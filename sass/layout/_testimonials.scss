@@ -21,6 +21,7 @@
      }
      .swiper-pagination {
           position: unset;
+          margin-top: 8px;
      }
      .swiper-pagination-bullet {
           background-color: #d8d8d8;
@@ -158,6 +159,9 @@
           }
           &-left {
                max-width: 100%;
+          }
+          &-right {
+               margin-top: 28px;
           }
           &-box {
                padding: 15px;
