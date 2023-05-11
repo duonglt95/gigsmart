@@ -9578,6 +9578,10 @@ header .nav-mobile {
   .fw-categories .categories-card {
     padding-left: 15px;
     padding-right: 15px; } }
+.advertise .img-default {
+  background-color: #5959594f;
+  width: 100%;
+  height: 100%; }
 .advertise .wrapper .row {
   justify-content: center;
   align-items: stretch; }
@@ -9938,7 +9942,8 @@ header .nav-mobile {
 .case-study .how-it-work {
   padding-top: 0px; }
 .case-study .wrapper {
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-size: cover; }
 .case-study-box h2, .case-study-box .h2 {
   color: #001f37; }
 .case-study-box .btn {
