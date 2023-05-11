@@ -8997,6 +8997,8 @@ header .menu-top-navigation-right {
 header .navbar,
 header .col {
   padding: 0px; }
+header li a {
+  white-space: nowrap; }
 header .nav-desktop {
   height: auto; }
 header .nav-left .nav-link, header .nav-left .menu-top-navigation-left a, header .menu-top-navigation-left .nav-left a, header .nav-left .menu-top-navigation-right .menu-item:not(:last-child) a, header .menu-top-navigation-right .menu-item:not(:last-child) .nav-left a {
@@ -9054,6 +9056,9 @@ header .nav-mobile {
         border-left: 1px solid #eaeaea; }
     header .nav .menu-top-navigation-right .menu-item:last-child {
       order: 3; } }
+@media screen and (min-width: 768px) {
+  .nav-desktop {
+    height: auto !important; } }
 @media screen and (max-width: 767px) {
   header .menu-top-navigation-left {
     flex-flow: column; }
