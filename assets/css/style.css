@@ -9793,6 +9793,8 @@ header .nav-mobile {
   overflow: hidden;
   background-color: #001424;
   color: white; }
+  .proceed h6, .proceed .h6 {
+    text-transform: uppercase; }
   .proceed:before {
     content: '';
     background: #001424;
@@ -9837,8 +9839,6 @@ header .nav-mobile {
     display: inline-block;
     vertical-align: middle; }
 
-.hw-proceed h6, .hw-proceed .h6 {
-  text-transform: uppercase; }
 .hw-proceed:before {
   content: '';
   background: #001424;
@@ -9926,6 +9926,8 @@ header .nav-mobile {
   color: #001f37; }
   .help-center .wrapper {
     text-align: center; }
+  .help-center h6, .help-center .h6 {
+    text-transform: uppercase; }
 
 .results {
   position: relative;
