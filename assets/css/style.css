@@ -9822,6 +9822,8 @@ header .nav-mobile {
     display: inline-block;
     vertical-align: middle; }
 
+.hw-proceed h6, .hw-proceed .h6 {
+  text-transform: uppercase; }
 .hw-proceed:before {
   content: '';
   background: #001424;
@@ -9943,6 +9945,8 @@ header .nav-mobile {
   margin-top: 33px; }
 .case-study .swiper {
   background-color: rgba(255, 255, 255, 0.8); }
+  .case-study .swiper h6, .case-study .swiper .h6 {
+    text-transform: uppercase; }
   .case-study .swiper-pagination {
     text-align: left;
     padding-left: 80px; }
@@ -9967,6 +9971,8 @@ header .nav-mobile {
   .case-study-box {
     padding-left: 30px;
     padding-right: 30px; } }
+.resources h6, .resources .h6 {
+  text-transform: uppercase; }
 .resources-box:last-child {
   display: flex;
   justify-content: space-between;
@@ -10070,6 +10076,8 @@ header .nav-mobile {
     font-size: 30px; } }
 .staff-title {
   margin-bottom: 100px; }
+  .staff-title h6, .staff-title .h6 {
+    text-transform: uppercase; }
 .staff-btn button {
   min-width: 150px;
   padding: 5px 10px; }

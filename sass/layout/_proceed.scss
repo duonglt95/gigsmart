@@ -60,6 +60,9 @@
      }
 }
 .hw-proceed {
+     h6 {
+          text-transform: uppercase;
+     }
      &:before {
           content: '';
           background: #001424;

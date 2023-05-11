@@ -1,6 +1,9 @@
 .staff {
      &-title {
           margin-bottom: 100px;
+          h6 {
+               text-transform: uppercase;
+          }
      }
      &-btn {
           button {

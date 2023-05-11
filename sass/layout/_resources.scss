@@ -1,4 +1,7 @@
 .resources {
+     h6 {
+          text-transform: uppercase;
+     }
      &-box {
           &:last-child {
                display: flex;
