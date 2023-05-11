@@ -22,6 +22,12 @@
      .swiper-pagination {
           position: unset;
      }
+     .swiper-pagination-bullet {
+          background-color: #d8d8d8;
+     }
+     .swiper-pagination-bullet-active {
+          background-color: #003a5c;
+     }
      &-left {
           flex: 0 0 46%;
           h6 {
@@ -61,7 +67,7 @@
           position: relative;
           display: inline-grid;
           &:after {
-               background-image: url('../images/underline.png');
+               background-image: url('../images/underline.svg');
                background-size: 100% 15px;
                background-repeat: no-repeat;
                width: 100%;
