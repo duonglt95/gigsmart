@@ -9583,6 +9583,8 @@ header .nav-mobile {
   .fw-categories .categories-card {
     padding-left: 15px;
     padding-right: 15px; } }
+.advertise h6, .advertise .h6 {
+  text-transform: uppercase; }
 .advertise .img-default {
   background-color: #5959594f;
   width: 100%;
@@ -9646,6 +9648,8 @@ header .nav-mobile {
     position: unset; }
   .testimonials-left {
     flex: 0 0 46%; }
+    .testimonials-left h6, .testimonials-left .h6 {
+      text-transform: uppercase; }
   .testimonials-right {
     flex: 0 0 47%; }
   .testimonials-box {
@@ -9734,6 +9738,8 @@ header .nav-mobile {
     left: -5px; } }
 .brands {
   overflow: hidden; }
+  .brands h6, .brands .h6 {
+    text-transform: uppercase; }
   .brands .row {
     align-items: flex-start;
     justify-content: center;

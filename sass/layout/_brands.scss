@@ -1,5 +1,8 @@
 .brands {
      overflow: hidden;
+     h6 {
+          text-transform: uppercase;
+     }
      .row {
           align-items: flex-start;
           justify-content: center;
