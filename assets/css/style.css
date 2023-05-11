@@ -9018,7 +9018,8 @@ header .nav-right svg {
   margin-left: 5px;
   fill: #e15200;
   height: 19px;
-  vertical-align: top; }
+  vertical-align: top;
+  padding-top: 2px; }
 header .nav-mobile {
   display: none;
   cursor: pointer; }
@@ -9140,6 +9141,12 @@ header .nav-mobile {
       z-index: 1; }
     .intro-layout2--left {
       margin-right: 72px; }
+      .intro-layout2--left p {
+        margin-top: 16px;
+        margin-bottom: 40px; }
+      .intro-layout2--left .col p {
+        margin-bottom: 0px;
+        margin-top: 0px; }
     .intro-layout2:before {
       content: '';
       background: #001424;
@@ -9180,9 +9187,11 @@ header .nav-mobile {
       .intro-layout2--btn .btn:first-child {
         margin-right: 20px; }
     .intro-layout2--count {
-      margin-top: 49px;
+      margin-top: 65px;
       text-align: center;
       justify-content: center; }
+      .intro-layout2--count p {
+        text-transform: uppercase; }
       .intro-layout2--count .col {
         display: flex;
         flex-flow: column;
@@ -9222,6 +9231,9 @@ header .nav-mobile {
     display: none; }
   .intro-layout2--count {
     justify-content: center; }
+    .intro-layout2--count .col:nth-child(2n + 2) {
+      padding: 0px 20px;
+      max-width: 232px; }
   .intro-layout2 .col:first-child h2:after, .intro-layout2 .col:first-child .h2:after {
     display: none; }
   .intro-layout2 .icon-location {
@@ -9294,7 +9306,7 @@ header .nav-mobile {
   .how-work .col-12 {
     max-width: 292px; }
   .how-work .col-12:nth-child(2n + 2) {
-    padding: 0px 10px;
+    padding: 0px 20px;
     max-width: 322px; }
   .how-work .col-12:last-child {
     padding: 0px; } }
@@ -9313,6 +9325,10 @@ header .nav-mobile {
     max-width: 100%; } }
 .business .wrapper {
   max-width: 1440px; }
+.business .tab-content .btn-more {
+  margin-top: 9px; }
+.business .col:first-child {
+  padding: 0px; }
 .business .img-default {
   background-color: #595959;
   width: 100%;
@@ -9607,11 +9623,6 @@ header .nav-mobile {
 .advertise h3, .advertise .h3 {
   color: #001f37; }
 
-@media screen and (max-width: 1199px) {
-  .advertise-box-text {
-    flex: 0 0 60%; }
-  .advertise-box-img {
-    flex: 0 0 40%; } }
 @media screen and (max-width: 991px) {
   .advertise .wrapper .row {
     flex-flow: column; }

@@ -41,6 +41,16 @@
           }
           &--left {
                margin-right: 72px;
+               p {
+                    margin-top: 16px;
+                    margin-bottom: 40px;
+               }
+               .col {
+                    p {
+                         margin-bottom: 0px;
+                         margin-top: 0px;
+                    }
+               }
           }
           &:before {
                content: '';
@@ -88,9 +98,12 @@
                }
           }
           &--count {
-               margin-top: 49px;
+               margin-top: 65px;
                text-align: center;
                justify-content: center;
+               p {
+                    text-transform: uppercase;
+               }
                .col {
                     display: flex;
                     flex-flow: column;
@@ -172,6 +185,10 @@
                     // .col:nth-child(2) {
                     //      margin: 0px 20px;
                     // }
+                    .col:nth-child(2n + 2) {
+                         padding: 0px 20px;
+                         max-width: 232px;
+                    }
                }
                .col:first-child {
                     h2:after {

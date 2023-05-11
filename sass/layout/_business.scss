@@ -2,6 +2,14 @@
      .wrapper {
           max-width: 1440px;
      }
+     .tab-content {
+          .btn-more {
+               margin-top: 9px;
+          }
+     }
+     .col:first-child {
+          padding: 0px;
+     }
      .img-default {
           background-color: $grey;
           width: 100%;
